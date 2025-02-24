@@ -1,0 +1,14 @@
+mipmap 0
+filter 0
+candownsample 0
+downsamplefactor 0
+numchars 1
+fontheight 0.040000
+baselineheight 0.040000
+texturewidth 0.040000
+spacingR 0.000000
+spacingB 0.000000
+upperleftcoords 1
+    0.250000 0.000000 0
+lowerrightcoords 1
+    0.000000 0.000000 0
