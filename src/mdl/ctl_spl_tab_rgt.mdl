@@ -1,0 +1,625 @@
+#MAXMODEL ASCII
+# model: CTL_SPL_TAB_RGT
+filedependancy CTL_SPL_TAB_RGT.max
+newmodel CTL_SPL_TAB_RGT
+setsupermodel CTL_SPL_TAB_RGT NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_SPL_TAB_RGT
+node dummy CTL_SPL_TAB_RGT
+  parent NULL
+endnode
+node dummy text
+  parent CTL_SPL_TAB_RGT
+  position 0.06 0.11 0.1
+  orientation 0 0 0 0
+endnode
+node dummy next
+  parent CTL_SPL_TAB_RGT
+  position 1.2 0 0
+  orientation 0 0 0 0
+endnode
+node animmesh Plane17
+  parent CTL_SPL_TAB_RGT
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 3
+      -0.0005000    0.0005000    0.0000000
+      -0.0005000   -0.0055000    0.0000000
+       0.0055000    0.0005000    0.0000000
+  tverts 3
+       0.9469790    0.0660086  0
+       0.9468870    0.0703028  0
+       0.9468870    0.0617145  0
+  faces 1
+    0 1 2  1  0 1 2   1
+  sampleperiod 0
+  position 1.165 0.165 0.05
+  orientation 0.008726199 -0.008726199 0.9999239 -1.57087
+endnode
+node animmesh Plane157
+  parent Plane17
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -0.6000000    0.0950000    0.0000000
+      -0.6000000   -0.0950000    0.0000000
+       0.6000000    0.0950000    0.0000000
+       0.6000000   -0.0950000    0.0000000
+  tverts 4
+       0.5351560    0.9357570  0
+       0.5351560   -0.0538261  0
+       0.5430340    0.9357560  0
+       0.5430340   -0.0538276  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0.07 -0.564042 -0.059853
+  orientation -0.008726199 0.008726199 -0.9999239 -1.57087
+endnode
+endmodelgeom CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim up CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1100000    0.1000000
+         1.0000000    0.0600000    0.1100000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    tverts 3
+         0.9469790    0.0660060  0
+         0.9468860    0.0703002  0
+         0.9468860    0.0617118  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    animtverts 3
+         0.9469790    0.0660060  0
+         0.9468860    0.0703002  0
+         0.9468860    0.0617118  0
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    tverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    animtverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    positionkey 1
+         1.0000000    0.0700000   -0.5640420   -0.0598530
+  endnode
+doneanim up CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim down CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1000000    0.1000000
+         1.0000000    0.0600000    0.1000000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    tverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    animtverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+    position 1.165 0.165 0.05
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    tverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    animtverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    position 0.065 -0.564042 -0.059853
+  endnode
+doneanim down CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim checkedup CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1100000    0.1000000
+         1.0000000    0.0600000    0.1100000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    tverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    animtverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    tverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    animtverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    positionkey 1
+         1.0000000    0.0650000   -0.5640420   -0.0598530
+  endnode
+doneanim checkedup CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim checkeddown CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1000000    0.1000000
+         1.0000000    0.0600000    0.1000000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    tverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0350000    0.0350000    0.0000000
+        -0.0350000   -0.0400000    0.0000000
+         0.0400000    0.0350000    0.0000000
+    animtverts 3
+         0.9625390    0.4954260  0
+         0.9560940    0.7960180  0
+         0.9560940    0.1948340  0
+    position 1.165 0.165 0.05
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    tverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.1000000    0.0000000
+        -0.6000000   -0.1000000    0.0000000
+         0.6000000    0.1000000    0.0000000
+         0.6000000   -0.1000000    0.0000000
+    animtverts 4
+         0.5527150    0.9861020  0
+         0.5527150   -0.0555651  0
+         0.5586600    0.9861000  0
+         0.5586600   -0.0555665  0
+    position 0.065 -0.564042 -0.059853
+  endnode
+doneanim checkeddown CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim uncheckedup CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1100000    0.1000000
+         1.0000000    0.0600000    0.1100000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    tverts 3
+         0.9469790    0.0660060  0
+         0.9468860    0.0703002  0
+         0.9468860    0.0617118  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    animtverts 3
+         0.9469790    0.0660060  0
+         0.9468860    0.0703002  0
+         0.9468860    0.0617118  0
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    tverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    animtverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    positionkey 1
+         1.0000000    0.0700000   -0.5640420   -0.0598530
+  endnode
+doneanim uncheckedup CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim uncheckeddown CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+    positionkey 2
+         0.0000000    0.0600000    0.1000000    0.1000000
+         1.0000000    0.0600000    0.1000000    0.1000000
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    tverts 3
+         0.9469790    0.0660086  0
+         0.9468870    0.0703028  0
+         0.9468870    0.0617145  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    animtverts 3
+         0.9469790    0.0660086  0
+         0.9468870    0.0703028  0
+         0.9468870    0.0617145  0
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    tverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    animtverts 4
+         0.5371560    0.9357570  0
+         0.5371560   -0.0538261  0
+         0.5430340    0.9357560  0
+         0.5430340   -0.0538276  0
+    positionkey 2
+         0.0000000    0.0700000   -0.5640420   -0.0598530
+         1.0000000    0.0700000   -0.5640420   -0.0598530
+  endnode
+doneanim uncheckeddown CTL_SPL_TAB_RGT
+
+#MAXANIM ASCII
+newanim disabled CTL_SPL_TAB_RGT
+  length 1
+  transtime 0
+  animroot CTL_SPL_TAB_RGT
+  node dummy CTL_SPL_TAB_RGT
+    parent NULL
+  endnode
+  node dummy text
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node dummy next
+    parent CTL_SPL_TAB_RGT
+  endnode
+  node animmesh Plane17
+    parent CTL_SPL_TAB_RGT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    tverts 3
+         0.9469790    0.0660086  0
+         0.9468870    0.0703028  0
+         0.9468870    0.0617145  0
+    faces 1
+      0 1 2  1  0 1 2   1
+    sampleperiod 1
+    animverts 3
+        -0.0005000    0.0005000    0.0000000
+        -0.0005000   -0.0055000    0.0000000
+         0.0055000    0.0005000    0.0000000
+    animtverts 3
+         0.9469790    0.0660086  0
+         0.9468870    0.0703028  0
+         0.9468870    0.0617145  0
+  endnode
+  node animmesh Plane157
+    parent Plane17
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    tverts 4
+         0.5684060    0.9357510  0
+         0.5684060   -0.0538320  0
+         0.5742840    0.9357500  0
+         0.5742840   -0.0538335  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.6000000    0.0950000    0.0000000
+        -0.6000000   -0.0950000    0.0000000
+         0.6000000    0.0950000    0.0000000
+         0.6000000   -0.0950000    0.0000000
+    animtverts 4
+         0.5684060    0.9357510  0
+         0.5684060   -0.0538320  0
+         0.5742840    0.9357500  0
+         0.5742840   -0.0538335  0
+  endnode
+doneanim disabled CTL_SPL_TAB_RGT
+
+donemodel CTL_SPL_TAB_RGT

@@ -1,0 +1,112 @@
+#MAXMODEL ASCII
+# model: BUTTONDOWN
+filedependancy BUTTONDOWN.max
+newmodel BUTTONDOWN
+setsupermodel BUTTONDOWN NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONDOWN
+node dummy BUTTONDOWN
+  parent NULL
+endnode
+node trimesh Plane31
+  parent BUTTONDOWN
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+       0.0787311    0.7502630  0
+       0.0787311    0.7112010  0
+       0.1177940    0.7502630  0
+       0.1177940    0.7112010  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 0.098555 0.101038 0.0207503
+  orientation 0 0 0 0
+endnode
+node trimesh Plane34
+  parent Plane31
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+       1.1173199    0.7500370  0
+       1.1173199    0.7109740  0
+       1.1563801    0.7500370  0
+       1.1563801    0.7109740  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position -0.00570924 0.00635086 0
+  orientation -1 0 0 -3.14159
+endnode
+endmodelgeom BUTTONDOWN
+
+#MAXANIM ASCII
+newanim down BUTTONDOWN
+  length 0.333333
+  transtime 0
+  node dummy BUTTONDOWN
+    parent NULL
+  endnode
+  node trimesh Plane31
+    parent BUTTONDOWN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    orientationkey 2
+         0.0000000    1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330    1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node trimesh Plane34
+    parent Plane31
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim down BUTTONDOWN
+
+#MAXANIM ASCII
+newanim up BUTTONDOWN
+  length 0.333333
+  transtime 0
+  node dummy BUTTONDOWN
+    parent NULL
+  endnode
+  node trimesh Plane31
+    parent BUTTONDOWN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node trimesh Plane34
+    parent Plane31
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+  endnode
+doneanim up BUTTONDOWN
+
+donemodel BUTTONDOWN

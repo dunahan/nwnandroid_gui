@@ -1,0 +1,45 @@
+#MAXMODEL ASCII
+# model: BUT_CHAT_BAR
+filedependancy BUT_CHAT_BAR.max
+newmodel BUT_CHAT_BAR
+setsupermodel BUT_CHAT_BAR NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUT_CHAT_BAR
+node dummy BUT_CHAT_BAR
+  parent NULL
+endnode
+node trimesh ExpandableBar
+  parent BUT_CHAT_BAR
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap gui_ig_main
+  verts 6
+      -1.8000000    0.0500000    0.0000000
+      -1.8000000   -0.0500000    0.0000000
+      -1.3000000    0.0500000    0.0000000
+       1.3000000   -0.0500000    0.0000000
+       1.8000000    0.0500000    0.0000000
+       1.8000000   -0.0500000    0.0000000
+  tverts 6
+       0.0000000    0.0390625  0
+       0.0000000    0.0000000  0
+       0.3906250    0.0390625  0
+       0.1171880    0.0000000  0
+       0.4921880    0.0390625  0
+       0.4921880    0.0000000  0
+  faces 4
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+    2 3 4  1  2 3 4   0
+    5 4 3  1  5 4 3   0
+  position 1.8 0.05 0
+  orientation 0 0 0 0
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom BUT_CHAT_BAR
+
+donemodel BUT_CHAT_BAR

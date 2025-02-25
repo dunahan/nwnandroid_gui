@@ -1,0 +1,206 @@
+#MAXMODEL ASCII
+# model: CTL_MAP_PIN_RED
+filedependancy CTL_MAP_PIN_RED.max
+newmodel CTL_MAP_PIN_RED
+setsupermodel CTL_MAP_PIN_RED NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_MAP_PIN_RED
+node dummy CTL_MAP_PIN_RED
+  parent NULL
+endnode
+node animmesh Plane146x05
+  parent CTL_MAP_PIN_RED
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_map_pieces2
+  verts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+  tverts 4
+       0.5967670    0.9516180  0
+       0.5967670    0.7633360  0
+       0.9733300    0.9516180  0
+       0.9733290    0.7633360  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0.01 -0.01 0.05
+  orientation -0.7071068 -0.7071068 -2.796949e-07 -0.174533
+endnode
+endmodelgeom CTL_MAP_PIN_RED
+
+#MAXANIM ASCII
+newanim up CTL_MAP_PIN_RED
+  length 1
+  transtime 0
+  animroot CTL_MAP_PIN_RED
+  node dummy CTL_MAP_PIN_RED
+    parent NULL
+  endnode
+  node animmesh Plane146x05
+    parent CTL_MAP_PIN_RED
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_map_pieces2
+    verts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    tverts 4
+         0.5967670    0.9516180  0
+         0.5967670    0.7633360  0
+         0.9733300    0.9516180  0
+         0.9733290    0.7633360  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    animtverts 4
+         0.5967670    0.9516180  0
+         0.5967670    0.7633360  0
+         0.9733300    0.9516180  0
+         0.9733290    0.7633360  0
+  endnode
+doneanim up CTL_MAP_PIN_RED
+
+#MAXANIM ASCII
+newanim down CTL_MAP_PIN_RED
+  length 1
+  transtime 0
+  animroot CTL_MAP_PIN_RED
+  node dummy CTL_MAP_PIN_RED
+    parent NULL
+  endnode
+  node animmesh Plane146x05
+    parent CTL_MAP_PIN_RED
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_map_pieces2
+    verts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    tverts 4
+         0.5967670    0.7016180  0
+         0.5967670    0.5133360  0
+         0.9733290    0.7016180  0
+         0.9733290    0.5133360  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    animtverts 4
+         0.5967670    0.7016180  0
+         0.5967670    0.5133360  0
+         0.9733290    0.7016180  0
+         0.9733290    0.5133360  0
+  endnode
+doneanim down CTL_MAP_PIN_RED
+
+#MAXANIM ASCII
+newanim disabled CTL_MAP_PIN_RED
+  length 1
+  transtime 0
+  animroot CTL_MAP_PIN_RED
+  node dummy CTL_MAP_PIN_RED
+    parent NULL
+  endnode
+  node animmesh Plane146x05
+    parent CTL_MAP_PIN_RED
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_map_pieces2
+    verts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    tverts 4
+         0.5967670    0.4516180  0
+         0.5967670    0.2633360  0
+         0.9733290    0.4516180  0
+         0.9733290    0.2633360  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    animtverts 4
+         0.5967670    0.4516180  0
+         0.5967670    0.2633360  0
+         0.9733290    0.4516180  0
+         0.9733290    0.2633360  0
+  endnode
+doneanim disabled CTL_MAP_PIN_RED
+
+#MAXANIM ASCII
+newanim hilite CTL_MAP_PIN_RED
+  length 1
+  transtime 0
+  animroot CTL_MAP_PIN_RED
+  node dummy CTL_MAP_PIN_RED
+    parent NULL
+  endnode
+  node animmesh Plane146x05
+    parent CTL_MAP_PIN_RED
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_map_pieces2
+    verts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    tverts 4
+         0.5967670    0.2016180  0
+         0.5967670    0.0133364  0
+         0.9733290    0.2016180  0
+         0.9733290    0.0133363  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.18    0.18    0.0000000
+        -0.18   -0.18    0.0000000
+         0.18    0.18    0.0000000
+         0.18   -0.18    0.0000000
+    animtverts 4
+         0.5967670    0.2016180  0
+         0.5967670    0.0133364  0
+         0.9733290    0.2016180  0
+         0.9733290    0.0133363  0
+  endnode
+doneanim hilite CTL_MAP_PIN_RED
+
+donemodel CTL_MAP_PIN_RED

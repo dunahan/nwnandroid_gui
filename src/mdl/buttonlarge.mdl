@@ -1,0 +1,109 @@
+#MAXMODEL ASCII
+# model: BUTTONLARGE
+filedependancy BUTTONLARGE.max
+newmodel BUTTONLARGE
+setsupermodel BUTTONLARGE NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONLARGE
+node dummy BUTTONLARGE
+  parent NULL
+endnode
+node dummy text
+  parent BUTTONLARGE
+  position 2.56357 0.156337 0.0606788
+  orientation 0 0 0 0
+endnode
+node trimesh Plane04
+  parent BUTTONLARGE
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -2.5599999    0.1600000    0.0000000
+      -2.5599999   -0.1600000    0.0000000
+       2.5599999    0.1600000    0.0000000
+       2.5599999   -0.1600000    0.0000000
+  tverts 4
+      -0.0000216    0.8121030  0
+      -0.0000216    0.7496030  0
+       0.9999780    0.8121020  0
+       0.9999780    0.7496020  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 2.55606 0.157379 0.0207503
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+node trimesh Plane05
+  parent Plane04
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -2.5599999    0.1600000    0.0000000
+      -2.5599999   -0.1600000    0.0000000
+       2.5599999    0.1600000    0.0000000
+       2.5599999   -0.1600000    0.0000000
+  tverts 4
+      -0.0008215    0.6253740  0
+      -0.0008216    0.5628740  0
+       0.9991780    0.6253740  0
+       0.9991780    0.5628740  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position -0.00682129 -0.00771347 0
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom BUTTONLARGE
+
+#MAXANIM ASCII
+newanim down BUTTONLARGE
+  length 0.333333
+  transtime 0
+  node dummy BUTTONLARGE
+    parent NULL
+  endnode
+  node dummy text
+    parent BUTTONLARGE
+  endnode
+  node dummy Plane04
+    parent BUTTONLARGE
+    orientationkey 2
+         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane05
+    parent Plane04
+  endnode
+doneanim down BUTTONLARGE
+
+#MAXANIM ASCII
+newanim up BUTTONLARGE
+  length 0.333333
+  transtime 0
+  node dummy BUTTONLARGE
+    parent NULL
+  endnode
+  node dummy text
+    parent BUTTONLARGE
+  endnode
+  node dummy Plane04
+    parent BUTTONLARGE
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane05
+    parent Plane04
+  endnode
+doneanim up BUTTONLARGE
+
+donemodel BUTTONLARGE

@@ -1,0 +1,182 @@
+#MAXMODEL ASCII
+# model: PNL_MAP_AREA
+filedependancy PNL_MAP_AREA.max
+newmodel PNL_MAP_AREA
+setsupermodel PNL_MAP_AREA NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom PNL_MAP_AREA
+node dummy PNL_MAP_AREA
+  parent NULL
+endnode
+node trimesh Plane91
+  parent PNL_MAP_AREA
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_box-this
+  verts 4
+      -1.75    2.0350001    0.0000000
+      -1.75   -2.0350001    0.0000000
+       1.75    2.0350001    0.0000000
+       1.75   -2.0350001    0.0000000
+  tverts 4
+       0.001    0.999    0
+       0.001    0.001    0
+       0.999    0.999    0
+       0.999    0.001    0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 1.8 2.316 -0.05
+  orientation 0 0 0 0
+endnode
+node trimesh Plane80
+  parent PNL_MAP_AREA
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_box-this-2
+  verts 4
+      -1.8000000    0.1400000    0.0000000
+      -1.8000000   -0.1400000    0.0000000
+       1.8000000    0.1400000    0.0000000
+       1.8000000   -0.1400000    0.0000000
+  tverts 4
+       0.001    0.999    0
+       0.001    0.001    0
+       0.999    0.999    0
+       0.999    0.001    0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 1.8 -0.14 0
+  orientation 0 0 0 0
+endnode
+node dummy vscrollmin
+  parent PNL_MAP_AREA
+  position 0.06 -0.41 0
+  orientation 0 0 0 0
+endnode
+node dummy vscrollmax
+  parent PNL_MAP_AREA
+  position 0.06 -4.22 0
+  orientation 0 0 0 0
+endnode
+node dummy hscrollmin
+  parent PNL_MAP_AREA
+  position 0.14 -1 0
+  orientation 0 0 -1 -1.5708
+endnode
+node dummy hscrollmax
+  parent PNL_MAP_AREA
+  position 3.38 -1 0
+  orientation 0 0 0 0
+endnode
+node dummy Viewport0
+  parent PNL_MAP_AREA
+  position 0.2 -4.21 0
+  orientation 0 0 0 0
+endnode
+node dummy Viewport1
+  parent PNL_MAP_AREA
+  position 3.4 -1.35 0
+  orientation 0 0 0 0
+endnode
+node dummy MapCenter
+  parent PNL_MAP_AREA
+  position 1.8 -2.78 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom PNL_MAP_AREA
+
+#MAXANIM ASCII
+newanim screenleft PNL_MAP_AREA
+  length 0.333333
+  transtime 0
+  animroot PNL_MAP_AREA
+  node dummy PNL_MAP_AREA
+    parent NULL
+  endnode
+  node trimesh Plane91
+    parent PNL_MAP_AREA
+  endnode
+  node trimesh Plane80
+    parent PNL_MAP_AREA
+  endnode
+  node dummy vscrollmin
+    parent PNL_MAP_AREA
+    positionkey 2
+         0.0000000    0.0600000   -0.4100000    0.0000000
+         0.3333330    0.0600000   -0.4100000    0.0000000
+  endnode
+  node dummy vscrollmax
+    parent PNL_MAP_AREA
+    positionkey 2
+         0.0000000    0.0600000   -4.2199998    0.0000000
+         0.3333330    0.0600000   -4.2199998    0.0000000
+  endnode
+  node dummy hscrollmin
+    parent PNL_MAP_AREA
+  endnode
+  node dummy hscrollmax
+    parent PNL_MAP_AREA
+  endnode
+  node dummy Viewport0
+    parent PNL_MAP_AREA
+  endnode
+  node dummy Viewport1
+    parent PNL_MAP_AREA
+  endnode
+  node dummy MapCenter
+    parent PNL_MAP_AREA
+  endnode
+doneanim screenleft PNL_MAP_AREA
+
+#MAXANIM ASCII
+newanim screenright PNL_MAP_AREA
+  length 0.333333
+  transtime 0
+  animroot PNL_MAP_AREA
+  node dummy PNL_MAP_AREA
+    parent NULL
+  endnode
+  node trimesh Plane91
+    parent PNL_MAP_AREA
+  endnode
+  node trimesh Plane80
+    parent PNL_MAP_AREA
+  endnode
+  node dummy vscrollmin
+    parent PNL_MAP_AREA
+    positionkey 2
+         0.0000000    3.4600000   -0.4100000    0.0000000
+         0.3333330    3.4600000   -0.4100000    0.0000000
+  endnode
+  node dummy vscrollmax
+    parent PNL_MAP_AREA
+    positionkey 2
+         0.0000000    3.4600000   -4.2199998    0.0000000
+         0.3333330    3.4600000   -4.2199998    0.0000000
+  endnode
+  node dummy hscrollmin
+    parent PNL_MAP_AREA
+  endnode
+  node dummy hscrollmax
+    parent PNL_MAP_AREA
+  endnode
+  node dummy Viewport0
+    parent PNL_MAP_AREA
+  endnode
+  node dummy Viewport1
+    parent PNL_MAP_AREA
+  endnode
+  node dummy MapCenter
+    parent PNL_MAP_AREA
+  endnode
+doneanim screenright PNL_MAP_AREA
+
+donemodel PNL_MAP_AREA

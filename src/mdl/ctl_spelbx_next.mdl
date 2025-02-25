@@ -1,0 +1,150 @@
+#MAXMODEL ASCII
+# model: CTL_SPELBX_NEXT
+filedependancy CTL_SPELBX_NEXT.max
+newmodel CTL_SPELBX_NEXT
+setsupermodel CTL_SPELBX_NEXT NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_SPELBX_NEXT
+node dummy CTL_SPELBX_NEXT
+  parent NULL
+endnode
+node dummy Next
+  parent CTL_SPELBX_NEXT
+  position 0.33 0 0
+  orientation 0 0 0 0
+endnode
+node animmesh plane
+  parent CTL_SPELBX_NEXT
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -0.1650000    0.1650000    0.0000000
+      -0.1650000   -0.1650000    0.0000000
+       0.1650000    0.1650000    0.0000000
+       0.1650000   -0.1650000    0.0000000
+  tverts 4
+       0.8789060    0.9384660  0
+       0.8789060   -0.0283311  0
+       0.8869630    0.9384650  0
+       0.8869630   -0.0283313  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0.165 -0.165 0
+  orientation 0 0 0 0
+endnode
+node dummy icon
+  parent CTL_SPELBX_NEXT
+  position 0.16 -0.16 0.05
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_SPELBX_NEXT
+
+#MAXANIM ASCII
+newanim default CTL_SPELBX_NEXT
+  length 1
+  transtime 0
+  animroot CTL_SPELBX_NEXT
+  node dummy CTL_SPELBX_NEXT
+    parent NULL
+  endnode
+  node dummy Next
+    parent CTL_SPELBX_NEXT
+  endnode
+  node animmesh plane
+    parent CTL_SPELBX_NEXT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1650000    0.1650000    0.0000000
+        -0.1650000   -0.1650000    0.0000000
+         0.1650000    0.1650000    0.0000000
+         0.1650000   -0.1650000    0.0000000
+    tverts 4
+         0.8789060    0.9384660  0
+         0.8789060   -0.0283311  0
+         0.8872630    0.9384650  0
+         0.8872630   -0.0283313  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1650000    0.1650000    0.0000000
+        -0.1650000   -0.1650000    0.0000000
+         0.1650000    0.1650000    0.0000000
+         0.1650000   -0.1650000    0.0000000
+    animtverts 4
+         0.8789060    0.9384660  0
+         0.8789060   -0.0283311  0
+         0.8872630    0.9384650  0
+         0.8872630   -0.0283313  0
+    positionkey 2
+         0.0000000    0.1650000   -0.1649990    0.0000000
+         1.0000000    0.1650000   -0.1649990    0.0000000
+  endnode
+  node dummy icon
+    parent CTL_SPELBX_NEXT
+  endnode
+doneanim default CTL_SPELBX_NEXT
+
+#MAXANIM ASCII
+newanim hilite CTL_SPELBX_NEXT
+  length 1
+  transtime 0
+  animroot CTL_SPELBX_NEXT
+  node dummy CTL_SPELBX_NEXT
+    parent NULL
+  endnode
+  node dummy Next
+    parent CTL_SPELBX_NEXT
+  endnode
+  node animmesh plane
+    parent CTL_SPELBX_NEXT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.9567870    0.9667840  0
+         0.9567870   -0.0293099  0
+         0.9657880    0.9667840  0
+         0.9657880   -0.0293102  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.9567870    0.9667840  0
+         0.9567870   -0.0293099  0
+         0.9657880    0.9667840  0
+         0.9657880   -0.0293102  0
+    positionkey 2
+         0.0000000    0.1600000   -0.1600000    0.0200000
+         1.0000000    0.1600000   -0.1600000    0.0200000
+  endnode
+  node dummy icon
+    parent CTL_SPELBX_NEXT
+  endnode
+doneanim hilite CTL_SPELBX_NEXT
+
+donemodel CTL_SPELBX_NEXT

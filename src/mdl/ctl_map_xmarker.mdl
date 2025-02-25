@@ -1,0 +1,38 @@
+#MAXMODEL ASCII
+# model: CTL_MAP_XMARKER
+filedependancy CTL_MAP_XMARKER.max
+newmodel CTL_MAP_XMARKER
+setsupermodel CTL_MAP_XMARKER NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_MAP_XMARKER
+node dummy CTL_MAP_XMARKER
+  parent NULL
+endnode
+node trimesh X
+  parent CTL_MAP_XMARKER
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_map_arrow
+  verts 4
+      -0.1100000    0.1100000    0.0000000
+      -0.1100000   -0.1100000    0.0000000
+       0.1100000    0.1100000    0.0000000
+       0.1100000   -0.1100000    0.0000000
+  tverts 4
+       0.0625001    0.9375000  0
+       0.0624999    0.0625001  0
+       0.9375000    0.9375000  0
+       0.9375000    0.0624999  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0 0.01 0.1
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_MAP_XMARKER
+
+donemodel CTL_MAP_XMARKER

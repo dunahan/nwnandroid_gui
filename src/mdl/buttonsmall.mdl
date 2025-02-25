@@ -1,0 +1,151 @@
+#MAXMODEL ASCII
+# model: BUTTONSMALL
+filedependancy BUTTONSMALL.max
+newmodel BUTTONSMALL
+setsupermodel BUTTONSMALL NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONSMALL
+node dummy BUTTONSMALL
+  parent NULL
+endnode
+node trimesh Plane02
+  parent BUTTONSMALL
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.6400000    0.1600000    0.0000000
+      -0.6400000   -0.1600000    0.0000000
+       0.6400000    0.1600000    0.0000000
+       0.6400000   -0.1600000    0.0000000
+  tverts 4
+       0.7500840    0.9375550  0
+       0.7500840    0.8750550  0
+       1.0000800    0.9375550  0
+       1.0000800    0.8750550  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 0.639845 0.154744 0.0207503
+  orientation 0 0 0 0
+  selfillumcolor 0 0 0
+endnode
+node trimesh Plane03
+  parent Plane02
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.6400000    0.1600000    0.0000000
+      -0.6400000   -0.1600000    0.0000000
+       0.6400000    0.1600000    0.0000000
+       0.6400000   -0.1600000    0.0000000
+  tverts 4
+       0.7505480    0.7493450  0
+       0.7505480    0.6868450  0
+       1.0005500    0.7493450  0
+       1.0005500    0.6868450  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position -0.00113526 0.00466812 0
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+node dummy text
+  parent BUTTONSMALL
+  position 0.626527 0.152919 0.0606788
+  orientation 0 0 0 0
+endnode
+endmodelgeom BUTTONSMALL
+
+#MAXANIM ASCII
+newanim down BUTTONSMALL
+  length 0.333333
+  transtime 0
+  node dummy BUTTONSMALL
+    parent NULL
+  endnode
+  node dummy Plane02
+    parent BUTTONSMALL
+    orientationkey 2
+         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane03
+    parent Plane02
+  endnode
+  node dummy text
+    parent BUTTONSMALL
+  endnode
+doneanim down BUTTONSMALL
+
+#MAXANIM ASCII
+newanim up BUTTONSMALL
+  length 0.333333
+  transtime 0
+  node dummy BUTTONSMALL
+    parent NULL
+  endnode
+  node dummy Plane02
+    parent BUTTONSMALL
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane03
+    parent Plane02
+  endnode
+  node dummy text
+    parent BUTTONSMALL
+  endnode
+doneanim up BUTTONSMALL
+
+#MAXANIM ASCII
+newanim press BUTTONSMALL
+  length 0.333333
+  transtime 0
+  node dummy BUTTONSMALL
+    parent NULL
+  endnode
+  node dummy Plane02
+    parent BUTTONSMALL
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane03
+    parent Plane02
+  endnode
+  node dummy text
+    parent BUTTONSMALL
+  endnode
+doneanim press BUTTONSMALL
+
+#MAXANIM ASCII
+newanim release BUTTONSMALL
+  length 0.333333
+  transtime 0
+  node dummy BUTTONSMALL
+    parent NULL
+  endnode
+  node dummy Plane02
+    parent BUTTONSMALL
+    orientationkey 2
+         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane03
+    parent Plane02
+  endnode
+  node dummy text
+    parent BUTTONSMALL
+  endnode
+doneanim release BUTTONSMALL
+
+donemodel BUTTONSMALL

@@ -1,0 +1,59 @@
+#MAXMODEL ASCII
+# model: CTL_IG_JOYSTICK
+newmodel CTL_IG_JOYSTICK
+setsupermodel CTL_IG_JOYSTICK NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_IG_JOYSTICK
+node dummy CTL_IG_JOYSTICK
+  parent NULL
+endnode
+node dummy start
+	parent CTL_IG_JOYSTICK
+endnode
+node trimesh dir
+  parent CTL_IG_JOYSTICK
+  bitmap gui_joystick_dir
+  scale 0
+  verts 4
+	-0.175 0.175 1
+    -0.175 -0.175 1
+    0.175 0.175 1
+    0.175 -0.175 1
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+
+node trimesh stick
+  parent CTL_IG_JOYSTICK
+  bitmap gui_joystick
+  scale 0
+  verts 4
+    -0.25 0.25 1
+    -0.25 -0.25 1
+    0.25 0.25 1
+    0.25 -0.25 1
+  tverts 4
+    0 1 0
+    0 0 0
+    1 1 0
+    1 0 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+
+endmodelgeom CTL_IG_JOYSTICK
+
+donemodel CTL_IG_JOYSTICK

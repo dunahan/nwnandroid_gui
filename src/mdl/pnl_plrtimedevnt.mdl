@@ -1,0 +1,58 @@
+#MAXMODEL ASCII
+# model: PNL_PLRTIMEDEVNT
+filedependancy PNL_PLRTIMEDEVNT.max
+newmodel PNL_PLRTIMEDEVNT
+setsupermodel PNL_PLRTIMEDEVNT NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom PNL_PLRTIMEDEVNT
+node dummy PNL_PLRTIMEDEVNT
+  parent NULL
+endnode
+node dummy Status
+  parent PNL_PLRTIMEDEVNT
+  position -0.59 0.48 0
+  orientation 0 0 1 -1.5708
+endnode
+node dummy CancelButton
+  parent PNL_PLRTIMEDEVNT
+  position 0.71 0.48 0
+  orientation 0 0 0 0
+endnode
+node trimesh Plane71
+  parent PNL_PLRTIMEDEVNT
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_resting
+  verts 4
+      -0.6400000    0.3000000    0.0000000
+      -0.6400000   -0.3000000    0.0000000
+       0.6400000    0.3000000    0.0000000
+       0.6400000   -0.3000000    0.0000000
+  tverts 4
+       0.0000000    1.0000000  0
+       0.0000000    0.0625002  0
+       1.0000000    1.0000000  0
+       1.0000000    0.0624998  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0.01 0.6 -0.05
+  orientation 0 0 0 0
+endnode
+node dummy text0
+  parent PNL_PLRTIMEDEVNT
+  position -0.6 0.87 0
+  orientation 0 0 0 0
+endnode
+node dummy text1
+  parent PNL_PLRTIMEDEVNT
+  position 0.62 0.53 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom PNL_PLRTIMEDEVNT
+
+donemodel PNL_PLRTIMEDEVNT

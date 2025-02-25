@@ -1,0 +1,98 @@
+#MAXMODEL ASCII
+# model: BUTTONLEFT
+filedependancy BUTTONLEFT.max
+newmodel BUTTONLEFT
+setsupermodel BUTTONLEFT NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONLEFT
+node dummy BUTTONLEFT
+  parent NULL
+endnode
+node trimesh Plane20
+  parent BUTTONLEFT
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+       0.1568100    0.7498170  0
+       0.1568100    0.7107550  0
+       0.1958720    0.7498170  0
+       0.1958720    0.7107550  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 0.098555 0.101034 0.0207503
+  orientation 0 0 0 0
+  selfillumcolor 0 0 0
+endnode
+node trimesh Plane21
+  parent Plane20
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+       1.1953100    0.7496450  0
+       1.1953100    0.7105830  0
+       1.2343800    0.7496450  0
+       1.2343800    0.7105830  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position -0.00570924 0.00635086 0
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom BUTTONLEFT
+
+#MAXANIM ASCII
+newanim down BUTTONLEFT
+  length 0.333333
+  transtime 0
+  node dummy BUTTONLEFT
+    parent NULL
+  endnode
+  node dummy Plane20
+    parent BUTTONLEFT
+    orientationkey 2
+         0.0000000    1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330    1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane21
+    parent Plane20
+  endnode
+doneanim down BUTTONLEFT
+
+#MAXANIM ASCII
+newanim up BUTTONLEFT
+  length 0.333333
+  transtime 0
+  node dummy BUTTONLEFT
+    parent NULL
+  endnode
+  node dummy Plane20
+    parent BUTTONLEFT
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane21
+    parent Plane20
+  endnode
+doneanim up BUTTONLEFT
+
+donemodel BUTTONLEFT

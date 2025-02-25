@@ -1,0 +1,35 @@
+#MAXMODEL ASCII
+# model: CTL_DIALOG_ENTRY
+filedependancy CTL_DIALOG_ENTRY.max
+newmodel CTL_DIALOG_ENTRY
+setsupermodel CTL_DIALOG_ENTRY NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_DIALOG_ENTRY
+node dummy CTL_DIALOG_ENTRY
+  parent NULL
+endnode
+node dummy text0
+  parent CTL_DIALOG_ENTRY
+  position 0 0 0.5
+  orientation 0 0 0 0
+endnode
+node dummy text1
+  parent CTL_DIALOG_ENTRY
+  position 3.4 -1.98 0.5
+  orientation 0 0 0 0
+endnode
+node dummy scrollmax
+  parent text1
+  position 0.04 0.14 0
+  orientation 0 0 0 0
+endnode
+node dummy scrollmin
+  parent CTL_DIALOG_ENTRY
+  position 3.4 -0.14 0.5
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_DIALOG_ENTRY
+
+donemodel CTL_DIALOG_ENTRY

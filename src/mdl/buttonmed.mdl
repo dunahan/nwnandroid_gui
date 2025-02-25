@@ -1,0 +1,115 @@
+#MAXMODEL ASCII
+# model: BUTTONMED
+filedependancy BUTTONMED.max
+newmodel BUTTONMED
+setsupermodel BUTTONMED NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONMED
+node dummy BUTTONMED
+  parent NULL
+endnode
+node dummy text
+  parent BUTTONMED
+  position 1.28 0.16 0.06068
+  orientation 0 0 0 0
+endnode
+node trimesh Plane06
+  parent BUTTONMED
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -1.2800000    0.1600000    0.0000000
+      -1.2800000   -0.1600000    0.0000000
+       1.2800000    0.1600000    0.0000000
+       1.2800000   -0.1600000    0.0000000
+  tverts 4
+       0.5003290    0.8750400  0
+       0.5003290    0.8125400  0
+       1.0003300    0.8750400  0
+       1.0003300    0.8125400  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 1.28 0.16 0.02075
+  orientation 0 0 0 0
+  selfillumcolor 0 0 0
+endnode
+node trimesh Plane07
+  parent Plane06
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -1.2800000    0.1600000    0.0000000
+      -1.2800000   -0.1600000    0.0000000
+       1.2800000    0.1600000    0.0000000
+       1.2800000   -0.1600000    0.0000000
+  tverts 4
+       0.5001190    0.6869850  0
+       0.5001190    0.6244850  0
+       1.0001200    0.6869850  0
+       1.0001200    0.6244850  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 0 0 0
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom BUTTONMED
+
+#MAXANIM ASCII
+newanim down BUTTONMED
+  length 0.333333
+  transtime 0
+  node dummy BUTTONMED
+    parent NULL
+  endnode
+  node dummy text
+    parent BUTTONMED
+    positionkey 2
+         0.0000000    1.2800000    0.1500000    0.0606800
+         0.3333330    1.2800000    0.1500000    0.0606800
+  endnode
+  node dummy Plane06
+    parent BUTTONMED
+    orientationkey 2
+         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane07
+    parent Plane06
+  endnode
+doneanim down BUTTONMED
+
+#MAXANIM ASCII
+newanim up BUTTONMED
+  length 0.333333
+  transtime 0
+  node dummy BUTTONMED
+    parent NULL
+  endnode
+  node dummy text
+    parent BUTTONMED
+    positionkey 2
+         0.0000000    1.2800000    0.1600000    0.0606800
+         0.3333330    1.2800000    0.1600000    0.0606800
+  endnode
+  node dummy Plane06
+    parent BUTTONMED
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane07
+    parent Plane06
+  endnode
+doneanim up BUTTONMED
+
+donemodel BUTTONMED

@@ -1,0 +1,488 @@
+#MAXMODEL ASCII
+# model: CTL_SB_BTN_SPTAB
+filedependancy CTL_SB_BTN_SPTAB.max
+newmodel CTL_SB_BTN_SPTAB
+setsupermodel CTL_SB_BTN_SPTAB NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_SB_BTN_SPTAB
+node dummy CTL_SB_BTN_SPTAB
+  parent NULL
+endnode
+node dummy icon
+  parent CTL_SB_BTN_SPTAB
+  position 0.16 0.16 0
+  orientation 0 0 0 0
+endnode
+node dummy next
+  parent CTL_SB_BTN_SPTAB
+  position 0.33 0 0
+  orientation 0 0 0 0
+endnode
+node trimesh Plane64
+  parent CTL_SB_BTN_SPTAB
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_replace01
+  verts 4
+      -0.1600000    0.1600000    0.0000000
+      -0.1600000   -0.1600000    0.0000000
+       0.1600000    0.1600000    0.0000000
+       0.1600000   -0.1600000    0.0000000
+  tverts 4
+       0.0000000    1.0000000  0
+       0.0000000    0.0000000  0
+       1.0000000    1.0000000  0
+       1.0000000    0.0000000  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0.17 0.17 0.02
+  orientation 0 0 0 0
+endnode
+node animmesh Plane63
+  parent Plane64
+  ambient 0.0640517 0.186926 0.128103
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  shadow 0
+  bitmap gui_spell_splvl2
+  verts 4
+      -0.1600000    0.1600000    0.0000000
+      -0.1600000   -0.1600000    0.0000000
+       0.1600000    0.1600000    0.0000000
+       0.1600000   -0.1600000    0.0000000
+  tverts 4
+      12.0092001    0.9678320  0
+      12.0092001    0.0321594  0
+      12.2435999    0.9678320  0
+      12.2435999    0.0321592  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0 0 0.03
+  orientation 0 0 0 0
+  alpha 1
+  scale 1
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim up CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+    positionkey 1
+         1.0000000    0.0000039    0.0000000    0.0300000
+  endnode
+doneanim up CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim down CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.5073004    0.9678310  0
+        12.5073004    0.0321590  0
+        12.7418003    0.9678310  0
+        12.7418003    0.0321588  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.5073004    0.9678310  0
+        12.5073004    0.0321590  0
+        12.7418003    0.9678310  0
+        12.7418003    0.0321588  0
+  endnode
+doneanim down CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim checkedup CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.5122004    0.9678310  0
+        12.5122004    0.0321590  0
+        12.7466002    0.9678310  0
+        12.7466002    0.0321588  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.5122004    0.9678310  0
+        12.5122004    0.0321590  0
+        12.7466002    0.9678310  0
+        12.7466002    0.0321588  0
+  endnode
+doneanim checkedup CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim checkeddown CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.5073004    0.9678310  0
+        12.5073004    0.0321590  0
+        12.7418003    0.9678310  0
+        12.7418003    0.0321588  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.5073004    0.9678310  0
+        12.5073004    0.0321590  0
+        12.7418003    0.9678310  0
+        12.7418003    0.0321588  0
+  endnode
+doneanim checkeddown CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim uncheckedup CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+    positionkey 1
+         1.0000000    0.0000039    0.0000000    0.0300000
+  endnode
+doneanim uncheckedup CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim uncheckeddown CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.0092001    0.9678320  0
+        12.0092001    0.0321594  0
+        12.2435999    0.9678320  0
+        12.2435999    0.0321592  0
+  endnode
+doneanim uncheckeddown CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim disabled CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    tverts 4
+        12.7490997    0.9678310  0
+        12.7490997    0.0321588  0
+        12.9834995    0.9678310  0
+        12.9834995    0.0321585  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1600000    0.1600000    0.0000000
+        -0.1600000   -0.1600000    0.0000000
+         0.1600000    0.1600000    0.0000000
+         0.1600000   -0.1600000    0.0000000
+    animtverts 4
+        12.7490997    0.9678310  0
+        12.7490997    0.0321588  0
+        12.9834995    0.9678310  0
+        12.9834995    0.0321585  0
+    position 3.90649e-06 0 0.03
+  endnode
+doneanim disabled CTL_SB_BTN_SPTAB
+
+#MAXANIM ASCII
+newanim hilite CTL_SB_BTN_SPTAB
+  length 1
+  transtime 0
+  animroot CTL_SB_BTN_SPTAB
+  node dummy CTL_SB_BTN_SPTAB
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy next
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node dummy Plane64
+    parent CTL_SB_BTN_SPTAB
+  endnode
+  node animmesh Plane63
+    parent Plane64
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spell_splvl2
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+        12.2509003    0.9970720  0
+        12.2509003    0.0029195  0
+        12.5000000    0.9970710  0
+        12.5000000    0.0029192  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+        12.2509003    0.9970720  0
+        12.2509003    0.0029195  0
+        12.5000000    0.9970710  0
+        12.5000000    0.0029192  0
+  endnode
+doneanim hilite CTL_SB_BTN_SPTAB
+
+donemodel CTL_SB_BTN_SPTAB

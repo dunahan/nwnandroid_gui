@@ -1,0 +1,147 @@
+#MAXMODEL ASCII
+# model: CTL_JNL_ENTRYTXT
+filedependancy CTL_JNL_ENTRYTXT.max
+newmodel CTL_JNL_ENTRYTXT
+setsupermodel CTL_JNL_ENTRYTXT NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_JNL_ENTRYTXT
+node dummy CTL_JNL_ENTRYTXT
+  parent NULL
+endnode
+node dummy text1
+  parent CTL_JNL_ENTRYTXT
+  position 3.25 -0.07 0
+  orientation 0 0 0 0
+endnode
+node dummy text0
+  parent CTL_JNL_ENTRYTXT
+  position 0.41 -0.07 0
+  orientation 0 0 0 0
+endnode
+node dummy NextLink
+  parent CTL_JNL_ENTRYTXT
+  position 0 -0.2 0
+  orientation 0 0 0 0
+endnode
+node animmesh Plane09
+  parent CTL_JNL_ENTRYTXT
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_box-this
+  verts 4
+      -1.4850000    0.0500000    0.0000000
+      -1.4850000   -0.0500000    0.0000000
+       1.4850000    0.0500000    0.0000000
+       1.4850000   -0.0500000    0.0000000
+  tverts 4
+       0.5    0.99  0
+       0.5    0.01  0
+       0.99    0.99  0
+       0.99    0.01  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 1.815 -0.02 0
+  orientation 0 0 0 0
+endnode
+node trimesh Plane12
+  parent CTL_JNL_ENTRYTXT
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_box-this
+  verts 4
+      -1.4850000    0.0500000    0.0000000
+      -1.4850000   -0.0500000    0.0000000
+       1.4850000    0.0500000    0.0000000
+       1.4850000   -0.0500000    0.0000000
+  tverts 4
+       0.5    0.025   0
+       0.5    0.01   0
+       0.99    0.025   0
+       0.99    0.01   0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 1.815 -0.12 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_JNL_ENTRYTXT
+
+#MAXANIM ASCII
+newanim textheight CTL_JNL_ENTRYTXT
+  length 51.2
+  transtime 0
+  animroot CTL_JNL_ENTRYTXT
+  node dummy CTL_JNL_ENTRYTXT
+    parent NULL
+  endnode
+  node dummy text1
+    parent CTL_JNL_ENTRYTXT
+  endnode
+  node dummy text0
+    parent CTL_JNL_ENTRYTXT
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_ENTRYTXT
+    positionkey 2
+         0.0000000    0.0000000   -0.2000000    0.0000000
+        51.2000008    0.0000000  -15.5600004    0.0000000
+  endnode
+  node animmesh Plane09
+    parent CTL_JNL_ENTRYTXT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_box-this
+    verts 4
+        -1.4850000    0.0500000    0.0000000
+        -1.4850000   -0.0500000    0.0000000
+         1.4850000    0.0500000    0.0000000
+         1.4850000   -0.0500000    0.0000000
+    tverts 4
+       0.5    0.95  0
+       0.5    0.15  0
+       0.99    0.95  0
+       0.99    0.15  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 51.2
+    animverts 8
+        -1.4850000    0.0500000    0.0000000
+        -1.4850000   -0.0500000    0.0000000
+         1.4850000    0.0500000    0.0000000
+         1.4850000   -0.0500000    0.0000000
+        -1.4850000    7.7300000    0.0000000
+        -1.4850000   -7.7300000    0.0000000
+         1.4850000    7.7300000    0.0000000
+         1.4850000   -7.7300000    0.0000000
+    animtverts 8
+       0.5    0.95  0
+       0.5    0.15  0
+       0.99    0.95  0
+       0.99    0.15  0
+       0.5    0.95  0
+       0.5    0.15  0
+       0.99    0.95  0
+       0.99    0.15  0
+    positionkey 2
+         0.0000000    1.8150001   -0.0200000    0.0000000
+        51.2000008    1.8150001   -7.6999998    0.0000000
+  endnode
+  node trimesh Plane12
+    parent CTL_JNL_ENTRYTXT
+    positionkey 2
+         0.0000000    1.8150001   -0.1200000    0.0000000
+        51.2000008    1.8150001  -15.4799995    0.0000000
+  endnode
+doneanim textheight CTL_JNL_ENTRYTXT
+
+donemodel CTL_JNL_ENTRYTXT

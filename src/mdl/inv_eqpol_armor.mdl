@@ -1,0 +1,38 @@
+#MAXMODEL ASCII
+# model: INV_EQPOL_ARMOR
+filedependancy INV_EQPOL_ARMOR.max
+newmodel INV_EQPOL_ARMOR
+setsupermodel INV_EQPOL_ARMOR NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom INV_EQPOL_ARMOR
+node dummy INV_EQPOL_ARMOR
+  parent NULL
+endnode
+node trimesh Plane70
+  parent INV_EQPOL_ARMOR
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -0.5100000    0.6600000    0.0000000
+      -0.5100000   -0.6600000    0.0000000
+       0.5100000    0.6600000    0.0000000
+       0.5100000   -0.6600000    0.0000000
+  tverts 4
+       0.9565720    0.9516500  0
+       0.9565720   -0.0151467  0
+       0.9655530    0.9516500  0
+       0.9655530   -0.0151469  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0.5 0.65 0.55
+  orientation 0 0 0 0
+endnode
+endmodelgeom INV_EQPOL_ARMOR
+
+donemodel INV_EQPOL_ARMOR

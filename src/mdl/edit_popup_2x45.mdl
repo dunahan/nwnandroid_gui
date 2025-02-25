@@ -1,0 +1,24 @@
+#MAXMODEL ASCII
+# model: EDIT_POPUP_2X45
+filedependancy EDIT_POPUP_2X45.max
+newmodel EDIT_POPUP_2X45
+setsupermodel EDIT_POPUP_2X45 NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom EDIT_POPUP_2X45
+node dummy EDIT_POPUP_2X45
+  parent NULL
+endnode
+node dummy text0
+  parent EDIT_POPUP_2X45
+  position 0.08 0.36 0
+  orientation 0 0 0 0
+endnode
+node dummy text1
+  parent EDIT_POPUP_2X45
+  position 4.8 0.03 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom EDIT_POPUP_2X45
+
+donemodel EDIT_POPUP_2X45

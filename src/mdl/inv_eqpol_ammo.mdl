@@ -1,0 +1,38 @@
+#MAXMODEL ASCII
+# model: INV_EQPOL_AMMO
+filedependancy INV_EQPOL_AMMO.max
+newmodel INV_EQPOL_AMMO
+setsupermodel INV_EQPOL_AMMO NULL
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom INV_EQPOL_AMMO
+node dummy INV_EQPOL_AMMO
+  parent NULL
+endnode
+node trimesh Plane62
+  parent INV_EQPOL_AMMO
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -0.1800000    0.3550000    0.0000000
+      -0.1800000   -0.3550000    0.0000000
+       0.1800000    0.3550000    0.0000000
+       0.1800000   -0.3550000    0.0000000
+  tverts 4
+       0.9565430    0.9645460  0
+       0.9565430   -0.0289241  0
+       0.9655520    0.9645460  0
+       0.9655520   -0.0289242  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  position 0.17 0.345 0.55
+  orientation 0 0 0 0
+endnode
+endmodelgeom INV_EQPOL_AMMO
+
+donemodel INV_EQPOL_AMMO

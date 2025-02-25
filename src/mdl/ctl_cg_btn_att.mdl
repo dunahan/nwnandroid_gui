@@ -1,0 +1,479 @@
+#MAXMODEL ASCII
+# model: CTL_CG_BTN_ATT
+filedependancy CTL_CG_BTN_ATT.max
+newmodel CTL_CG_BTN_ATT
+setsupermodel CTL_CG_BTN_ATT NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_CG_BTN_ATT
+node dummy CTL_CG_BTN_ATT
+  parent NULL
+endnode
+node dummy icon
+  parent CTL_CG_BTN_ATT
+  position 0.21 0.21 0.05
+  orientation 0 0 0 0
+endnode
+node dummy text
+  parent CTL_CG_BTN_ATT
+  position 0.43 0.209995 0.1
+  orientation 0 0 0 0
+endnode
+node animmesh Plane219
+  parent CTL_CG_BTN_ATT
+  ambient 0.0640517 0.186926 0.128103
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap CTL_ATT_01
+  verts 4
+      -1.7100000    0.2100000    0.0000000
+      -1.7100000   -0.2100000    0.0000000
+       1.7100000    0.2100000    0.0000000
+       1.7100000   -0.2100000    0.0000000
+  tverts 4
+       0.1660160    0.7539060  0
+       0.1660160    0.5898440  0
+       0.8339840    0.7539060  0
+       0.8339840    0.5898440  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 1.71 0.209998 -0.03
+  orientation 0 0 0 0
+endnode
+node dummy text1
+  parent CTL_CG_BTN_ATT
+  position 2.34 0.03 0.1
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim up CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.2099950    0.1000000
+         1.0000000    0.4300000    0.2099950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.6679690  0
+         0.1660160    0.5039070  0
+         0.8339840    0.6679690  0
+         0.8339840    0.5039060  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.6679690  0
+         0.1660160    0.5039070  0
+         0.8339840    0.6679690  0
+         0.8339840    0.5039060  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim up CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim down CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.2027250    0.1000000
+         1.0000000    0.4300000    0.1999950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.5820320  0
+         0.1660160    0.4179700  0
+         0.8339840    0.5820320  0
+         0.8339840    0.4179690  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.5820320  0
+         0.1660160    0.4179700  0
+         0.8339840    0.5820320  0
+         0.8339840    0.4179690  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim down CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim checkedup CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.2099950    0.1000000
+         1.0000000    0.4300000    0.2099950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.5820300  0
+         0.1660160    0.4179680  0
+         0.8339840    0.5820300  0
+         0.8339840    0.4179670  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.5820300  0
+         0.1660160    0.4179680  0
+         0.8339840    0.5820300  0
+         0.8339840    0.4179670  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim checkedup CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim checkeddown CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.2027250    0.1000000
+         1.0000000    0.4300000    0.1999950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.5820320  0
+         0.1660160    0.4179700  0
+         0.8339840    0.5820320  0
+         0.8339840    0.4179690  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.5820320  0
+         0.1660160    0.4179700  0
+         0.8339840    0.5820320  0
+         0.8339840    0.4179690  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim checkeddown CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim uncheckedup CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.2099950    0.1000000
+         1.0000000    0.4300000    0.2099950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.6679690  0
+         0.1660160    0.5039070  0
+         0.8339840    0.6679690  0
+         0.8339840    0.5039060  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.6679690  0
+         0.1660160    0.5039070  0
+         0.8339840    0.6679690  0
+         0.8339840    0.5039060  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim uncheckedup CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim uncheckeddown CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+    positionkey 2
+         0.0000000    0.4300000    0.1999950    0.1000000
+         1.0000000    0.4300000    0.1999950    0.1000000
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.7539070  0
+         0.1660160    0.5898440  0
+         0.8339840    0.7539070  0
+         0.8339840    0.5898440  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.7539070  0
+         0.1660160    0.5898440  0
+         0.8339840    0.7539070  0
+         0.8339840    0.5898440  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim uncheckeddown CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim disabled CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.7539060  0
+         0.1660160    0.5898440  0
+         0.8339840    0.7539060  0
+         0.8339840    0.5898430  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.7539060  0
+         0.1660160    0.5898440  0
+         0.8339840    0.7539060  0
+         0.8339840    0.5898430  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim disabled CTL_CG_BTN_ATT
+
+#MAXANIM ASCII
+newanim hilite CTL_CG_BTN_ATT
+  length 1
+  transtime 0
+  animroot CTL_CG_BTN_ATT
+  node dummy CTL_CG_BTN_ATT
+    parent NULL
+  endnode
+  node dummy icon
+    parent CTL_CG_BTN_ATT
+  endnode
+  node dummy text
+    parent CTL_CG_BTN_ATT
+  endnode
+  node animmesh Plane219
+    parent CTL_CG_BTN_ATT
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap CTL_ATT_01
+    verts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    tverts 4
+         0.1660160    0.4101560  0
+         0.1660160    0.2460940  0
+         0.8339840    0.4101560  0
+         0.8339840    0.2460940  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.7100000    0.2100000    0.0000000
+        -1.7100000   -0.2100000    0.0000000
+         1.7100000    0.2100000    0.0000000
+         1.7100000   -0.2100000    0.0000000
+    animtverts 4
+         0.1660160    0.4101560  0
+         0.1660160    0.2460940  0
+         0.8339840    0.4101560  0
+         0.8339840    0.2460940  0
+  endnode
+  node dummy text1
+    parent CTL_CG_BTN_ATT
+  endnode
+doneanim hilite CTL_CG_BTN_ATT
+
+donemodel CTL_CG_BTN_ATT

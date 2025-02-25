@@ -1,0 +1,1123 @@
+#MAXMODEL ASCII
+# model: CTL_JNL_QUESTBTN
+filedependancy CTL_JNL_QUESTBTN.max
+newmodel CTL_JNL_QUESTBTN
+setsupermodel CTL_JNL_QUESTBTN NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom CTL_JNL_QUESTBTN
+node dummy CTL_JNL_QUESTBTN
+  parent NULL
+endnode
+node animmesh Plane11
+  parent CTL_JNL_QUESTBTN
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -1.4800000    0.1700000    0.0000000
+      -1.4800000   -0.1700000    0.0000000
+       1.4800000    0.1700000    0.0000000
+       1.4800000   -0.1700000    0.0000000
+  tverts 4
+       0.8789060    0.9666970  0
+       0.8789060   -0.0293968  0
+       0.8867450    0.9666950  0
+       0.8867450   -0.0293989  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 1.82 -0.2 0
+  orientation 0 0 0 0
+endnode
+node animmesh Plane10
+  parent CTL_JNL_QUESTBTN
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_boxes_ingame
+  verts 4
+      -0.1700000    0.1700000    0.0000000
+      -0.1700000   -0.1700000    0.0000000
+       0.1700000    0.1700000    0.0000000
+       0.1700000   -0.1700000    0.0000000
+  tverts 4
+       0.8786620    0.9667860  0
+       0.8786620   -0.0293077  0
+       0.8869630    0.9667860  0
+       0.8869630   -0.0293079  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0.17 -0.2 0
+  orientation 0 0 0 0
+endnode
+node animmesh PlaneArrow
+  parent Plane10
+  ambient 0.1 0.1 0.1
+  diffuse 1 1 1
+  specular 0.045 0.045 0.045
+  shininess 26
+  bitmap gui_spl_btn_up
+  verts 4
+      -0.0800000    0.0800000    0.0000000
+      -0.0800000   -0.0800000    0.0000000
+       0.0800000    0.0800000    0.0000000
+       0.0800000   -0.0800000    0.0000000
+  tverts 4
+       0.0004998    0.0004995  0
+       0.0004995    0.9995000  0
+       0.9995010    0.0004997  0
+       0.9995000    0.9995010  0
+  faces 2
+    0 1 2  1  0 1 2   1
+    3 2 1  1  3 2 1   1
+  sampleperiod 0
+  position 0 0 0.05
+  orientation 0 0 0 0
+endnode
+node dummy NextLink
+  parent CTL_JNL_QUESTBTN
+  position 0 -0.4 0
+  orientation 0 0 0 0
+endnode
+node dummy text
+  parent CTL_JNL_QUESTBTN
+  position 0.41 -0.21 0
+  orientation 0 0 0 0
+endnode
+endmodelgeom CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim up CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.8799060    0.9666970  0
+         0.8799060   -0.0293968  0
+         0.8867450    0.9666950  0
+         0.8867450   -0.0293989  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8796620    0.9667860  0
+         0.8796620   -0.0293077  0
+         0.8869630    0.9667860  0
+         0.8869630   -0.0293079  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim up CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim down CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.6767810    0.9667510  0
+         0.6767810   -0.0293432  0
+         0.6836200    0.9667480  0
+         0.6836200   -0.0293453  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.6609120    0.9667920  0
+         0.6609120   -0.0293014  0
+         0.6682130    0.9667920  0
+         0.6682130   -0.0293016  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004995    0.9995000  0
+         0.0004998    0.0004995  0
+         0.9995000    0.9995010  0
+         0.9995010    0.0004997  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2200000    0.0000000
+         1.0000000    0.4100000   -0.2200000    0.0000000
+  endnode
+doneanim down CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim checkedup CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.8799060    0.9666970  0
+         0.8799060   -0.0293968  0
+         0.8867450    0.9666950  0
+         0.8867450   -0.0293989  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.8799060    0.9666970  0
+         0.8799060   -0.0293968  0
+         0.8867450    0.9666950  0
+         0.8867450   -0.0293989  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8796620    0.9667860  0
+         0.8796620   -0.0293077  0
+         0.8869630    0.9667860  0
+         0.8869630   -0.0293079  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.8796620    0.9667860  0
+         0.8796620   -0.0293077  0
+         0.8869630    0.9667860  0
+         0.8869630   -0.0293079  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004995    0.9995000  0
+         0.0004998    0.0004995  0
+         0.9995000    0.9995010  0
+         0.9995010    0.0004997  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    animtverts 4
+         0.0004995    0.9995000  0
+         0.0004998    0.0004995  0
+         0.9995000    0.9995010  0
+         0.9995010    0.0004997  0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim checkedup CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim checkeddown CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.6767810    0.9667510  0
+         0.6767810   -0.0293432  0
+         0.6836200    0.9667480  0
+         0.6836200   -0.0293453  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.6767810    0.9667510  0
+         0.6767810   -0.0293432  0
+         0.6836200    0.9667480  0
+         0.6836200   -0.0293453  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.6609120    0.9667920  0
+         0.6609120   -0.0293014  0
+         0.6682130    0.9667920  0
+         0.6682130   -0.0293016  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.6609120    0.9667920  0
+         0.6609120   -0.0293014  0
+         0.6672130    0.9667920  0
+         0.6672130   -0.0293016  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004995    0.9995000  0
+         0.0004998    0.0004995  0
+         0.9995000    0.9995010  0
+         0.9995010    0.0004997  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    animtverts 4
+         0.0004995    0.9995000  0
+         0.0004998    0.0004995  0
+         0.9995000    0.9995010  0
+         0.9995010    0.0004997  0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2200000    0.0000000
+         1.0000000    0.4100000   -0.2200000    0.0000000
+  endnode
+doneanim checkeddown CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim uncheckedup CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.8799060    0.9666970  0
+         0.8799060   -0.0293968  0
+         0.8867450    0.9666950  0
+         0.8867450   -0.0293989  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.8799060    0.9666970  0
+         0.8799060   -0.0293968  0
+         0.8867450    0.9666950  0
+         0.8867450   -0.0293989  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8796620    0.9667860  0
+         0.8796620   -0.0293077  0
+         0.8869630    0.9667860  0
+         0.8869630   -0.0293079  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.8796620    0.9667860  0
+         0.8796620   -0.0293077  0
+         0.8869630    0.9667860  0
+         0.8869630   -0.0293079  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    animtverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim uncheckedup CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim uncheckeddown CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.6767810    0.9667510  0
+         0.6767810   -0.0293432  0
+         0.6836200    0.9667480  0
+         0.6836200   -0.0293453  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.6767810    0.9667510  0
+         0.6767810   -0.0293432  0
+         0.6836200    0.9667480  0
+         0.6836200   -0.0293453  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.6609120    0.9667920  0
+         0.6609120   -0.0293014  0
+         0.6682130    0.9667920  0
+         0.6682130   -0.0293016  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.6609120    0.9667920  0
+         0.6609120   -0.0293014  0
+         0.6682130    0.9667920  0
+         0.6682130   -0.0293016  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    animtverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2200000    0.0000000
+         1.0000000    0.4100000   -0.2200000    0.0000000
+  endnode
+doneanim uncheckeddown CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim disabled CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.7705310    0.9667260  0
+         0.7705310   -0.0293679  0
+         0.7773700    0.9667240  0
+         0.7773700   -0.0293700  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.7234120    0.9667900  0
+         0.7234120   -0.0293032  0
+         0.7307130    0.9667900  0
+         0.7307130   -0.0293034  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim disabled CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim hilite CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.9580310    0.9666760  0
+         0.9580310   -0.0294174  0
+         0.9638700    0.9666740  0
+         0.9638700   -0.0294194  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.9580310    0.9666760  0
+         0.9580310   -0.0294174  0
+         0.9648700    0.9666740  0
+         0.9648700   -0.0294194  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8484120    0.9667870  0
+         0.8484120   -0.0293068  0
+         0.8557130    0.9667870  0
+         0.8557130   -0.0293070  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.8484120    0.9667870  0
+         0.8484120   -0.0293068  0
+         0.8557130    0.9667870  0
+         0.8557130   -0.0293070  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim hilite CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim encouraged CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.8330310    0.9667090  0
+         0.8330310   -0.0293844  0
+         0.8398700    0.9667070  0
+         0.8398700   -0.0293865  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.8330310    0.9667090  0
+         0.8330310   -0.0293844  0
+         0.8398700    0.9667070  0
+         0.8398700   -0.0293865  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8171620    0.9667880  0
+         0.8171620   -0.0293059  0
+         0.8244630    0.9667880  0
+         0.8244630   -0.0293061  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.8171620    0.9667880  0
+         0.8171620   -0.0293059  0
+         0.8244630    0.9667880  0
+         0.8244630   -0.0293061  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+  endnode
+doneanim encouraged CTL_JNL_QUESTBTN
+
+#MAXANIM ASCII
+newanim checkedhilite CTL_JNL_QUESTBTN
+  length 1
+  transtime 0
+  animroot CTL_JNL_QUESTBTN
+  node dummy CTL_JNL_QUESTBTN
+    parent NULL
+  endnode
+  node animmesh Plane11
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    tverts 4
+         0.8171620    0.9667880  0
+         0.8171620   -0.0293059  0
+         0.8246930    0.9667880  0
+         0.8246930   -0.0293061  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -1.4800000    0.1700000    0.0000000
+        -1.4800000   -0.1700000    0.0000000
+         1.4800000    0.1700000    0.0000000
+         1.4800000   -0.1700000    0.0000000
+    animtverts 4
+         0.8171620    0.9667880  0
+         0.8171620   -0.0293059  0
+         0.8246930    0.9667880  0
+         0.8246930   -0.0293061  0
+  endnode
+  node animmesh Plane10
+    parent CTL_JNL_QUESTBTN
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_boxes_ingame
+    verts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    tverts 4
+         0.8168620    0.9667880  0
+         0.8168620   -0.0293059  0
+         0.8244630    0.9667880  0
+         0.8244630   -0.0293061  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 1
+    animverts 4
+        -0.1700000    0.1700000    0.0000000
+        -0.1700000   -0.1700000    0.0000000
+         0.1700000    0.1700000    0.0000000
+         0.1700000   -0.1700000    0.0000000
+    animtverts 4
+         0.8168620    0.9667880  0
+         0.8168620   -0.0293059  0
+         0.8244630    0.9667880  0
+         0.8244630   -0.0293061  0
+  endnode
+  node animmesh PlaneArrow
+    parent Plane10
+    ambient 0.2 0.2 0.2
+    diffuse 0.8 0.8 0.8
+    specular 0 0 0
+    shininess 1
+    bitmap gui_spl_btn_up
+    verts 4
+        -0.0800000    0.0800000    0.0000000
+        -0.0800000   -0.0800000    0.0000000
+         0.0800000    0.0800000    0.0000000
+         0.0800000   -0.0800000    0.0000000
+    tverts 4
+         0.0004998    0.0004995  0
+         0.0004995    0.9995000  0
+         0.9995010    0.0004997  0
+         0.9995000    0.9995010  0
+    faces 2
+      0 1 2  1  0 1 2   1
+      3 2 1  1  3 2 1   1
+    sampleperiod 0
+  endnode
+  node dummy NextLink
+    parent CTL_JNL_QUESTBTN
+  endnode
+  node dummy text
+    parent CTL_JNL_QUESTBTN
+    positionkey 2
+         0.0000000    0.4100000   -0.2100000    0.0000000
+         1.0000000    0.4100000   -0.2100000    0.0000000
+  endnode
+doneanim checkedhilite CTL_JNL_QUESTBTN
+
+donemodel CTL_JNL_QUESTBTN

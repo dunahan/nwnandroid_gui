@@ -1,0 +1,157 @@
+#MAXMODEL ASCII
+# model: PNL_QUICK_BAR
+filedependancy PNL_QUICK_BAR.max
+newmodel PNL_QUICK_BAR
+setsupermodel PNL_QUICK_BAR NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom PNL_QUICK_BAR
+node dummy PNL_QUICK_BAR
+  parent NULL
+endnode
+node dummy Slot06
+  parent PNL_QUICK_BAR
+  position 3.33999991 0 0.0500000007
+  orientation 0 0 0 0
+endnode
+node dummy PauseButtonCollapsed
+	parent PNL_QUICK_BAR
+	position 0.5 1.4 10
+endnode
+node dummy UpModeButtonCollapsed
+	parent PNL_QUICK_BAR
+	position 1.85 1.4 10
+endnode
+node dummy DownModeButtonCollapsed
+	parent PNL_QUICK_BAR
+	position 1.5 1.4 10
+endnode
+node dummy ChatButton
+	parent PNL_QUICK_BAR
+	position -0.775 0.001 10
+	orientation 0 0 0 0
+endnode
+node dummy PauseButton
+	parent PNL_QUICK_BAR
+	position -0.375 0.001 10
+	orientation 0 0 0 0
+endnode
+node dummy UpModeButton
+	parent PNL_QUICK_BAR
+	position 8.35 0.001 10
+	orientation 0 0 0 0
+endnode
+node dummy DownModeButton
+	parent PNL_QUICK_BAR
+	position 8.0 0.001 10
+	orientation 0 0 0 0
+endnode
+node dummy OnScreenJoystick
+	parent PNL_QUICK_BAR
+	position 0.1 2.25 0
+	orientation 0 0 0 0
+endnode
+node dummy Slot01
+  parent PNL_QUICK_BAR
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy Slot02
+  parent PNL_QUICK_BAR
+  position 0.670000017 0 0.01
+  orientation 0 0 0 0
+endnode
+node dummy Slot03
+  parent PNL_QUICK_BAR
+  position 1.33000004 0 0.02
+  orientation 0 0 0 0
+endnode
+node dummy Slot04
+  parent PNL_QUICK_BAR
+  position 2 0 0.03
+  orientation 0 0 0 0
+endnode
+node dummy Slot05
+  parent PNL_QUICK_BAR
+  position 2.67000008 0 0.04
+  orientation 0 0 0 0
+endnode
+node dummy Slot07
+  parent PNL_QUICK_BAR
+  position 4 0 0.05
+  orientation 0 0 0 0
+endnode
+node dummy Slot08
+  parent PNL_QUICK_BAR
+  position 4.65999985 0 0.06
+  orientation 0 0 0 0
+endnode
+node dummy Slot09
+  parent PNL_QUICK_BAR
+  position 5.32999992 0 0.07
+  orientation 0 0 0 0
+endnode
+node dummy Slot10
+  parent PNL_QUICK_BAR
+  position 6 0 0.08
+  orientation 0 0 0 0
+endnode
+node dummy Slot11
+  parent PNL_QUICK_BAR
+  position 6.67000008 0 0.09
+  orientation 0 0 0 0
+endnode
+node dummy Slot12
+  parent PNL_QUICK_BAR
+  position 7.32999992 0 0.1
+  orientation 0 0 0 0
+endnode
+node trimesh BackGround01
+  parent PNL_QUICK_BAR
+  ambient 0.100000001 0.100000001 0.100000001
+  diffuse 1 1 1
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  bitmap QB_BUT
+  verts 4
+    -9.43999958 0.0149999997 0
+    -9.43999958 -0.0149999997 0
+    -1.45999958 0.0149999997 0
+    -1.45999958 -0.0149999997 0
+  tverts 4
+    0 1 0
+    0 0.953128994 0
+    1 0.999996006 0
+    1 0.953121006 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 9.43999958 0.0149999997 0.700000006
+  orientation 0 0 0 0
+endnode
+node trimesh BackGround02
+  parent PNL_QUICK_BAR
+  ambient 0.100000001 0.100000001 0.100000001
+  diffuse 1 1 1
+  specular 0.0450000018 0.0450000018 0.0450000018
+  shininess 26
+  bitmap QB_BUT
+  verts 4
+    -9.43999958 0.0149999997 0
+    -9.43999958 -0.0149999997 0
+    -1.45999958 0.0149999997 0
+    -1.45999958 -0.0149999997 0
+  tverts 4
+    0 1 0
+    0 0.953128994 0
+    1 0.999996006 0
+    1 0.953121006 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  position 9.43999958 0.3149999997 0.700000006
+  orientation 0 0 0 0
+endnode
+endmodelgeom PNL_QUICK_BAR
+
+donemodel PNL_QUICK_BAR

@@ -1,0 +1,98 @@
+#MAXMODEL ASCII
+# model: BUTTONUP
+filedependancy BUTTONUP.max
+newmodel BUTTONUP
+setsupermodel BUTTONUP NULL
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom BUTTONUP
+node dummy BUTTONUP
+  parent NULL
+endnode
+node trimesh Plane16
+  parent BUTTONUP
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+      -0.0001346    0.7499860  0
+      -0.0001346    0.7109230  0
+       0.0389279    0.7499860  0
+       0.0389279    0.7109230  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position 0.098555 0.0943991 0.0207503
+  orientation 0 0 0 0
+  selfillumcolor 0 0 0
+endnode
+node trimesh Plane17
+  parent Plane16
+  ambient 0.215684 0.0640517 0.125489
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap Controls
+  verts 4
+      -0.1000000    0.1000000    0.0000000
+      -0.1000000   -0.1000000    0.0000000
+       0.1000000    0.1000000    0.0000000
+       0.1000000   -0.1000000    0.0000000
+  tverts 4
+       1.0394300    0.7501480  0
+       1.0394300    0.7110850  0
+       1.0785000    0.7501480  0
+       1.0785000    0.7110850  0
+  faces 2
+    0 1 2  1  0 1 2   0
+    3 2 1  1  3 2 1   0
+  position -0.00570924 0.00635086 0
+  orientation -1 0 0 -3.14159
+  selfillumcolor 0 0 0
+endnode
+endmodelgeom BUTTONUP
+
+#MAXANIM ASCII
+newanim down BUTTONUP
+  length 0.333333
+  transtime 0
+  node dummy BUTTONUP
+    parent NULL
+  endnode
+  node dummy Plane16
+    parent BUTTONUP
+    orientationkey 2
+         0.0000000    1.0000000   -0.0000000   -0.0000000   -3.1415901
+         0.3333330    1.0000000   -0.0000000   -0.0000000   -3.1415901
+  endnode
+  node dummy Plane17
+    parent Plane16
+  endnode
+doneanim down BUTTONUP
+
+#MAXANIM ASCII
+newanim up BUTTONUP
+  length 0.333333
+  transtime 0
+  node dummy BUTTONUP
+    parent NULL
+  endnode
+  node dummy Plane16
+    parent BUTTONUP
+    orientationkey 2
+         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
+         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
+  endnode
+  node dummy Plane17
+    parent Plane16
+  endnode
+doneanim up BUTTONUP
+
+donemodel BUTTONUP
