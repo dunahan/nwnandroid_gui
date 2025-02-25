@@ -1,0 +1,4 @@
+mipmap 0
+filter 1
+downsamplemax 0
+clamp 3
