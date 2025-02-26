@@ -1,0 +1,68 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_wizardpage
+        classification CHARACTER
+        setsupermodel ctl_wizardpage NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_wizardpage
+    node dummy ctl_wizardpage
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent ctl_wizardpage
+        #part-number 1
+        position 3.43 -0.59 0
+        orientation 0 0 0 0
+    endnode
+    node dummy view0
+        parent ctl_wizardpage
+        #part-number 2
+        position 0.02 -4.05 0
+        orientation 0 0 0 0
+    endnode
+    node dummy view1
+        parent ctl_wizardpage
+        #part-number 3
+        position 3.5 -0.45 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_wizardpage
+        #part-number 4
+        position 3.42 -3.95 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_wizardpage
+        #part-number 5
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy treeview
+        parent scrollpane
+        #part-number 6
+        position 0.06 -0.41 0.01
+        orientation 0 0 0 0
+    endnode
+    node dummy tabs
+        parent ctl_wizardpage
+        #part-number 7
+        position 0.06 -0.38 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy scrolldown
+        parent ctl_wizardpage
+        #part-number 8
+        position 3.38 -0.38 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollup
+        parent ctl_wizardpage
+        #part-number 9
+        position 3.38 -0.2 0.1
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_wizardpage
+donemodel ctl_wizardpage

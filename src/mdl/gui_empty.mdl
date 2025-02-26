@@ -1,0 +1,13 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel gui_empty
+        setsupermodel gui_empty NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom gui_empty
+    node dummy gui_empty
+        parent NULL
+        #part-number 0
+    endnode
+endmodelgeom gui_empty
+donemodel gui_empty

@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_srv_chatedit
+        classification CHARACTER
+        setsupermodel ctl_srv_chatedit NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_srv_chatedit
+    node dummy ctl_srv_chatedit
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_srv_chatedit
+        #part-number 1
+        position 0.06 0.23 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_srv_chatedit
+        #part-number 2
+        position 6.05 0.01 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_srv_chatedit
+donemodel ctl_srv_chatedit

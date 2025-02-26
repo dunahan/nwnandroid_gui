@@ -1,0 +1,356 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:37 2025
+#MAXMODEL ASCII
+newmodel scrollbar
+        classification CHARACTER
+        setsupermodel scrollbar NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom scrollbar
+    node dummy scrollbar
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane01
+        parent scrollbar
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.1 -1.56 0
+        orientation 0 0 0 0
+        verts 4
+            -0.1 1.56 0
+            -0.1 -10.441 0
+            0.1 1.56 0
+            0.1 -10.441 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy up
+        parent scrollbar
+        #part-number 2
+        position 0.0953974 -0.201206 0
+        orientation 0 0 0 0
+    endnode
+    node dummy min
+        parent scrollbar
+        #part-number 3
+        position 0.109878 -0.411357 0
+        orientation 0 0 0 0
+    endnode
+    node dummy max
+        parent scrollbar
+        #part-number 4
+        position 0.1 -12 0
+        orientation 0 0 0 0
+    endnode
+    node dummy down
+        parent max
+        #part-number 5
+        position 0 -0.2 0
+        orientation 0 0 0 0
+    endnode
+    node dummy thumb
+        parent scrollbar
+        #part-number 6
+        position 0.505706 -0.00334717 0.02
+        orientation 0 0 0 0
+    endnode
+    node animmesh thumbbar
+        parent thumb
+        #part-number 7
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.1 -1.56 0
+        orientation 0 0 0 0
+        verts 4
+            -0.1 1.56 0
+            -0.1 1.559 0
+            0.1 1.56 0
+            0.1 1.559 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom scrollbar
+
+#MAXANIM ASCII
+newanim size scrollbar
+        length 12
+        transtime 0
+        animroot 
+        node dummy scrollbar
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane01
+            parent scrollbar
+            #part-number 1
+            sampleperiod 6
+            positionkey
+      0 0.1 -1.56 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+            verts 4
+            -0.1 1.56 0
+            -0.1 -10.441 0
+            0.1 1.56 0
+            0.1 -10.441 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+            animverts 8
+      -0.1 1.56 0
+      -0.1 1.559 0
+      0.1 1.56 0
+      0.1 1.559 0
+      -0.1 1.56 0
+      -0.1 -10.441 0
+      0.1 1.56 0
+      0.1 -10.441 0
+            animtverts 0
+        endnode
+        node dummy up
+            parent scrollbar
+            #part-number 2
+            positionkey
+      0 0.0953974 -0.201206 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy min
+            parent scrollbar
+            #part-number 3
+            positionkey
+      0 0.109878 -0.411357 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy max
+            parent scrollbar
+            #part-number 4
+            positionkey
+      0 0.1 0 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy down
+            parent max
+            #part-number 5
+            positionkey
+      0 0 -0.2 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy thumb
+            parent scrollbar
+            #part-number 6
+            positionkey
+      0 0.505706 -0.00334717 0.02
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node animmesh thumbbar
+            parent thumb
+            #part-number 7
+            sampleperiod 0
+            positionkey
+      0 0.1 -1.56 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+            verts 4
+            -0.1 1.56 0
+            -0.1 1.559 0
+            0.1 1.56 0
+            0.1 1.559 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+            animverts 0
+            animtverts 0
+        endnode
+doneanim size scrollbar
+
+#MAXANIM ASCII
+newanim thumbsize scrollbar
+        length 12
+        transtime 0
+        animroot 
+        node dummy scrollbar
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane01
+            parent scrollbar
+            #part-number 1
+            sampleperiod 0
+            positionkey
+      0 0.1 -1.56 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+            verts 4
+            -0.1 1.56 0
+            -0.1 -10.441 0
+            0.1 1.56 0
+            0.1 -10.441 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy up
+            parent scrollbar
+            #part-number 2
+            positionkey
+      0 0.0953974 -0.201206 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy min
+            parent scrollbar
+            #part-number 3
+            positionkey
+      0 0.109878 -0.411357 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy max
+            parent scrollbar
+            #part-number 4
+            positionkey
+      0 0.1 -12 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy down
+            parent max
+            #part-number 5
+            positionkey
+      0 0 -0.2 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node dummy thumb
+            parent scrollbar
+            #part-number 6
+            positionkey
+      0 0.505706 -0.00334717 0.02
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node animmesh thumbbar
+            parent thumb
+            #part-number 7
+            sampleperiod 6
+            positionkey
+      0 0.1 -1.56 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+            verts 4
+            -0.1 1.56 0
+            -0.1 1.559 0
+            0.1 1.56 0
+            0.1 1.559 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1.00016 0.187525 0
+            0.388635 0.187526 0
+            1.00016 0.148463 0
+            0.388635 0.148463 0
+            animverts 8
+      -0.1 1.56 0
+      -0.1 1.559 0
+      0.1 1.56 0
+      0.1 1.559 0
+      -0.1 1.56 0
+      -0.1 -10.44 0
+      0.1 1.56 0
+      0.1 -10.44 0
+            animtverts 0
+        endnode
+doneanim thumbsize scrollbar
+donemodel scrollbar

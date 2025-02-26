@@ -1,0 +1,140 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel inv_eqp_armor
+        classification CHARACTER
+        setsupermodel inv_eqp_armor NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom inv_eqp_armor
+    node dummy inv_eqp_armor
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane255
+        parent inv_eqp_armor
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.495 0.65 0
+        orientation 0 0 0 0
+        verts 4
+            -0.495 0.65 0
+            -0.495 -0.65 0
+            0.495 0.65 0
+            0.495 -0.65 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00382656 0.944347 0
+            0.00382653 -0.00780159 0
+            0.0117188 0.944347 0
+            0.0117188 -0.00780177 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane256
+        parent inv_eqp_armor
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_inv_sto_icon
+        texture0 gui_inv_sto_icon
+        rotatetexture 0
+        position 0.5 0.13 0.1
+        orientation 0 0 0 0
+        verts 4
+            -0.49 0.12 0
+            -0.49 -0.12 0
+            0.49 0.12 0
+            0.49 -0.12 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            -0.09245 0.451668 0
+            -0.09245 0.427668 0
+            -0.08265 0.451668 0
+            -0.08265 0.427668 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy icon
+        parent inv_eqp_armor
+        #part-number 3
+        position 0.5 0.78 0.1
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane257
+        parent inv_eqp_armor
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_inv_armor_sm
+        texture0 gui_inv_armor_sm
+        rotatetexture 0
+        position 0.095 0.125 0.15
+        orientation 0 0 0 0
+        verts 4
+            -0.065 0.065 0
+            -0.065 -0.065 0
+            0.065 0.065 0
+            0.065 -0.065 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0625001 0.9375 0
+            0.0624999 0.125 0
+            0.875 0.9375 0
+            0.875 0.125 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom inv_eqp_armor
+donemodel inv_eqp_armor

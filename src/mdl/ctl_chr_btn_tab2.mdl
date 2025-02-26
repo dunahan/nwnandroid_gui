@@ -1,0 +1,719 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chr_btn_tab2
+        setsupermodel ctl_chr_btn_tab2 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chr_btn_tab2
+    node dummy ctl_chr_btn_tab2
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane83
+        parent ctl_chr_btn_tab2
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_chartabs
+        texture0 gui_ig_chartabs
+        rotatetexture 0
+        position 0.455 0.1 0
+        orientation 0 0 0 0
+        verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy next
+        parent ctl_chr_btn_tab2
+        #part-number 2
+        position 0.9 0 0
+        orientation 0 0 0 0
+    endnode
+    node animmesh plane227
+        parent ctl_chr_btn_tab2
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_chartabs
+        texture0 gui_ig_chartabs
+        rotatetexture 0
+        position 0.455 0.225 0
+        orientation 0 0 0 0
+        verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane113
+        parent ctl_chr_btn_tab2
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.12026 0.12026 0.12026
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_char_icons
+        texture0 gui_char_icons
+        rotatetexture 0
+        position 0.46 0.12 0.04
+        orientation 0 0 0 0
+        verts 4
+            -0.31 0.09 0
+            -0.31 -0.09 0
+            0.31 0.09 0
+            0.31 -0.09 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.764614 1.01562 0
+            0.624524 1.01563 0
+            0.764614 0.0468749 0
+            0.624524 0.0468749 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim checkeddown ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 0.455 0.145 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.145 0
+      -0.455 -0.145 0
+      0.455 0.145 0
+      0.455 -0.145 0
+            animtverts 4
+      0.835844 0.875 0
+      0.835844 2.6875 0
+      0.13287 0.875 0
+      0.13287 2.6875 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      0 0.455 0.315 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.827866 0.562499 0
+      0.827866 0.874999 0
+      0.140872 0.562501 0
+      0.140872 0.875001 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      0 0.46 0.17 0.04
+            endlist
+        endnode
+doneanim checkeddown ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim checkedup ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      1 0.455 0.145 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.145 0
+      -0.455 -0.145 0
+      0.455 0.145 0
+      0.455 -0.145 0
+            animtverts 4
+      0.836101 0.875 0
+      0.836102 2.6875 0
+      0.133127 0.875 0
+      0.133127 2.6875 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      1 0.455 0.315 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.827866 0.562499 0
+      0.827866 0.874999 0
+      0.140872 0.562501 0
+      0.140872 0.875001 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      1 0.46 0.17 0.04
+            endlist
+        endnode
+doneanim checkedup ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim disabled ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.1 0
+      -0.455 -0.1 0
+      0.455 0.1 0
+      0.455 -0.1 0
+            animtverts 4
+      0.13287 0.125 0
+      0.13287 -1.125 0
+      0.835844 0.125 0
+      0.835844 -1.125 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.140872 0.437501 0
+      0.140872 0.125001 0
+      0.827866 0.437499 0
+      0.827866 0.124999 0
+        endnode
+        node dummy plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+        endnode
+doneanim disabled ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim down ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 0.455 0.145 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.145 0
+      -0.455 -0.145 0
+      0.455 0.145 0
+      0.455 -0.145 0
+            animtverts 4
+      0.835844 0.875 0
+      0.835844 2.6875 0
+      0.13287 0.875 0
+      0.13287 2.6875 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      0 0.455 0.315 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.827866 0.562499 0
+      0.827866 0.874999 0
+      0.140872 0.562501 0
+      0.140872 0.875001 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      0 0.46 0.17 0.04
+            endlist
+        endnode
+doneanim down ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 0.455 0.1 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.1 0
+      -0.455 -0.1 0
+      0.455 0.1 0
+      0.455 -0.1 0
+            animtverts 4
+      0.13287 0.125 0
+      0.13287 -1.125 0
+      0.835844 0.125 0
+      0.835844 -1.125 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      0 0.455 0.225 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.140872 0.437501 0
+      0.140872 0.125001 0
+      0.827866 0.437499 0
+      0.827866 0.124999 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      0 0.46 0.12 0.04
+            endlist
+        endnode
+doneanim uncheckeddown ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      1 0.455 0.1 0
+            endlist
+            orientationkey
+      1 0 0 0 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.1 0
+      -0.455 -0.1 0
+      0.455 0.1 0
+      0.455 -0.1 0
+            animtverts 4
+      0.13287 0.125 0
+      0.13287 -1.125 0
+      0.835844 0.125 0
+      0.835844 -1.125 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      0 0.455 0.225 0
+      1 0.455 0.225 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.140872 0.437501 0
+      0.140872 0.125001 0
+      0.827866 0.437499 0
+      0.827866 0.124999 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      1 0.46 0.12 0.04
+            endlist
+        endnode
+doneanim uncheckedup ctl_chr_btn_tab2
+
+#MAXANIM ASCII
+newanim up ctl_chr_btn_tab2
+        length 1
+        transtime 0
+        animroot ctl_chr_btn_tab2
+        node dummy ctl_chr_btn_tab2
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane83
+            parent ctl_chr_btn_tab2
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      1 0.455 0.1 0
+            endlist
+            orientationkey
+      1 0 0 0 0
+            endlist
+            verts 4
+            -0.455 0.1 0
+            -0.455 -0.1 0
+            0.455 0.1 0
+            0.455 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.13287 0.125 0
+            0.13287 -1.125 0
+            0.835844 0.125 0
+            0.835844 -1.125 0
+            animverts 4
+      -0.455 0.1 0
+      -0.455 -0.1 0
+      0.455 0.1 0
+      0.455 -0.1 0
+            animtverts 4
+      0.13287 0.125 0
+      0.13287 -1.125 0
+      0.835844 0.125 0
+      0.835844 -1.125 0
+        endnode
+        node dummy next
+            parent ctl_chr_btn_tab2
+            #part-number 2
+        endnode
+        node animmesh plane227
+            parent ctl_chr_btn_tab2
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      0 0.455 0.225 0
+      1 0.455 0.225 0
+            endlist
+            verts 4
+            -0.445 0.025 0
+            -0.445 -0.025 0
+            0.445 0.025 0
+            0.445 -0.025 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.140872 0.437501 0
+            0.140872 0.125001 0
+            0.827866 0.437499 0
+            0.827866 0.124999 0
+            animverts 4
+      -0.445 0.025 0
+      -0.445 -0.025 0
+      0.445 0.025 0
+      0.445 -0.025 0
+            animtverts 4
+      0.140872 0.437501 0
+      0.140872 0.125001 0
+      0.827866 0.437499 0
+      0.827866 0.124999 0
+        endnode
+        node trimesh plane113
+            parent ctl_chr_btn_tab2
+            #part-number 4
+            positionkey
+      1 0.46 0.12 0.04
+            endlist
+        endnode
+doneanim up ctl_chr_btn_tab2
+donemodel ctl_chr_btn_tab2

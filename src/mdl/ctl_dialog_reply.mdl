@@ -1,45 +1,44 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
 #MAXMODEL ASCII
-# model: CTL_DIALOG_REPLY
-filedependancy CTL_DIALOG_REPLY.max
-newmodel CTL_DIALOG_REPLY
-setsupermodel CTL_DIALOG_REPLY NULL
-classification CHARACTER
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom CTL_DIALOG_REPLY
-node dummy CTL_DIALOG_REPLY
-  parent NULL
-endnode
-node dummy text0
-  parent CTL_DIALOG_REPLY
-  position 0.1 0 0.5
-  orientation 0 0 0 0
-endnode
-node dummy scrollmin
-  parent text0
-  position 3.9 -0.13 0
-  orientation 0 0 0 0
-endnode
-node dummy text1
-  parent CTL_DIALOG_REPLY
-  position 3.85 -0.64 0.5
-  orientation 0 0 0 0
-endnode
-node dummy scrollmax
-  parent text1
-  position 0.04 0.09 0
-  orientation 0 0 0 0
-endnode
-node dummy indextext1
-  parent CTL_DIALOG_REPLY
-  position 0.04 -0.64 0.5
-  orientation 0 0 0 0
-endnode
-node dummy indextext0
-  parent CTL_DIALOG_REPLY
-  position -0.2 0 0.13
-  orientation 0 0 0 0
-endnode
-endmodelgeom CTL_DIALOG_REPLY
-
-donemodel CTL_DIALOG_REPLY
+filedependency Unknown
+newmodel ctl_dialog_reply
+        classification CHARACTER
+        setsupermodel ctl_dialog_reply NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_dialog_reply
+    node dummy ctl_dialog_reply
+        parent NULL
+    endnode
+    node dummy text0
+        parent ctl_dialog_reply
+        position 0.1 0 0.5
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent text0
+        position 3.9 -0.13 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_dialog_reply
+        position 3.85 -0.64 0.5
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent text1
+        position 0.04 0.09 0
+        orientation 0 0 0 0
+    endnode
+    node dummy indextext1
+        parent ctl_dialog_reply
+        position 0.04 -0.64 0.5
+        orientation 0 0 0 0
+    endnode
+    node dummy indextext0
+        parent ctl_dialog_reply
+        position -0.2 0 0.13
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_dialog_reply
+donemodel ctl_dialog_reply

@@ -1,0 +1,25 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_playmod_page
+        setsupermodel ctl_playmod_page NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_playmod_page
+    node dummy ctl_playmod_page
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy tabs
+        parent ctl_playmod_page
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pages
+        parent ctl_playmod_page
+        #part-number 2
+        position 0 -0.01 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_playmod_page
+donemodel ctl_playmod_page

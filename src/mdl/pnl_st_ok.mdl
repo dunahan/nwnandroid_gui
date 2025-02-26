@@ -1,0 +1,53 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
+#MAXMODEL ASCII
+newmodel pnl_st_ok
+        setsupermodel pnl_st_ok NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_st_ok
+    node dummy pnl_st_ok
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane27
+        parent pnl_st_ok
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap inv_box_ok
+        texture0 inv_box_ok
+        rotatetexture 0
+        position 0 0 0
+        orientation 0 0 0 0
+        verts 4
+            -1.28 0.92 0
+            -1.28 -0.92 0
+            1.28 0.92 0
+            1.28 -0.92 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.859375 0
+            0 0.140625 0
+            1 0.859375 0
+            1 0.140625 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_st_ok
+donemodel pnl_st_ok

@@ -1,0 +1,360 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_ig_btn_ban
+        setsupermodel ctl_ig_btn_ban NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_ig_btn_ban
+    node dummy ctl_ig_btn_ban
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane240
+        parent ctl_ig_btn_ban
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_ig_btn_pvpre
+        texture0 ctl_ig_btn_pvpre
+        rotatetexture 0
+        position 0.17 0.169999 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim checkeddown ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.863281 0.734371 0
+      0.996094 0.734371 0
+      0.863281 0.999996 0
+      0.996094 0.999996 0
+        endnode
+doneanim checkeddown ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim checkedup ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.863281 0.734371 0
+      0.996094 0.734371 0
+      0.863281 0.999996 0
+      0.996094 0.999996 0
+        endnode
+doneanim checkedup ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim disabled ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.597657 0.734375 0
+      0.730469 0.734375 0
+      0.597657 1 0
+      0.730469 1 0
+        endnode
+doneanim disabled ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim down ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.863281 0.734371 0
+      0.996094 0.734371 0
+      0.863281 0.999996 0
+      0.996094 0.999996 0
+        endnode
+doneanim down ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim hilite ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.730469 0.734375 0
+      0.863282 0.734375 0
+      0.730469 1 0
+      0.863282 1 0
+        endnode
+doneanim hilite ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.597657 0.734375 0
+      0.730469 0.734375 0
+      0.597657 1 0
+      0.730469 1 0
+        endnode
+doneanim uncheckeddown ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.597657 0.734375 0
+      0.730469 0.734375 0
+      0.597657 1 0
+      0.730469 1 0
+        endnode
+doneanim uncheckedup ctl_ig_btn_ban
+
+#MAXANIM ASCII
+newanim up ctl_ig_btn_ban
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_ban
+        node dummy ctl_ig_btn_ban
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane240
+            parent ctl_ig_btn_ban
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.597657 0.734375 0
+            0.730469 0.734375 0
+            0.597657 1 0
+            0.730469 1 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.597657 0.734375 0
+      0.730469 0.734375 0
+      0.597657 1 0
+      0.730469 1 0
+        endnode
+doneanim up ctl_ig_btn_ban
+donemodel ctl_ig_btn_ban

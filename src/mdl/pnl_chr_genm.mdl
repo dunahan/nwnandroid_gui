@@ -1,0 +1,230 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chr_genm
+        classification CHARACTER
+        setsupermodel pnl_chr_genm NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chr_genm
+    node dummy pnl_chr_genm
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane244
+        parent pnl_chr_genm
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_box-this-3
+        texture0 gui_box-this-3
+        rotatetexture 0
+        position -1.15 -0.195 0.01
+        orientation 0 0 0 0
+        verts 4
+            -2.56 2.435 0
+            -2.56 -2.435 0
+            2.56 2.435 0
+            2.56 -2.435 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.015 0.985 0
+            0.015 0.015 0
+            0.95 0.985 0
+            0.95 0.015 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane249
+        parent pnl_chr_genm
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_pre_bkgnd01
+        texture0 gui_pre_bkgnd01
+        rotatetexture 0
+        position -1.15 2.58 0
+        orientation 0 0 0 0
+        verts 4
+            -2.56 0.05 0
+            -2.56 -0.05 0
+            2.56 0.05 0
+            2.56 -0.05 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            -1e-07 0.044922 0
+            -1e-07 0.0253907 0
+            1 0.0449217 0
+            1 0.0253905 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane248
+        parent pnl_chr_genm
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_pre_bkgnd02
+        texture0 gui_pre_bkgnd02
+        rotatetexture 0
+        position -1.15 2.405 0
+        orientation 0 0 0 0
+        verts 4
+            -2.56 0.125 0
+            -2.56 -0.125 0
+            2.56 0.125 0
+            2.56 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1 1 0
+            0.902344 1 0
+            1 0.01 0
+            0.902344 0.01 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane247
+        parent pnl_chr_genm
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_pre_bkgnd01
+        texture0 gui_pre_bkgnd01
+        rotatetexture 0
+        position 2.56 2.58 0
+        orientation 0 0 0 0
+        verts 4
+            -1.15 0.05 0
+            -1.15 -0.05 0
+            1.15 0.05 0
+            1.15 -0.05 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.550781 0.0195312 0
+            0.550781 0 0
+            1 0.0195311 0
+            1 -1e-07 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane246
+        parent pnl_chr_genm
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_pre_bkgnd02
+        texture0 gui_pre_bkgnd02
+        rotatetexture 0
+        position 2.56 2.405 0
+        orientation 0 0 0 0
+        verts 4
+            -1.15 0.125 0
+            -1.15 -0.125 0
+            1.15 0.125 0
+            1.15 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            -2e-07 0.0488282 0
+            -2e-07 1e-007 0
+            0.898437 0.0488281 0
+            0.898437 1e-007 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane245
+        parent pnl_chr_genm
+        #part-number 6
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_box-this-3
+        texture0 gui_box-this-3
+        rotatetexture 0
+        position 2.56 -0.195 0.01
+        orientation 0 0 0 0
+        verts 4
+            -1.15 2.435 0
+            -1.15 -2.435 0
+            1.15 2.435 0
+            1.15 -2.435 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.05 0.985 0
+            0.05 0.015 0
+            0.9875 0.985 0
+            0.9875 0.015 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy charactersheet
+        parent pnl_chr_genm
+        #part-number 7
+        position 0.09 2.21 0.06
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_chr_genm
+donemodel pnl_chr_genm

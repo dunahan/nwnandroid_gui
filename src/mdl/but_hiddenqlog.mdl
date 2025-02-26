@@ -1,93 +1,137 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUT_HIDDENQLOG
-filedependancy BUT_HIDDENQLOG.max
-newmodel BUT_HIDDENQLOG
-setsupermodel BUT_HIDDENQLOG NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUT_HIDDENQLOG
-node dummy BUT_HIDDENQLOG
-  parent NULL
-endnode
-node trimesh Plane02
-  parent BUT_HIDDENQLOG
-  ambient 0.2 0.2 0.2
-  diffuse 0.8 0.8 0.8
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -0.1300000    0.1070350    0.0000000
-      -0.1300000   -0.1070350    0.0000000
-       0.1300000    0.1070350    0.0000000
-       0.1300000   -0.1070350    0.0000000
-  tverts 4
-       0.4746090    0.5219960  0
-       0.4746090    0.4780040  0
-       0.5253910    0.5219960  0
-       0.5253910    0.4780040  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0.0298297 0.00143784 0.0207503
-  orientation 0 0 0 0
-endnode
-endmodelgeom BUT_HIDDENQLOG
+newmodel but_hiddenqlog
+        setsupermodel but_hiddenqlog NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom but_hiddenqlog
+    node dummy but_hiddenqlog
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane02
+        parent but_hiddenqlog
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.0298297 0.00143784 0.0207503
+        orientation 0 0 0 0
+        verts 4
+            -0.13 0.107035 0
+            -0.13 -0.107035 0
+            0.13 0.107035 0
+            0.13 -0.107035 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.474609 0.521996 0
+            0.474609 0.478004 0
+            0.525391 0.521996 0
+            0.525391 0.478004 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom but_hiddenqlog
 
 #MAXANIM ASCII
-newanim down BUT_HIDDENQLOG
-  length 0.333333
-  transtime 0
-  node dummy BUT_HIDDENQLOG
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUT_HIDDENQLOG
-    position 0.0298297 0.00143784 0.0207503
-    orientation -1 0 0 -3.14159
-  endnode
-doneanim down BUT_HIDDENQLOG
+newanim down but_hiddenqlog
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_hiddenqlog
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent but_hiddenqlog
+            #part-number 1
+            positionkey
+      0 0.0298297 0.00143784 0.0207503
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim down but_hiddenqlog
 
 #MAXANIM ASCII
-newanim up BUT_HIDDENQLOG
-  length 0.333333
-  transtime 0
-  node dummy BUT_HIDDENQLOG
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUT_HIDDENQLOG
-    position 0.0298297 0.00143784 0.0207503
-    orientation 0 0 0 0
-  endnode
-doneanim up BUT_HIDDENQLOG
+newanim press but_hiddenqlog
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_hiddenqlog
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent but_hiddenqlog
+            #part-number 1
+            positionkey
+      0 0.0298297 0.00143784 0.0207503
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+doneanim press but_hiddenqlog
 
 #MAXANIM ASCII
-newanim press BUT_HIDDENQLOG
-  length 0.333333
-  transtime 0
-  node dummy BUT_HIDDENQLOG
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUT_HIDDENQLOG
-    position 0.0298297 0.00143784 0.0207503
-    orientation 0 0 0 0
-  endnode
-doneanim press BUT_HIDDENQLOG
+newanim release but_hiddenqlog
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_hiddenqlog
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent but_hiddenqlog
+            #part-number 1
+            positionkey
+      0 0.0298297 0.00143784 0.0207503
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim release but_hiddenqlog
 
 #MAXANIM ASCII
-newanim release BUT_HIDDENQLOG
-  length 0.333333
-  transtime 0
-  node dummy BUT_HIDDENQLOG
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUT_HIDDENQLOG
-    position 0.0298297 0.00143784 0.0207503
-    orientation -1 0 0 -3.14159
-  endnode
-doneanim release BUT_HIDDENQLOG
-
-donemodel BUT_HIDDENQLOG
+newanim up but_hiddenqlog
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_hiddenqlog
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent but_hiddenqlog
+            #part-number 1
+            positionkey
+      0 0.0298297 0.00143784 0.0207503
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+doneanim up but_hiddenqlog
+donemodel but_hiddenqlog

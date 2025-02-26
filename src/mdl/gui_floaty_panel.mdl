@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel gui_floaty_panel
+        classification CHARACTER
+        setsupermodel gui_floaty_panel NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom gui_floaty_panel
+    node dummy gui_floaty_panel
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy foreground
+        parent gui_floaty_panel
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy background
+        parent gui_floaty_panel
+        #part-number 2
+        position -0.01 0.01 -0.01
+        orientation 0 0 0 0
+    endnode
+endmodelgeom gui_floaty_panel
+donemodel gui_floaty_panel

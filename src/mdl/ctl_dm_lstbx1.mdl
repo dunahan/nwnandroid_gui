@@ -1,0 +1,129 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_dm_lstbx1
+        setsupermodel ctl_dm_lstbx1 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_dm_lstbx1
+    node dummy ctl_dm_lstbx1
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent ctl_dm_lstbx1
+        #part-number 1
+        position 3.43 -0.16 -0.45
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_dm_lstbx1
+        #part-number 2
+        position 3.43 -3.64 -0.45
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_dm_lstbx1
+        #part-number 3
+        position 3.42 -3.82 -0.45
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane157
+        parent ctl_dm_lstbx1
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 3.515 -10 -0.55
+        orientation 0 0 0 0
+        verts 4
+            -0.085 10 0
+            -0.085 -10 0
+            0.085 10 0
+            0.085 -10 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0195314 0.9375 0
+            0.0195311 0 0
+            0.0278322 0.9375 0
+            0.0278319 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy top
+        parent ctl_dm_lstbx1
+        #part-number 5
+        position 3.6 0 -0.45
+        orientation 0 0 0 0
+    endnode
+    node dummy bottom
+        parent ctl_dm_lstbx1
+        #part-number 6
+        position 0 -3.84 -0.45
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_dm_lstbx1
+        #part-number 7
+        position 0.04 -0.01 -0.45
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane158
+        parent ctl_dm_lstbx1
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 1.715 -10 -0.55
+        orientation 0 0 0 0
+        verts 4
+            -1.715 10 0
+            -1.715 -10 0
+            1.715 10 0
+            1.715 -10 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00388342 0.937502 0
+            0.00388342 2.41399e-06 0
+            0.0117188 0.937502 0
+            0.0117188 2.38419e-06 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_dm_lstbx1
+donemodel ctl_dm_lstbx1

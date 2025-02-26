@@ -1,0 +1,77 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_srv_gm_list
+        setsupermodel ctl_srv_gm_list NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_srv_gm_list
+    node dummy ctl_srv_gm_list
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane39
+        parent ctl_srv_gm_list
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pnl_srv_lst
+        texture0 pnl_srv_lst
+        rotatetexture 0
+        position 0.815 -1.555 0
+        orientation 0 0 0 0
+        verts 4
+            -0.815 1.555 0
+            -0.815 -1.555 0
+            0.815 1.555 0
+            0.815 -1.555 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.742188 0
+            0 0.134766 0
+            0.318359 0.742188 0
+            0.318359 0.134766 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy scrollmin
+        parent ctl_srv_gm_list
+        #part-number 2
+        position 1.44 -0.16 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_srv_gm_list
+        #part-number 3
+        position 1.44 -1.93 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_srv_gm_list
+        #part-number 4
+        position 1.32 -2.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_srv_gm_list
+        #part-number 5
+        position 0.08 -0.05 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_srv_gm_list
+donemodel ctl_srv_gm_list

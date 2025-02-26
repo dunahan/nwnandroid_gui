@@ -1,0 +1,61 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_opt_key_lst
+        setsupermodel ctl_opt_key_lst NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_opt_key_lst
+    node dummy ctl_opt_key_lst
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollpane
+        parent ctl_opt_key_lst
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listitem
+        parent scrollpane
+        #part-number 2
+        position 0.02 2.79 0
+        orientation 0 0 0 0
+    endnode
+    node dummy bottom
+        parent ctl_opt_key_lst
+        #part-number 3
+        position 0.03 0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_opt_key_lst
+        #part-number 4
+        position 4.08 0.13 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_opt_key_lst
+        #part-number 5
+        position 4.08 2.95 0
+        orientation 0 0 0 0
+    endnode
+    node dummy top
+        parent ctl_opt_key_lst
+        #part-number 6
+        position 4.26 3.13 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_opt_key_lst
+        #part-number 7
+        position 0.17 3.11 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_opt_key_lst
+        #part-number 8
+        position 3.98 0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_opt_key_lst
+donemodel ctl_opt_key_lst

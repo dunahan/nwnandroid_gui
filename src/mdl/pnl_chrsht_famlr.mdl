@@ -1,0 +1,1551 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chrsht_famlr
+        setsupermodel pnl_chrsht_famlr NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chrsht_famlr
+    node dummy pnl_chrsht_famlr
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy chastat1
+        parent pnl_chrsht_famlr
+        #part-number 1
+        position 3.29 -1.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy wisstat1
+        parent pnl_chrsht_famlr
+        #part-number 2
+        position 3.29 -1.2 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy constat1
+        parent pnl_chrsht_famlr
+        #part-number 3
+        position 3.29 -0.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy wisicon
+        parent pnl_chrsht_famlr
+        #part-number 4
+        position 1.4 -1.1 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy stricon
+        parent pnl_chrsht_famlr
+        #part-number 5
+        position 1.4 -0.3 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy inticon
+        parent pnl_chrsht_famlr
+        #part-number 6
+        position 1.4 -0.9 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy dexicon
+        parent pnl_chrsht_famlr
+        #part-number 7
+        position 1.4 -0.5 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy conicon
+        parent pnl_chrsht_famlr
+        #part-number 8
+        position 1.4 -0.7 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy chaicon
+        parent pnl_chrsht_famlr
+        #part-number 9
+        position 1.4 -1.3 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lwisdom1
+        parent pnl_chrsht_famlr
+        #part-number 10
+        position 3 -1.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy strstat1
+        parent pnl_chrsht_famlr
+        #part-number 11
+        position 3.29 -0.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack21
+        parent pnl_chrsht_famlr
+        #part-number 12
+        position 3.01 -1.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lstrength1
+        parent pnl_chrsht_famlr
+        #part-number 13
+        position 3 -0.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy fullname1
+        parent pnl_chrsht_famlr
+        #part-number 14
+        position 3.59 -0.2 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lconstitution0
+        parent pnl_chrsht_famlr
+        #part-number 15
+        position 1.52 -0.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack31
+        parent pnl_chrsht_famlr
+        #part-number 16
+        position 3.3 -1.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack31
+        parent pnl_chrsht_famlr
+        #part-number 17
+        position 3.3 -1.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack21
+        parent pnl_chrsht_famlr
+        #part-number 18
+        position 3.01 -1.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack11
+        parent pnl_chrsht_famlr
+        #part-number 19
+        position 2.72 -1.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack11
+        parent pnl_chrsht_famlr
+        #part-number 20
+        position 2.72 -1.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack01
+        parent pnl_chrsht_famlr
+        #part-number 21
+        position 2.43 -1.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack01
+        parent pnl_chrsht_famlr
+        #part-number 22
+        position 2.43 -1.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lranged1
+        parent pnl_chrsht_famlr
+        #part-number 23
+        position 2.14 -1.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lmelee1
+        parent pnl_chrsht_famlr
+        #part-number 24
+        position 2.14 -1.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy chamod1
+        parent pnl_chrsht_famlr
+        #part-number 25
+        position 3.59 -1.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy wismod1
+        parent pnl_chrsht_famlr
+        #part-number 26
+        position 3.59 -1.2 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy intmod1
+        parent pnl_chrsht_famlr
+        #part-number 27
+        position 3.59 -1 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy conmod1
+        parent pnl_chrsht_famlr
+        #part-number 28
+        position 3.59 -0.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy dexmod1
+        parent pnl_chrsht_famlr
+        #part-number 29
+        position 3.59 -0.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy strmod1
+        parent pnl_chrsht_famlr
+        #part-number 30
+        position 3.59 -0.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack20
+        parent pnl_chrsht_famlr
+        #part-number 31
+        position 2.73 -1.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack30
+        parent pnl_chrsht_famlr
+        #part-number 32
+        position 3.02 -1.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy intstat1
+        parent pnl_chrsht_famlr
+        #part-number 33
+        position 3.29 -1 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy strstat0
+        parent pnl_chrsht_famlr
+        #part-number 34
+        position 3.01 -0.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy dexstat1
+        parent pnl_chrsht_famlr
+        #part-number 35
+        position 3.29 -0.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lstrength0
+        parent pnl_chrsht_famlr
+        #part-number 36
+        position 1.52 -0.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lcharisma1
+        parent pnl_chrsht_famlr
+        #part-number 37
+        position 3 -1.4 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack10
+        parent pnl_chrsht_famlr
+        #part-number 38
+        position 2.44 -1.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lintelligence1
+        parent pnl_chrsht_famlr
+        #part-number 39
+        position 3 -1 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lconstitution1
+        parent pnl_chrsht_famlr
+        #part-number 40
+        position 3 -0.8 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy ldexterity1
+        parent pnl_chrsht_famlr
+        #part-number 41
+        position 3 -0.6 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack00
+        parent pnl_chrsht_famlr
+        #part-number 42
+        position 2.15 -1.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack00
+        parent pnl_chrsht_famlr
+        #part-number 43
+        position 2.15 -1.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lintelligence0
+        parent pnl_chrsht_famlr
+        #part-number 44
+        position 1.52 -0.81 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy ldexterity0
+        parent pnl_chrsht_famlr
+        #part-number 45
+        position 1.52 -0.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy wisstat0
+        parent pnl_chrsht_famlr
+        #part-number 46
+        position 3.01 -1.01 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lcharisma0
+        parent pnl_chrsht_famlr
+        #part-number 47
+        position 1.52 -1.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lwisdom0
+        parent pnl_chrsht_famlr
+        #part-number 48
+        position 1.52 -1.01 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy rangedattack30
+        parent pnl_chrsht_famlr
+        #part-number 49
+        position 3.02 -1.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy dexstat0
+        parent pnl_chrsht_famlr
+        #part-number 50
+        position 3.01 -0.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy strmod0
+        parent pnl_chrsht_famlr
+        #part-number 51
+        position 3.3 -0.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack20
+        parent pnl_chrsht_famlr
+        #part-number 52
+        position 2.73 -1.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy dexmod0
+        parent pnl_chrsht_famlr
+        #part-number 53
+        position 3.3 -0.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy meleeattack10
+        parent pnl_chrsht_famlr
+        #part-number 54
+        position 2.44 -1.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy conmod0
+        parent pnl_chrsht_famlr
+        #part-number 55
+        position 3.3 -0.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy intmod0
+        parent pnl_chrsht_famlr
+        #part-number 56
+        position 3.3 -0.81 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy intstat0
+        parent pnl_chrsht_famlr
+        #part-number 57
+        position 3.01 -0.81 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy constat0
+        parent pnl_chrsht_famlr
+        #part-number 58
+        position 3.01 -0.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy chastat0
+        parent pnl_chrsht_famlr
+        #part-number 59
+        position 3.01 -1.22 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy wismod0
+        parent pnl_chrsht_famlr
+        #part-number 60
+        position 3.3 -1.01 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy chamod0
+        parent pnl_chrsht_famlr
+        #part-number 61
+        position 3.3 -1.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lmelee0
+        parent pnl_chrsht_famlr
+        #part-number 62
+        position 1.34 -1.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lranged0
+        parent pnl_chrsht_famlr
+        #part-number 63
+        position 1.34 -1.61 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy fullname0
+        parent pnl_chrsht_famlr
+        #part-number 64
+        position 1.34 -0.01 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent pnl_chrsht_famlr
+        #part-number 65
+        position 0 0 -0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane67
+        parent scrollpane
+        #part-number 66
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.71 -3.1 0
+        orientation 0 0 0 0
+        verts 4
+            -1.71 0.7 0
+            -1.71 -0.7 0
+            1.71 0.7 0
+            1.71 -0.7 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.265533 0.943845 0
+            0.265533 -0.00724226 0
+            0.296875 0.943844 0
+            0.296875 -0.0072428 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane79
+        parent scrollpane
+        #part-number 67
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.51 -3.1 0
+        orientation 0 0 0 0
+        verts 4
+            -0.09 0.7 0
+            -0.09 -0.7 0
+            0.09 0.7 0
+            0.09 -0.7 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.263672 0.943841 0
+            0.263672 -0.0072462 0
+            0.298828 0.943841 0
+            0.298828 -0.0072462 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane47
+        parent pnl_chrsht_famlr
+        #part-number 68
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.715 -1.605 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.425 0.195 0
+            -0.425 -0.195 0
+            0.425 0.195 0
+            0.425 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390253 0.94167 0
+            0.390253 -1.00833 0
+            0.421875 0.941669 0
+            0.421875 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane48
+        parent pnl_chrsht_famlr
+        #part-number 69
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.445 -1.605 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.195 0
+            -0.145 -0.195 0
+            0.145 0.195 0
+            0.145 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 0.941668 0
+            0.390625 -1.00833 0
+            0.422991 0.941667 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane49
+        parent pnl_chrsht_famlr
+        #part-number 70
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.155 -1.605 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.195 0
+            -0.145 -0.195 0
+            0.145 0.195 0
+            0.145 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 0.941668 0
+            0.390625 -1.00833 0
+            0.422991 0.941667 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane50
+        parent pnl_chrsht_famlr
+        #part-number 71
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.865 -1.605 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.195 0
+            -0.145 -0.195 0
+            0.145 0.195 0
+            0.145 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 0.941668 0
+            0.390625 -1.00833 0
+            0.422991 0.941667 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane51
+        parent pnl_chrsht_famlr
+        #part-number 72
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.575 -1.605 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.195 0
+            -0.145 -0.195 0
+            0.145 0.195 0
+            0.145 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 0.941668 0
+            0.390625 -1.00833 0
+            0.422991 0.941667 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane52
+        parent pnl_chrsht_famlr
+        #part-number 73
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.285 -1.605 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.195 0
+            -0.145 -0.195 0
+            0.145 0.195 0
+            0.145 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 0.941668 0
+            0.390625 -1.00833 0
+            0.422991 0.941667 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane54
+        parent pnl_chrsht_famlr
+        #part-number 74
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.15 -0.805 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.86 0.595 0
+            -0.86 -0.595 0
+            0.86 0.595 0
+            0.86 -0.595 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390441 2.94167 0
+            0.390441 -3.00833 0
+            0.422059 2.94167 0
+            0.422059 -3.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane55
+        parent pnl_chrsht_famlr
+        #part-number 75
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.45 -0.805 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.15 0.595 0
+            -0.15 -0.595 0
+            0.15 0.595 0
+            0.15 -0.595 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.389547 2.94167 0
+            0.389547 -3.00833 0
+            0.421875 2.94167 0
+            0.421875 -3.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane56
+        parent pnl_chrsht_famlr
+        #part-number 76
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.155 -0.805 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.145 0.595 0
+            -0.145 -0.595 0
+            0.145 0.595 0
+            0.145 -0.595 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 2.94167 0
+            0.390625 -3.00833 0
+            0.422991 2.94167 0
+            0.422991 -3.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane59
+        parent pnl_chrsht_famlr
+        #part-number 77
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.445 -0.105 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.155 0.105 0
+            -1.155 -0.105 0
+            1.155 0.105 0
+            1.155 -0.105 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.327989 0.983567 0
+            0.327989 -0.0526168 0
+            0.359511 0.983565 0
+            0.359511 -0.0526195 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane60
+        parent pnl_chrsht_famlr
+        #part-number 78
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.72 -2.105 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.43 0.295 0
+            -0.43 -0.295 0
+            0.43 0.295 0
+            0.43 -0.295 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390253 1.94167 0
+            0.390253 -1.00833 0
+            0.422247 1.94167 0
+            0.422247 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy lwill0
+        parent plane60
+        #part-number 79
+        position -0.385 -0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy lreflex0
+        parent plane60
+        #part-number 80
+        position -0.385 0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy lfortitude0
+        parent plane60
+        #part-number 81
+        position -0.385 0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane61
+        parent pnl_chrsht_famlr
+        #part-number 82
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.295 -2.105 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.145 0.295 0
+            -0.145 -0.295 0
+            0.145 0.295 0
+            0.145 -0.295 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390625 1.94167 0
+            0.390625 -1.00833 0
+            0.422991 1.94167 0
+            0.422991 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy reflexsavingthrowstat1
+        parent plane61
+        #part-number 83
+        position 0.135 -0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy fortsavingthrowstat1
+        parent plane61
+        #part-number 84
+        position 0.135 0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy reflexsavingthrowmod0
+        parent plane61
+        #part-number 85
+        position 0.145 0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy willsavingthrowmod0
+        parent plane61
+        #part-number 86
+        position 0.145 -0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy fortsavingthrowmod1
+        parent plane61
+        #part-number 87
+        position 0.425 0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy reflexsavingthrowmod1
+        parent plane61
+        #part-number 88
+        position 0.425 -0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy willsavingthrowstat1
+        parent plane61
+        #part-number 89
+        position 0.135 -0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy willsavingthrowmod1
+        parent plane61
+        #part-number 90
+        position 0.425 -0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy lfortitude1
+        parent plane61
+        #part-number 91
+        position -0.155 0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy willsavingthrowstat0
+        parent plane61
+        #part-number 92
+        position -0.145 -0.105 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy reflexsavingthrowstat0
+        parent plane61
+        #part-number 93
+        position -0.145 0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy lreflex1
+        parent plane61
+        #part-number 94
+        position -0.155 -0.095 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy fortsavingthrowstat0
+        parent plane61
+        #part-number 95
+        position -0.145 0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy fortsavingthrowmod0
+        parent plane61
+        #part-number 96
+        position 0.145 0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node dummy lwill1
+        parent plane61
+        #part-number 97
+        position -0.155 -0.295 0.3
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane63
+        parent pnl_chrsht_famlr
+        #part-number 98
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 0.645 -2.205 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.645 0.195 0
+            -0.645 -0.195 0
+            0.645 0.195 0
+            0.645 -0.195 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.265381 0.961354 0
+            0.265381 -0.000816703 0
+            0.296875 0.961354 0
+            0.296875 -0.000817478 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane64
+        parent pnl_chrsht_famlr
+        #part-number 99
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace01
+        texture0 gui_replace01
+        rotatetexture 0
+        position 0.65 -1.01 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.64 1 0
+            -0.64 -1 0
+            0.64 1 0
+            0.64 -1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            2.38419e-07 1 0
+            -1.19209e-07 0.21875 0
+            1 1 0
+            1 0.21875 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane69
+        parent pnl_chrsht_famlr
+        #part-number 100
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 0.005 -1.01 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.005 1 0
+            -0.005 -1 0
+            0.005 1 0
+            0.005 -1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.359375 0.9375 0
+            0.359375 0 0
+            0.375 0.9375 0
+            0.375 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane62
+        parent pnl_chrsht_famlr
+        #part-number 101
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.585 -2.105 -0.05
+        orientation 0 0 1 3.14159
+        verts 4
+            -0.145 0.295 0
+            -0.145 -0.295 0
+            0.145 0.295 0
+            0.145 -0.295 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.514509 1.94167 0
+            0.514509 -1.00833 0
+            0.546875 1.94167 0
+            0.546875 -1.00833 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane71
+        parent pnl_chrsht_famlr
+        #part-number 102
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.44 -1.805 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.15 0.005 0
+            -1.15 -0.005 0
+            1.15 0.005 0
+            1.15 -0.005 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.327989 0.996111 0
+            0.327989 0.937518 0
+            0.359375 0.996108 0
+            0.359375 0.937514 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane77
+        parent pnl_chrsht_famlr
+        #part-number 103
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.8 -0.005 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.8 0.005 0
+            -1.8 -0.005 0
+            1.8 0.005 0
+            1.8 -0.005 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0780377 0.997989 0
+            0.0780377 0.935489 0
+            0.109462 0.997983 0
+            0.109462 0.935483 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy description
+        parent pnl_chrsht_famlr
+        #part-number 104
+        position 0 -3.79 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane46
+        parent pnl_chrsht_famlr
+        #part-number 105
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.595 -1.905 0
+        orientation 0 0 0 0
+        verts 4
+            -0.005 0.495 0
+            -0.005 -0.495 0
+            0.005 0.495 0
+            0.005 -0.495 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.25 1.2553 0
+            0.25 -0.317797 0
+            0.265625 1.2553 0
+            0.265625 -0.317797 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane73
+        parent pnl_chrsht_famlr
+        #part-number 106
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chrsht_ac_hp
+        texture0 gui_chrsht_ac_hp
+        rotatetexture 0
+        position 3.16 -2.105 0
+        orientation 0 0 0 0
+        verts 4
+            -0.43 0.295 0
+            -0.43 -0.295 0
+            0.43 0.295 0
+            0.43 -0.295 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.335938 0.984375 0
+            0.335937 0.0625001 0
+            0.671875 0.984375 0
+            0.671875 0.0624998 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy armorclass0
+        parent pnl_chrsht_famlr
+        #part-number 107
+        position 2.73 -2.09 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy armorclass1
+        parent pnl_chrsht_famlr
+        #part-number 108
+        position 3.07 -2.27 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy hitpoints0
+        parent pnl_chrsht_famlr
+        #part-number 109
+        position 3.16 -2.04 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy hitpoints1
+        parent pnl_chrsht_famlr
+        #part-number 110
+        position 3.585 -2.22 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lac0
+        parent pnl_chrsht_famlr
+        #part-number 111
+        position 2.73 -1.96 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lac1
+        parent pnl_chrsht_famlr
+        #part-number 112
+        position 3.07 -2.14 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lhp0
+        parent pnl_chrsht_famlr
+        #part-number 113
+        position 3.27 -1.84 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy lhp1
+        parent pnl_chrsht_famlr
+        #part-number 114
+        position 3.5 -2.03 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy maxhitpoints0
+        parent pnl_chrsht_famlr
+        #part-number 115
+        position 3.16 -2.2 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy maxhitpoints1
+        parent pnl_chrsht_famlr
+        #part-number 116
+        position 3.585 -2.38 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy alignmentstring1
+        parent pnl_chrsht_famlr
+        #part-number 117
+        position 3.06 -2.23 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy classstring0
+        parent pnl_chrsht_famlr
+        #part-number 118
+        position 0.01 -0.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy classstring1
+        parent pnl_chrsht_famlr
+        #part-number 119
+        position 2.3 -0.41 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy experience0
+        parent pnl_chrsht_famlr
+        #part-number 120
+        position 0.05 -2.03 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy experience1
+        parent pnl_chrsht_famlr
+        #part-number 121
+        position 3.06 -2.03 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy racestring0
+        parent pnl_chrsht_famlr
+        #part-number 122
+        position 0.05 -0.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy racestring1
+        parent pnl_chrsht_famlr
+        #part-number 123
+        position 2.3 -0.21 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy alignmentstring0
+        parent pnl_chrsht_famlr
+        #part-number 124
+        position 2.31 -2.23 0.25
+        orientation 0 0 0 0
+    endnode
+    node dummy list
+        parent pnl_chrsht_famlr
+        #part-number 125
+        position 0.01 -13.78 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane78
+        parent pnl_chrsht_famlr
+        #part-number 126
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 2.44 -1.405 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.15 0.005 0
+            -1.15 -0.005 0
+            1.15 0.005 0
+            1.15 -0.005 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.327989 0.996111 0
+            0.327989 0.937518 0
+            0.359375 0.996108 0
+            0.359375 0.937514 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_chrsht_famlr
+donemodel pnl_chrsht_famlr

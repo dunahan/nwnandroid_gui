@@ -1,0 +1,65 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel edit_con_port
+        setsupermodel edit_con_port NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_con_port
+    node dummy edit_con_port
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent edit_con_port
+        #part-number 1
+        position 0.05 0.91 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent edit_con_port
+        #part-number 2
+        position 3.46 0.03 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane12
+        parent edit_con_port
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_con_prtl_inf
+        texture0 ctl_con_prtl_inf
+        rotatetexture 0
+        position 1.765 0.495 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.765 0.495 0
+            -1.765 -0.495 0
+            1.765 0.495 0
+            1.765 -0.495 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.154297 0.890625 0
+            0.154297 0.117188 0
+            0.84375 0.890625 0
+            0.84375 0.117187 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom edit_con_port
+donemodel edit_con_port

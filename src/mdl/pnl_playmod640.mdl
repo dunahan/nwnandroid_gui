@@ -1,0 +1,138 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
+#MAXMODEL ASCII
+newmodel pnl_playmod640
+        setsupermodel pnl_playmod640 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_playmod640
+    node dummy pnl_playmod640
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy servertab
+        parent pnl_playmod640
+        #part-number 1
+        position 2.06433 3.41217 0
+        orientation 0 0 0 0
+    endnode
+    node dummy chartab
+        parent pnl_playmod640
+        #part-number 2
+        position 3.58131 3.41217 0
+        orientation 0 0 0 0
+    endnode
+    node dummy playerstab
+        parent pnl_playmod640
+        #part-number 3
+        position 4.97815 3.41217 0
+        orientation 0 0 0 0
+    endnode
+    node dummy servernamelabel
+        parent pnl_playmod640
+        #part-number 4
+        position 0.189586 3.60743 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_players640
+        parent pnl_playmod640
+        #part-number 5
+        position 2.16413 0.6942 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_chk_dm
+        parent pnl_playmod640
+        #part-number 6
+        position 0.198244 2.94593 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_chk_local
+        parent pnl_playmod640
+        #part-number 7
+        position 0.198244 2.34479 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_details640
+        parent pnl_playmod640
+        #part-number 8
+        position 2.16514 0.6942 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_chk_vault
+        parent pnl_playmod640
+        #part-number 9
+        position 0.198244 3.25553 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_charrec640
+        parent pnl_playmod640
+        #part-number 10
+        position 2.16514 0.6942 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_chk_server
+        parent pnl_playmod640
+        #part-number 11
+        position 0.198244 2.62848 0
+        orientation 0 0 0 0
+    endnode
+    node dummy playbutton
+        parent pnl_playmod640
+        #part-number 12
+        position 3.58209 0.152308 0
+        orientation 0 0 0 0
+    endnode
+    node dummy cancelbutton
+        parent pnl_playmod640
+        #part-number 13
+        position 4.9807 0.152308 0
+        orientation 0 0 0 0
+    endnode
+    node dummy newbutton
+        parent pnl_playmod640
+        #part-number 14
+        position 2.16413 0.152308 0
+        orientation 0 0 0 0
+    endnode
+    node dummy pmod_lst_chr640
+        parent pnl_playmod640
+        #part-number 15
+        position 0.198244 0.209111 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane
+        parent pnl_playmod640
+        #part-number 16
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap panel
+        texture0 panel
+        rotatetexture 0
+        position 3.19 2 0
+        orientation 0 0 0 0
+        verts 4
+            -3.2 2 0
+            -3.2 -2 0
+            3.2 2 0
+            3.2 -2 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_playmod640
+donemodel pnl_playmod640

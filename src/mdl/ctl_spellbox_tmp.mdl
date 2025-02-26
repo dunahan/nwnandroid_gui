@@ -1,0 +1,140 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_spellbox_tmp
+        setsupermodel ctl_spellbox_tmp NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_spellbox_tmp
+    node dummy ctl_spellbox_tmp
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy next
+        parent ctl_spellbox_tmp
+        #part-number 1
+        position 0.34 0 0
+        orientation 0 0 0 0
+    endnode
+    node animmesh icon
+        parent ctl_spellbox_tmp
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0.17 -0.17 0
+        orientation 0 0 0 0
+        verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.452148 0.964844 0
+            0.452148 -0.0312496 0
+            0.485352 0.964844 0
+            0.485352 -0.0312499 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_spellbox_tmp
+
+#MAXANIM ASCII
+newanim default ctl_spellbox_tmp
+        length 1
+        transtime 0
+        animroot ctl_spellbox_tmp
+        node dummy ctl_spellbox_tmp
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy next
+            parent ctl_spellbox_tmp
+            #part-number 1
+        endnode
+        node animmesh icon
+            parent ctl_spellbox_tmp
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.452148 0.964844 0
+            0.452148 -0.0312496 0
+            0.485352 0.964844 0
+            0.485352 -0.0312499 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.452148 0.964844 0
+      0.452148 -0.0312496 0
+      0.485352 0.964844 0
+      0.485352 -0.0312499 0
+        endnode
+doneanim default ctl_spellbox_tmp
+
+#MAXANIM ASCII
+newanim hilite ctl_spellbox_tmp
+        length 1
+        transtime 0
+        animroot ctl_spellbox_tmp
+        node dummy ctl_spellbox_tmp
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy next
+            parent ctl_spellbox_tmp
+            #part-number 1
+        endnode
+        node animmesh icon
+            parent ctl_spellbox_tmp
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.17 0.17 0
+            -0.17 -0.17 0
+            0.17 0.17 0
+            0.17 -0.17 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.452148 0.964844 0
+            0.452148 -0.0312496 0
+            0.485352 0.964844 0
+            0.485352 -0.0312499 0
+            animverts 4
+      -0.17 0.17 0
+      -0.17 -0.17 0
+      0.17 0.17 0
+      0.17 -0.17 0
+            animtverts 4
+      0.0146484 0.9668 0
+      0.0146484 -0.0292934 0
+      0.0478516 0.9668 0
+      0.0478516 -0.0292936 0
+        endnode
+doneanim hilite ctl_spellbox_tmp
+donemodel ctl_spellbox_tmp

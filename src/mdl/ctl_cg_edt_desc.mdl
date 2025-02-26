@@ -1,0 +1,129 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_edt_desc
+        setsupermodel ctl_cg_edt_desc NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_edt_desc
+    node dummy ctl_cg_edt_desc
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_edt_desc
+        #part-number 1
+        position 3.29 3.5 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_edt_desc
+        #part-number 2
+        position 3.29 0.16 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_cg_edt_desc
+        #part-number 3
+        position 0.06 3.62 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_edt_desc
+        #part-number 4
+        position 3.25 0.01 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane84
+        parent ctl_cg_edt_desc
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.715 3.735 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.105 0
+            -1.715 -0.105 0
+            1.715 0.105 0
+            1.715 -0.105 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.982803 0
+            0.578033 -0.00157201 0
+            0.609467 0.982799 0
+            0.609467 -0.00157583 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy title0
+        parent ctl_cg_edt_desc
+        #part-number 6
+        position 0.06 3.83 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy title1
+        parent ctl_cg_edt_desc
+        #part-number 7
+        position 3.42 3.63 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane77
+        parent ctl_cg_edt_desc
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.715 1.815 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 1.815 0
+            -1.715 -1.815 0
+            1.715 1.815 0
+            1.715 -1.815 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.939923 0
+            0.578033 -0.0027706 0
+            0.609467 0.939923 0
+            0.609467 -0.00277078 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_cg_edt_desc
+donemodel ctl_cg_edt_desc

@@ -1,38 +1,37 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
 #MAXMODEL ASCII
-# model: INV_EQPOL_LHAND
-filedependancy INV_EQPOL_LHAND.max
-newmodel INV_EQPOL_LHAND
-setsupermodel INV_EQPOL_LHAND NULL
-classification CHARACTER
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom INV_EQPOL_LHAND
-node dummy INV_EQPOL_LHAND
-  parent NULL
-endnode
-node trimesh Plane68
-  parent INV_EQPOL_LHAND
-  ambient 0.1 0.1 0.1
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_boxes_ingame
-  verts 4
-      -0.3450000    0.6600000    0.0000000
-      -0.3450000   -0.6600000    0.0000000
-       0.3450000    0.6600000    0.0000000
-       0.3450000   -0.6600000    0.0000000
-  tverts 4
-       0.9568910    0.9521170  0
-       0.9568910   -0.0146802  0
-       0.9656840    0.9521160  0
-       0.9656840   -0.0146803  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 0.335 0.65 0.55
-  orientation 0 0 0 0
-endnode
-endmodelgeom INV_EQPOL_LHAND
-
-donemodel INV_EQPOL_LHAND
+filedependency Unknown
+newmodel inv_eqpol_lhand
+        classification CHARACTER
+        setsupermodel inv_eqpol_lhand NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom inv_eqpol_lhand
+    node dummy inv_eqpol_lhand
+        parent NULL
+    endnode
+    node trimesh plane68
+        parent inv_eqpol_lhand
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap gui_boxes_ingame
+        position 0.335 0.65 0.55
+        orientation 0 0 0 0
+        verts 4
+            -0.345 0.66 0
+            -0.345 -0.66 0
+            0.345 0.66 0
+            0.345 -0.66 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.956891 0.952117 0
+            0.956891 -0.0146802 0
+            0.965684 0.952116 0
+            0.965684 -0.0146803 0
+    endnode
+endmodelgeom inv_eqpol_lhand
+donemodel inv_eqpol_lhand

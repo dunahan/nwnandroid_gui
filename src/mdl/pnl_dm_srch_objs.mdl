@@ -1,0 +1,54 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_dm_srch_objs
+        classification CHARACTER
+        setsupermodel pnl_dm_srch_objs NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_dm_srch_objs
+    node dummy pnl_dm_srch_objs
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane04
+        parent pnl_dm_srch_objs
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0 0 0
+        orientation 0 0 0 0
+        verts 4
+            -2.25 0.9 0
+            -2.25 -0.9 0
+            2.25 0.9 0
+            2.25 -0.9 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0780552 0.942423 0
+            0.0780552 -0.00561041 0
+            0.109445 0.942423 0
+            0.109445 -0.00561094 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_dm_srch_objs
+donemodel pnl_dm_srch_objs

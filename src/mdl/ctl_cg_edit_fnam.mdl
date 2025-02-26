@@ -1,0 +1,65 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_edit_fnam
+        setsupermodel ctl_cg_edit_fnam NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_edit_fnam
+    node dummy ctl_cg_edit_fnam
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane270
+        parent ctl_cg_edit_fnam
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_cg_edit_fnam
+        texture0 ctl_cg_edit_fnam
+        rotatetexture 0
+        position 1.125 0.125 0
+        orientation 0 0 0 0
+        verts 4
+            -1.125 0.125 0
+            -1.125 -0.125 0
+            1.125 0.125 0
+            1.125 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0585938 0.906251 0
+            0.0585938 0.125001 0
+            0.9375 0.906249 0
+            0.9375 0.124999 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text0
+        parent ctl_cg_edit_fnam
+        #part-number 2
+        position 0.08 0.22 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_edit_fnam
+        #part-number 3
+        position 2.2 0.03 0.1
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_edit_fnam
+donemodel ctl_cg_edit_fnam

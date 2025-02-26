@@ -1,0 +1,25 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel edit_popup_1x30
+        setsupermodel edit_popup_1x30 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_popup_1x30
+    node dummy edit_popup_1x30
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text1
+        parent edit_popup_1x30
+        #part-number 1
+        position 3.5 0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent edit_popup_1x30
+        #part-number 2
+        position 0.1 0.17 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom edit_popup_1x30
+donemodel edit_popup_1x30

@@ -1,0 +1,121 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel gui_ra_menu
+        setsupermodel gui_ra_menu NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom gui_ra_menu
+    node dummy gui_ra_menu
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy 2submenu
+        parent gui_ra_menu
+        #part-number 1
+        position 1.55 0 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 6submenu
+        parent gui_ra_menu
+        #part-number 2
+        position -1.55 0 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 2hook
+        parent gui_ra_menu
+        #part-number 3
+        position 1 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 6hook
+        parent gui_ra_menu
+        #part-number 4
+        position -1 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 0submenu
+        parent gui_ra_menu
+        #part-number 5
+        position 0 1.55 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 7submenu
+        parent gui_ra_menu
+        #part-number 6
+        position -1.1 1.1 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 0hook
+        parent gui_ra_menu
+        #part-number 7
+        position 0 1 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 1submenu
+        parent gui_ra_menu
+        #part-number 8
+        position 1.1 1.1 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 5submenu
+        parent gui_ra_menu
+        #part-number 9
+        position -1.1 -1.1 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 4submenu
+        parent gui_ra_menu
+        #part-number 10
+        position 0 -1.55 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy 1hook
+        parent gui_ra_menu
+        #part-number 11
+        position 0.71 0.71 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 7hook
+        parent gui_ra_menu
+        #part-number 12
+        position -0.71 0.71 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 5hook
+        parent gui_ra_menu
+        #part-number 13
+        position -0.71 -0.71 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 3hook
+        parent gui_ra_menu
+        #part-number 14
+        position 0.71 -0.71 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 4hook
+        parent gui_ra_menu
+        #part-number 15
+        position 0 -1 0
+        orientation 0 0 0 0
+    endnode
+    node dummy 3submenu
+        parent gui_ra_menu
+        #part-number 16
+        position 1.1 -1.1 0.2
+        orientation 0 0 0 0
+    endnode
+    node dummy center
+        parent gui_ra_menu
+        #part-number 17
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text
+        parent gui_ra_menu
+        #part-number 18
+        position 0 -0.4 0.2
+        orientation 0 0 0 0
+    endnode
+endmodelgeom gui_ra_menu
+donemodel gui_ra_menu

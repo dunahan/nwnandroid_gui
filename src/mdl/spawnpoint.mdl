@@ -1,0 +1,113 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:37 2025
+#MAXMODEL ASCII
+newmodel spawnpoint
+        classification CHARACTER
+        setsupermodel spawnpoint NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom spawnpoint
+    node dummy spawnpoint
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh prism01
+        parent spawnpoint
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap NULL
+        texture0 NULL
+        rotatetexture 0
+        position -0.00515816 -0.0939255 0
+        orientation 0 0 0 0
+        verts 22
+            0.25 0.322749 2.5
+            0 0 2.5
+            0.5 0 2.5
+            0.25 0.968246 2.5
+            0.25 0.968246 2.5
+            0 0 2.5
+            0 0 0
+            0.5 0 0
+            0.5 0 2.5
+            0.5 0 2.5
+            0.5 0 0
+            0.25 0.968246 0
+            0.25 0.968246 2.5
+            0.25 0.968246 2.5
+            0.25 0.968246 0
+            0 0 0
+            0 0 2.5
+            0 0 0
+            0.25 0.322749 0
+            0.5 0 0
+            0.25 0.968246 0
+            0.25 0.968246 0
+        faces 12
+            0 1 2 1 0 1 2 1
+            0 2 3 1 0 2 3 1
+            0 4 1 1 0 4 1 1
+            5 6 7 2 5 6 7 1
+            5 7 8 2 5 7 8 1
+            9 10 11 4 9 10 11 1
+            9 11 12 4 9 11 12 1
+            13 14 15 8 13 14 15 1
+            13 15 16 8 13 15 16 1
+            17 18 19 1 17 18 19 1
+            19 18 20 1 19 18 20 1
+            21 18 17 1 21 18 17 1
+        colors 22
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 22
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 -1 0
+            0 -1 0
+            0 -1 0
+            0 -1 0
+            0.968246 0.25 0
+            0.968246 0.25 0
+            0.968246 0.25 0
+            0.968246 0.25 0
+            -0.968246 0.25 0
+            -0.968246 0.25 0
+            -0.968246 0.25 0
+            -0.968246 0.25 0
+            0 0 -1
+            0 0 -1
+            0 0 -1
+            0 0 -1
+            0 0 -1
+    endnode
+endmodelgeom spawnpoint
+donemodel spawnpoint

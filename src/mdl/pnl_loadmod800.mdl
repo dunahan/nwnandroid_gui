@@ -1,0 +1,259 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_loadmod800
+        setsupermodel pnl_loadmod800 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_loadmod800
+    node dummy pnl_loadmod800
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy title
+        parent pnl_loadmod800
+        #part-number 1
+        position -3.49 2.42 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane21
+        parent pnl_loadmod800
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap load_crypt
+        texture0 load_crypt
+        rotatetexture 0
+        position -1.44 0.44 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -2.56 2.56 0
+            -2.56 -2.56 0
+            2.56 2.56 0
+            2.56 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane168
+        parent plane21
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap load_crypt2
+        texture0 load_crypt2
+        rotatetexture 0
+        position 0 -3 0
+        orientation 0 0 0 0
+        verts 4
+            -2.56 0.44 0
+            -2.56 -0.44 0
+            2.56 0.44 0
+            2.56 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.171875 0
+            -1.19209e-07 1.19209e-07 0
+            1 0.171875 0
+            1 -1.19209e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane166
+        parent plane168
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap load_crypt2
+        texture0 load_crypt2
+        rotatetexture 0
+        position 4 3 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 2.56 0
+            -1.44 -2.56 0
+            1.44 2.56 0
+            1.44 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1 1 0
+            1.19209e-07 1 0
+            1 0.4375 0
+            0 0.4375 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane22
+        parent plane166
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap load_crypt2
+        texture0 load_crypt2
+        rotatetexture 0
+        position 0 -3 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 0.44 0
+            -1.44 -0.44 0
+            1.44 0.44 0
+            1.44 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.4375 0.371094 0
+            0.4375 0.199219 0
+            1 0.371094 0
+            1 0.199219 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane06
+        parent plane22
+        #part-number 6
+        diffuse 1 1 1
+        ambient 0.088888 0.0640517 0.181698
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_transprnt
+        texture0 gui_transprnt
+        rotatetexture 0
+        position -2.56 2.56 0.01
+        orientation 0 0 0 0
+        verts 4
+            -4 3 0
+            -4 -3 0
+            4 3 0
+            4 -3 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane16
+        parent plane06
+        #part-number 7
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0 0.525 0.01
+        orientation 0 0 0 0
+        verts 4
+            -3.6 2.275 0
+            -3.6 -2.275 0
+            3.6 2.275 0
+            3.6 -2.275 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578081 0.939431 0
+            0.578081 -0.00220835 0
+            0.609419 0.93943 0
+            0.609419 -0.00220871 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_loadmod800
+donemodel pnl_loadmod800

@@ -1,0 +1,375 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chr_sex
+        setsupermodel pnl_chr_sex NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chr_sex
+    node dummy pnl_chr_sex
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy helptext
+        parent pnl_chr_sex
+        #part-number 1
+        position 0.191259 -1.74348 0
+        orientation 0 0 0 0
+    endnode
+    node dummy malebutton
+        parent pnl_chr_sex
+        #part-number 2
+        position -2.84283 0.755215 0
+        orientation 0 0 0 0
+    endnode
+    node dummy femalebutton
+        parent pnl_chr_sex
+        #part-number 3
+        position -2.85 0.3 0
+        orientation 0 0 0 0
+    endnode
+    node dummy okbutton
+        parent pnl_chr_sex
+        #part-number 4
+        position 0.191259 -2.54342 0
+        orientation 0 0 0 0
+    endnode
+    node dummy resetbutton
+        parent pnl_chr_sex
+        #part-number 5
+        position 1.34126 -2.54342 0
+        orientation 0 0 0 0
+    endnode
+    node dummy cancelbutton
+        parent pnl_chr_sex
+        #part-number 6
+        position 2.5 -2.54 0
+        orientation 0 0 0 0
+    endnode
+    node dummy titlelabel
+        parent pnl_chr_sex
+        #part-number 7
+        position -3.65804 2.3477 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh fog12
+        parent pnl_chr_sex
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.0705882 0 0.133333
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap fog05
+        texture0 fog05
+        rotatetexture 0
+        position -1.44 0.44 -0.07
+        orientation 0 0 0 0
+        verts 4
+            -2.56 2.56 0
+            -2.56 -2.56 0
+            2.56 2.56 0
+            2.56 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1.19209e-07 1 0
+            -1.19209e-07 1.49012e-07 0
+            1 1 0
+            1 -1.19209e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh fog11
+        parent fog12
+        #part-number 9
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap fog06
+        texture0 fog06
+        rotatetexture 0
+        position 4 2.44141e-06 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 2.56 0
+            -1.44 -2.56 0
+            1.44 2.56 0
+            1.44 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1.00195 0.962891 0
+            0.00195372 0.962891 0
+            1.00195 0.400391 0
+            0.00195357 0.400391 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh fog09
+        parent fog11
+        #part-number 10
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap fog06
+        texture0 fog06
+        rotatetexture 0
+        position 0 -3 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 0.44 0
+            -1.44 -0.44 0
+            1.44 0.44 0
+            1.44 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.4375 0.38086 0
+            0.4375 0.208985 0
+            1 0.38086 0
+            1 0.208985 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh fog10
+        parent fog09
+        #part-number 11
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap fog06
+        texture0 fog06
+        rotatetexture 0
+        position -4 -2.44141e-06 0
+        orientation 0 0 0 0
+        verts 4
+            -2.56 0.44 0
+            -2.56 -0.44 0
+            2.56 0.44 0
+            2.56 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.171875 0
+            -1.19209e-07 1.19209e-07 0
+            1 0.171875 0
+            1 -1.19209e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane207
+        parent fog10
+        #part-number 12
+        diffuse 1 1 1
+        ambient 0.329408 0.118953 0.163397
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap cg_main_bkg08
+        texture0 cg_main_bkg08
+        rotatetexture 0
+        position 0 3 0.02
+        orientation 0 0 0 0
+        verts 4
+            -2.56 2.56 0
+            -2.56 -2.56 0
+            2.56 2.56 0
+            2.56 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1.19209e-07 1 0
+            -1.19209e-07 1.49012e-07 0
+            1 1 0
+            1 -1.19209e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane206
+        parent plane207
+        #part-number 13
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap cg_main_bkg09
+        texture0 cg_main_bkg09
+        rotatetexture 0
+        position 4 2.44141e-06 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 2.56 0
+            -1.44 -2.56 0
+            1.44 2.56 0
+            1.44 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1.00195 0.962891 0
+            0.00195372 0.962891 0
+            1.00195 0.400391 0
+            0.00195357 0.400391 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane204
+        parent plane206
+        #part-number 14
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap cg_main_bkg09
+        texture0 cg_main_bkg09
+        rotatetexture 0
+        position 0 -3 0
+        orientation 0 0 0 0
+        verts 4
+            -1.44 0.44 0
+            -1.44 -0.44 0
+            1.44 0.44 0
+            1.44 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.4375 0.38086 0
+            0.4375 0.208985 0
+            1 0.38086 0
+            1 0.208985 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane205
+        parent plane204
+        #part-number 15
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap cg_main_bkg09
+        texture0 cg_main_bkg09
+        rotatetexture 0
+        position -4 -2.44141e-06 0
+        orientation 0 0 0 0
+        verts 4
+            -2.56 0.44 0
+            -2.56 -0.44 0
+            2.56 0.44 0
+            2.56 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.171875 0
+            -1.19209e-07 1.19209e-07 0
+            1 0.171875 0
+            1 -1.19209e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_chr_sex
+donemodel pnl_chr_sex

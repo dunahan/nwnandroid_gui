@@ -1,151 +1,209 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUTTONSMALL
-filedependancy BUTTONSMALL.max
-newmodel BUTTONSMALL
-setsupermodel BUTTONSMALL NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUTTONSMALL
-node dummy BUTTONSMALL
-  parent NULL
-endnode
-node trimesh Plane02
-  parent BUTTONSMALL
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -0.6400000    0.1600000    0.0000000
-      -0.6400000   -0.1600000    0.0000000
-       0.6400000    0.1600000    0.0000000
-       0.6400000   -0.1600000    0.0000000
-  tverts 4
-       0.7500840    0.9375550  0
-       0.7500840    0.8750550  0
-       1.0000800    0.9375550  0
-       1.0000800    0.8750550  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0.639845 0.154744 0.0207503
-  orientation 0 0 0 0
-  selfillumcolor 0 0 0
-endnode
-node trimesh Plane03
-  parent Plane02
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -0.6400000    0.1600000    0.0000000
-      -0.6400000   -0.1600000    0.0000000
-       0.6400000    0.1600000    0.0000000
-       0.6400000   -0.1600000    0.0000000
-  tverts 4
-       0.7505480    0.7493450  0
-       0.7505480    0.6868450  0
-       1.0005500    0.7493450  0
-       1.0005500    0.6868450  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position -0.00113526 0.00466812 0
-  orientation -1 0 0 -3.14159
-  selfillumcolor 0 0 0
-endnode
-node dummy text
-  parent BUTTONSMALL
-  position 0.626527 0.152919 0.0606788
-  orientation 0 0 0 0
-endnode
-endmodelgeom BUTTONSMALL
+newmodel buttonsmall
+        setsupermodel buttonsmall NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom buttonsmall
+    node dummy buttonsmall
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane02
+        parent buttonsmall
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.639845 0.154744 0.0207503
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.64 0.16 0
+            -0.64 -0.16 0
+            0.64 0.16 0
+            0.64 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.750084 0.937555 0
+            0.750084 0.875055 0
+            1.00008 0.937555 0
+            1.00008 0.875055 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane03
+        parent plane02
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position -0.00113526 0.00466812 0
+        orientation 1 0 0 3.14159
+        selfillumcolor 0 0 0
+        verts 4
+            -0.64 0.16 0
+            -0.64 -0.16 0
+            0.64 0.16 0
+            0.64 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.750548 0.749345 0
+            0.750548 0.686845 0
+            1.00055 0.749345 0
+            1.00055 0.686845 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text
+        parent buttonsmall
+        #part-number 3
+        position 0.626527 0.152919 0.0606788
+        orientation 0 0 0 0
+    endnode
+endmodelgeom buttonsmall
 
 #MAXANIM ASCII
-newanim down BUTTONSMALL
-  length 0.333333
-  transtime 0
-  node dummy BUTTONSMALL
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUTTONSMALL
-    orientationkey 2
-         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-  endnode
-  node dummy Plane03
-    parent Plane02
-  endnode
-  node dummy text
-    parent BUTTONSMALL
-  endnode
-doneanim down BUTTONSMALL
+newanim down buttonsmall
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonsmall
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent buttonsmall
+            #part-number 1
+            orientationkey
+      0 1 0 0 3.14159
+      0.333333 1 0 0 3.14159
+            endlist
+        endnode
+        node dummy plane03
+            parent plane02
+            #part-number 2
+        endnode
+        node dummy text
+            parent buttonsmall
+            #part-number 3
+        endnode
+doneanim down buttonsmall
 
 #MAXANIM ASCII
-newanim up BUTTONSMALL
-  length 0.333333
-  transtime 0
-  node dummy BUTTONSMALL
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUTTONSMALL
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-  node dummy Plane03
-    parent Plane02
-  endnode
-  node dummy text
-    parent BUTTONSMALL
-  endnode
-doneanim up BUTTONSMALL
+newanim press buttonsmall
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonsmall
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent buttonsmall
+            #part-number 1
+            orientationkey
+      0 0 0 0 0
+      0.333333 1 0 0 3.14159
+            endlist
+        endnode
+        node dummy plane03
+            parent plane02
+            #part-number 2
+        endnode
+        node dummy text
+            parent buttonsmall
+            #part-number 3
+        endnode
+doneanim press buttonsmall
 
 #MAXANIM ASCII
-newanim press BUTTONSMALL
-  length 0.333333
-  transtime 0
-  node dummy BUTTONSMALL
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUTTONSMALL
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-  endnode
-  node dummy Plane03
-    parent Plane02
-  endnode
-  node dummy text
-    parent BUTTONSMALL
-  endnode
-doneanim press BUTTONSMALL
+newanim release buttonsmall
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonsmall
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent buttonsmall
+            #part-number 1
+            orientationkey
+      0 1 0 0 3.14159
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy plane03
+            parent plane02
+            #part-number 2
+        endnode
+        node dummy text
+            parent buttonsmall
+            #part-number 3
+        endnode
+doneanim release buttonsmall
 
 #MAXANIM ASCII
-newanim release BUTTONSMALL
-  length 0.333333
-  transtime 0
-  node dummy BUTTONSMALL
-    parent NULL
-  endnode
-  node dummy Plane02
-    parent BUTTONSMALL
-    orientationkey 2
-         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-  node dummy Plane03
-    parent Plane02
-  endnode
-  node dummy text
-    parent BUTTONSMALL
-  endnode
-doneanim release BUTTONSMALL
-
-donemodel BUTTONSMALL
+newanim up buttonsmall
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonsmall
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane02
+            parent buttonsmall
+            #part-number 1
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy plane03
+            parent plane02
+            #part-number 2
+        endnode
+        node dummy text
+            parent buttonsmall
+            #part-number 3
+        endnode
+doneanim up buttonsmall
+donemodel buttonsmall

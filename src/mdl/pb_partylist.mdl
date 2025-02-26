@@ -1,0 +1,25 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pb_partylist
+        setsupermodel pb_partylist NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pb_partylist
+    node dummy pb_partylist
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent pb_partylist
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent pb_partylist
+        #part-number 2
+        position 0.6 -2.24 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pb_partylist
+donemodel pb_partylist

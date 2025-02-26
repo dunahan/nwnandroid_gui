@@ -1,0 +1,280 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel er_template2
+        setsupermodel er_template2 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom er_template2
+    node dummy er_template2
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh mainpanel01
+        parent er_template2
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position 0.5 -0.18 -0.0001
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.5 0.18 0
+            -0.5 -0.18 0
+            0.5 0.18 0
+            0.5 -0.18 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.133333 0.2 0
+            0.133333 0.133333 0
+            0.2 0.2 0
+            0.2 0.133333 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh corner04
+        parent mainpanel01
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position -0.575 0.155 0
+        orientation 0 0 1 3.14159
+        selfillumcolor 0 0 0
+        verts 3
+            -0.075 0.075 0
+            -0.075 -0.075 0
+            0.075 0.075 0
+        faces 1
+            0 1 2 0 0 1 2 0
+        tverts 3
+            0 0 0
+            0.9375 0 0
+            0 0.9375 0
+        colors 3
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 3
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh corner05
+        parent mainpanel01
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position -0.575 -0.155 0
+        orientation 0 0 -1 1.5708
+        selfillumcolor 0 0 0
+        verts 3
+            -0.075 0.075 0
+            -0.075 -0.075 0
+            0.075 0.075 0
+        faces 1
+            0 1 2 0 0 1 2 0
+        tverts 3
+            0 0 0
+            0.9375 0 0
+            0 0.9375 0
+        colors 3
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 3
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh corner06
+        parent mainpanel01
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position 0.575 0.155 0
+        orientation 0 0 1 1.5708
+        selfillumcolor 0 0 0
+        verts 3
+            -0.075 0.075 0
+            -0.075 -0.075 0
+            0.075 0.075 0
+        faces 1
+            0 1 2 0 0 1 2 0
+        tverts 3
+            0 0 0
+            0.9375 0 0
+            0 0.9375 0
+        colors 3
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 3
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh corner07
+        parent mainpanel01
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position 0.575 -0.155 0
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 3
+            -0.075 0.075 0
+            -0.075 -0.075 0
+            0.075 0.075 0
+        faces 1
+            0 1 2 0 0 1 2 0
+        tverts 3
+            0 0 0
+            0.9375 0 0
+            0 0.9375 0
+        colors 3
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 3
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh sidepanel
+        parent er_template2
+        #part-number 6
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position -0.05 -0.18 -0.0001
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.05 0.08 0
+            -0.05 -0.08 0
+            0.05 0.08 0
+            0.05 -0.08 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.133333 0.2 0
+            0.133333 0.133333 0
+            0.2 0.2 0
+            0.2 0.133333 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh sidepanel01
+        parent er_template2
+        #part-number 7
+        diffuse 1 1 1
+        ambient 0.0640517 0.158168 0.181698
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_textbubble
+        texture0 gui_textbubble
+        rotatetexture 0
+        position 1.05 -0.18 -0.0001
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.05 0.08 0
+            -0.05 -0.08 0
+            0.05 0.08 0
+            0.05 -0.08 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.133333 0.2 0
+            0.133333 0.133333 0
+            0.2 0.2 0
+            0.2 0.133333 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom er_template2
+donemodel er_template2

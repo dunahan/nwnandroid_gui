@@ -1,0 +1,116 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:37 2025
+#MAXMODEL ASCII
+newmodel radialmenu
+        classification CHARACTER
+        setsupermodel radialmenu NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom radialmenu
+    node dummy radialmenu
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy submenu2
+        parent radialmenu
+        #part-number 1
+        position 1.80297 0.00326191 0
+        orientation 0 0 -1 1.5708
+    endnode
+    node dummy submenu6
+        parent radialmenu
+        #part-number 2
+        position -1.79305 0.00562689 0
+        orientation 0 0 1 1.5708
+    endnode
+    node dummy hook2
+        parent radialmenu
+        #part-number 3
+        position 1.24997 -0.000413672 0
+        orientation 0 0 0 0
+    endnode
+    node dummy hook6
+        parent radialmenu
+        #part-number 4
+        position -1.24788 -0.000413672 0
+        orientation 0 0 0 0
+    endnode
+    node dummy submenu0
+        parent radialmenu
+        #part-number 5
+        position 8.73283e-05 1.79876 0
+        orientation 0 0 0 0
+    endnode
+    node dummy submenu7
+        parent radialmenu
+        #part-number 6
+        position -1.25706 1.26277 0
+        orientation 0 0 1 0.785398
+    endnode
+    node dummy hook0
+        parent radialmenu
+        #part-number 7
+        position 0.00161896 1.25067 0
+        orientation 0 0 0 0
+    endnode
+    node dummy submenu1
+        parent radialmenu
+        #part-number 8
+        position 1.26698 1.26041 0
+        orientation 0 0 -1 0.785398
+    endnode
+    node dummy submenu5
+        parent radialmenu
+        #part-number 9
+        position -1.25706 -1.26126 0
+        orientation 0 0 1 2.35619
+    endnode
+    node dummy submenu4
+        parent radialmenu
+        #part-number 10
+        position 0.000374359 -1.79725 0
+        orientation 0 0 1 3.14159
+    endnode
+    node dummy hook1
+        parent radialmenu
+        #part-number 11
+        position 0.882237 0.88188 0
+        orientation 0 0 0 0
+    endnode
+    node dummy hook7
+        parent radialmenu
+        #part-number 12
+        position -0.881791 0.882799 0
+        orientation 0 0 0 0
+    endnode
+    node dummy hook5
+        parent radialmenu
+        #part-number 13
+        position -0.8797 -0.88596 0
+        orientation 0 0 0 0
+    endnode
+    node dummy hook3
+        parent radialmenu
+        #part-number 14
+        position 0.88286 -0.881595 0
+        orientation 0 0 0 0
+    endnode
+    node dummy hook4
+        parent radialmenu
+        #part-number 15
+        position 0.00104164 -1.24536 0
+        orientation 0 0 0 0
+    endnode
+    node dummy submenu3
+        parent radialmenu
+        #part-number 16
+        position 1.26698 -1.25388 0
+        orientation 0 0 1 3.92699
+    endnode
+    node dummy center
+        parent radialmenu
+        #part-number 17
+        position -0.00234695 0.0129477 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom radialmenu
+donemodel radialmenu

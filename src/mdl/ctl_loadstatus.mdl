@@ -1,0 +1,255 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_loadstatus
+        setsupermodel ctl_loadstatus NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_loadstatus
+    node dummy ctl_loadstatus
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh resizedbar
+        parent ctl_loadstatus
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_loadstatus
+        texture0 gui_loadstatus
+        rotatetexture 0
+        position 0 0.17 0.05
+        orientation 0 0 0 0
+        verts 12
+            -3.55002 0.09 0
+            -3.55002 -0.09 0
+            -3.54997 0.09 0
+            -3.54997 -0.09 0
+            -3.62 0.09 0
+            -3.62 -0.09 0
+            -3.55002 0.09 0
+            -3.55002 -0.09 0
+            -3.54997 0.09 0
+            -3.54997 -0.09 0
+            -3.48 0.09 0
+            -3.48 -0.09 0
+        faces 6
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            4 5 6 1 4 5 6 1
+            7 6 5 1 7 6 5 1
+            8 9 10 1 8 9 10 1
+            11 10 9 1 11 10 9 1
+        tverts 12
+            0.10555 0.140626 0
+            0.10555 6.55651e-07 0
+            0.89445 0.140624 0
+            0.89445 -6.55651e-07 0
+            0 0.140625 0
+            0 2.38419e-07 0
+            0.0273437 0.140625 0
+            0.0273437 2.38419e-07 0
+            0.972656 0.140625 0
+            0.972656 -2.38419e-07 0
+            1 0.140625 0
+            1 -2.38419e-07 0
+        normals 12
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh backgnd
+        parent ctl_loadstatus
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_loadstatus
+        texture0 gui_loadstatus
+        rotatetexture 0
+        position 0 0.175 0
+        orientation 0 0 0 0
+        verts 12
+            -1.28 0.175 0
+            -1.28 -0.175 0
+            1.28 0.175 0
+            1.28 -0.175 0
+            1.28 0.175 0
+            1.28 -0.175 0
+            3.84 0.175 0
+            3.84 -0.175 0
+            -3.84 0.175 0
+            -3.84 -0.175 0
+            -1.28 0.175 0
+            -1.28 -0.175 0
+        faces 6
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            4 5 6 1 4 5 6 1
+            7 6 5 1 7 6 5 1
+            8 9 10 1 8 9 10 1
+            11 10 9 1 11 10 9 1
+        tverts 12
+            0 0.726563 0
+            0 0.453125 0
+            1 0.726562 0
+            1 0.453125 0
+            0 0.453125 0
+            0 0.179688 0
+            1 0.453125 0
+            1 0.179687 0
+            0 1 0
+            0 0.726563 0
+            1 1 0
+            1 0.726562 0
+        colors 12
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 12
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_loadstatus
+
+#MAXANIM ASCII
+newanim percentage ctl_loadstatus
+        length 3.33333
+        transtime 0
+        animroot ctl_loadstatus
+        node dummy ctl_loadstatus
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh resizedbar
+            parent ctl_loadstatus
+            #part-number 1
+            sampleperiod 3.33333
+            verts 12
+            -3.55002 0.09 0
+            -3.55002 -0.09 0
+            -3.54997 0.09 0
+            -3.54997 -0.09 0
+            -3.62 0.09 0
+            -3.62 -0.09 0
+            -3.55002 0.09 0
+            -3.55002 -0.09 0
+            -3.54997 0.09 0
+            -3.54997 -0.09 0
+            -3.48 0.09 0
+            -3.48 -0.09 0
+            faces 6
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            4 5 6 1 4 5 6 1
+            7 6 5 1 7 6 5 1
+            8 9 10 1 8 9 10 1
+            11 10 9 1 11 10 9 1
+            tverts 12
+            0.10555 0.140626 0
+            0.10555 6.55651e-07 0
+            0.89445 0.140624 0
+            0.89445 -6.55651e-07 0
+            0 0.140625 0
+            0 2.38419e-07 0
+            0.0273437 0.140625 0
+            0.0273437 2.38419e-07 0
+            0.972656 0.140625 0
+            0.972656 -2.38419e-07 0
+            1 0.140625 0
+            1 -2.38419e-07 0
+            animverts 24
+      -3.55002 0.09 0
+      -3.55002 -0.09 0
+      -3.54997 0.09 0
+      -3.54997 -0.09 0
+      -3.62 0.09 0
+      -3.62 -0.09 0
+      -3.55002 0.09 0
+      -3.55002 -0.09 0
+      -3.54997 0.09 0
+      -3.54997 -0.09 0
+      -3.48 0.09 0
+      -3.48 -0.09 0
+      -3.55002 0.09 0
+      -3.55002 -0.09 0
+      3.55002 0.09 0
+      3.55002 -0.09 0
+      -3.62 0.09 0
+      -3.62 -0.09 0
+      -3.55002 0.09 0
+      -3.55002 -0.09 0
+      3.55002 0.09 0
+      3.55002 -0.09 0
+      3.62 0.09 0
+      3.62 -0.09 0
+            animtverts 24
+      0.10555 0.140626 0
+      0.10555 6.55651e-07 0
+      0.89445 0.140624 0
+      0.89445 -6.55651e-07 0
+      0 0.140625 0
+      0 2.38419e-07 0
+      0.0273437 0.140625 0
+      0.0273437 2.38419e-07 0
+      0.972656 0.140625 0
+      0.972656 -2.38419e-07 0
+      1 0.140625 0
+      1 -2.38419e-07 0
+      0.10555 0.140626 0
+      0.10555 6.55651e-07 0
+      0.89445 0.140624 0
+      0.89445 -6.55651e-07 0
+      0 0.140625 0
+      0 2.38419e-07 0
+      0.0273437 0.140625 0
+      0.0273437 2.38419e-07 0
+      0.972656 0.140625 0
+      0.972656 -2.38419e-07 0
+      1 0.140625 0
+      1 -2.38419e-07 0
+        endnode
+        node dummy backgnd
+            parent ctl_loadstatus
+            #part-number 2
+        endnode
+doneanim percentage ctl_loadstatus
+donemodel ctl_loadstatus

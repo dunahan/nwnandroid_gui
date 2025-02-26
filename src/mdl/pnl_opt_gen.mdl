@@ -1,0 +1,71 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
+#MAXMODEL ASCII
+newmodel pnl_opt_gen
+        setsupermodel pnl_opt_gen NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_opt_gen
+    node dummy pnl_opt_gen
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy violencetext
+        parent pnl_opt_gen
+        #part-number 1
+        position -0.58 -0.9 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy violenceslider
+        parent pnl_opt_gen
+        #part-number 2
+        position -1.73 -1 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy passwordbutton
+        parent pnl_opt_gen
+        #part-number 3
+        position -1.69 -1.54 0.1
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane272
+        parent pnl_opt_gen
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pnl_opt_gen
+        texture0 pnl_opt_gen
+        rotatetexture 0
+        position -0.005 -0.005 -0.01
+        orientation 0 0 0 0
+        verts 4
+            -2.145 2.235 0
+            -2.145 -2.235 0
+            2.145 2.235 0
+            2.145 -2.235 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0800782 0.9375 0
+            0.080078 0.0644532 0
+            0.917969 0.9375 0
+            0.917969 0.064453 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_opt_gen
+donemodel pnl_opt_gen

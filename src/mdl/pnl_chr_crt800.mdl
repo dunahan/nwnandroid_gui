@@ -1,0 +1,169 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chr_crt800
+        setsupermodel pnl_chr_crt800 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chr_crt800
+    node dummy pnl_chr_crt800
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy normalbutton
+        parent pnl_chr_crt800
+        #part-number 1
+        position -3.03 -1.81 0
+        orientation 0 0 0 0
+    endnode
+    node dummy predefinedbutton
+        parent pnl_chr_crt800
+        #part-number 2
+        position -3.03 -1.34 0
+        orientation 0 0 0 0
+    endnode
+    node dummy charactersheet
+        parent pnl_chr_crt800
+        #part-number 3
+        position 0.34 2.95 0
+        orientation 0 0 0 0
+    endnode
+    node dummy titlelabel
+        parent pnl_chr_crt800
+        #part-number 4
+        position -3.95 2.63 0
+        orientation 0 0 0 0
+    endnode
+    node dummy okbutton
+        parent pnl_chr_crt800
+        #part-number 5
+        position -3.03 -2.28 0
+        orientation 0 0 0 0
+    endnode
+    node dummy cancelbutton
+        parent pnl_chr_crt800
+        #part-number 6
+        position -1.88 -2.28 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane171
+        parent pnl_chr_crt800
+        #part-number 7
+        diffuse 1 1 1
+        ambient 0.0928095 0.0640517 0.304572
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chr_bkgnd
+        texture0 gui_chr_bkgnd
+        rotatetexture 0
+        position -1.795 0.44 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -2.205 2.56 0
+            -2.205 -2.56 0
+            2.205 2.56 0
+            2.205 -2.56 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1.19209e-07 1 0
+            -1.19209e-07 1.19209e-07 0
+            0.861328 1 0
+            0.861328 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane143
+        parent pnl_chr_crt800
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.12026 0.12026 0.12026
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chr_bkgnd2
+        texture0 gui_chr_bkgnd2
+        rotatetexture 0
+        position -1.795 -2.56 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -2.205 0.44 0
+            -2.205 -0.44 0
+            2.205 0.44 0
+            2.205 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.6875 0
+            0 4.76837e-07 0
+            0.861328 0.6875 0
+            0.861328 -3.57628e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane148
+        parent pnl_chr_crt800
+        #part-number 9
+        diffuse 1 1 1
+        ambient 0.12026 0.12026 0.12026
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chr_bkgnd2
+        texture0 gui_chr_bkgnd2
+        rotatetexture 0
+        position 2.205 0 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.795 3 0
+            -1.795 -3 0
+            1.795 3 0
+            1.795 -3 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.477539 0.929688 0
+            0.477539 0.8125 0
+            0.547656 0.929688 0
+            0.547656 0.8125 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_chr_crt800
+donemodel pnl_chr_crt800

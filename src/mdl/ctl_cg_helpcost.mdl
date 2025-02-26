@@ -1,0 +1,347 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_helpcost
+        setsupermodel ctl_cg_helpcost NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_helpcost
+    node dummy ctl_cg_helpcost
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane69
+        parent ctl_cg_helpcost
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0.005 3.31 0
+        orientation 0 0 0 0
+        verts 4
+            -0.005 0.31 0
+            -0.005 -0.31 0
+            0.005 0.31 0
+            0.005 -0.31 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.572917 0.94416 0
+            0.572917 -0.00870907 0
+            0.575521 0.94416 0
+            0.575521 -0.00870907 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane70
+        parent ctl_cg_helpcost
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 3.425 3.31 0
+        orientation 0 0 0 0
+        verts 4
+            -0.005 0.31 0
+            -0.005 -0.31 0
+            0.005 0.31 0
+            0.005 -0.31 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.572917 0.94416 0
+            0.572917 -0.00870907 0
+            0.575521 0.94416 0
+            0.575521 -0.00870907 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane71
+        parent ctl_cg_helpcost
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace01
+        texture0 gui_replace01
+        rotatetexture 0
+        position 1.715 3.31 0
+        orientation 0 0 0 0
+        verts 4
+            -1.705 0.31 0
+            -1.705 -0.31 0
+            1.705 0.31 0
+            1.705 -0.31 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0.031251 0
+            0.666016 1 0
+            0.666016 0.0312497 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane72
+        parent ctl_cg_helpcost
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.715 3.73 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.11 0
+            -1.715 -0.11 0
+            1.715 0.11 0
+            1.715 -0.11 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.981241 0
+            0.578033 -0.0500095 0
+            0.609467 0.981237 0
+            0.609467 -0.0500134 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_helpcost
+        #part-number 5
+        position 3.29 0.14 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_helpcost
+        #part-number 6
+        position 3.29 2.44 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_cg_helpcost
+        #part-number 7
+        position 0.06 2.56 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_helpcost
+        #part-number 8
+        position 3.24 0.01 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy title0
+        parent ctl_cg_helpcost
+        #part-number 9
+        position 0.06 3.83 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy title1
+        parent ctl_cg_helpcost
+        #part-number 10
+        position 3.42 3.63 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane60
+        parent ctl_cg_helpcost
+        #part-number 11
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.715 2.79 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.21 0
+            -1.715 -0.21 0
+            1.715 0.21 0
+            1.715 -0.21 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.959599 0
+            0.578033 -0.000766873 0
+            0.609467 0.959597 0
+            0.609467 -0.000768721 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane65
+        parent ctl_cg_helpcost
+        #part-number 12
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.625 1.29 0
+        orientation 0 0 0 0
+        verts 4
+            -1.625 1.29 0
+            -1.625 -1.29 0
+            1.625 1.29 0
+            1.625 -1.29 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578029 0.940917 0
+            0.578029 -0.00390691 0
+            0.609375 0.940917 0
+            0.609375 -0.0039072 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane73
+        parent ctl_cg_helpcost
+        #part-number 13
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 3.34 1.29 0
+        orientation 0 0 0 0
+        verts 4
+            -0.09 1.29 0
+            -0.09 -1.29 0
+            0.09 1.29 0
+            0.09 -1.29 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.576172 0.940918 0
+            0.576172 -0.00390625 0
+            0.611328 0.940918 0
+            0.611328 -0.00390625 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy cost0
+        parent ctl_cg_helpcost
+        #part-number 14
+        position 0.01 2.98 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy costvalue
+        parent ctl_cg_helpcost
+        #part-number 15
+        position 1.61 2.63 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy cost1
+        parent ctl_cg_helpcost
+        #part-number 16
+        position 1.6 2.58 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_helpcost
+donemodel ctl_cg_helpcost

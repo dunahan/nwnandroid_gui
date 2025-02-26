@@ -1,0 +1,20 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_equip
+        classification CHARACTER
+        setsupermodel pnl_equip NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_equip
+    node dummy pnl_equip
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy visibledummy
+        parent pnl_equip
+        #part-number 1
+        position 1 1 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_equip
+donemodel pnl_equip

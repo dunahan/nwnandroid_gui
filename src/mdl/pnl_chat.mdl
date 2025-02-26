@@ -1,0 +1,25 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chat
+        setsupermodel pnl_chat NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chat
+    node dummy pnl_chat
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy dragbar
+        parent pnl_chat
+        #part-number 1
+        position 0 -0.12 0
+        orientation 0 0 0 0
+    endnode
+    node dummy editbox
+        parent pnl_chat
+        #part-number 2
+        position 0 -0.12 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_chat
+donemodel pnl_chat

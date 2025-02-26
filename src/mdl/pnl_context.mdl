@@ -1,28 +1,28 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
 #MAXMODEL ASCII
-# model: pnl_context
-filedependancy pnl_context.max
+filedependency Unknown
 newmodel pnl_context
-setsupermodel pnl_context NULL
-setanimationscale 1
-#MAXGEOM  ASCII
+        setsupermodel pnl_context NULL
+        setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom pnl_context
-node dummy pnl_context
-  parent NULL
-endnode
-node dummy ContextButton
-  parent pnl_context
-  position 0.5 0.4 1
-  orientation 0 0 0 0
-endnode
-node dummy PauseButton
-  parent pnl_context
-  position 1.2 0.05 0
-  orientation 0 0 0 0
-endnode
-node dummy TabButton
-  parent pnl_context
-  position 1.2 0.65 0
-  orientation 0 0 0 0
-endnode
+    node dummy pnl_context
+        parent NULL
+    endnode
+    node dummy contextbutton
+        parent pnl_context
+        position 0.5 0.4 1
+        orientation 0 0 0 0
+    endnode
+    node dummy pausebutton
+        parent pnl_context
+        position 1.2 0.05 0
+        orientation 0 0 0 0
+    endnode
+    node dummy tabbutton
+        parent pnl_context
+        position 1.2 0.65 0
+        orientation 0 0 0 0
+    endnode
 endmodelgeom pnl_context
 donemodel pnl_context

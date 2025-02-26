@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_spells_tmp
+        classification CHARACTER
+        setsupermodel ctl_spells_tmp NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_spells_tmp
+    node dummy ctl_spells_tmp
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy next
+        parent ctl_spells_tmp
+        #part-number 1
+        position 0.33 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy nextlink
+        parent ctl_spells_tmp
+        #part-number 2
+        position 0 -0.33 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_spells_tmp
+donemodel ctl_spells_tmp

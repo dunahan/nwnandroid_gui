@@ -1,0 +1,93 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pb_mbr_pos
+        setsupermodel pb_mbr_pos NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pb_mbr_pos
+    node dummy pb_mbr_pos
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane28
+        parent pb_mbr_pos
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_partylocator
+        texture0 gui_partylocator
+        rotatetexture 0
+        position 0 0 0
+        orientation 0 0 0 0
+        verts 4
+            -0.06 0.08 0
+            -0.06 -0.08 0
+            0.06 0.08 0
+            0.06 -0.08 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.125 1 0
+            0.125 1.75834e-06 0
+            0.875 1 0
+            0.875 1.57952e-06 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pb_mbr_pos
+
+#MAXANIM ASCII
+newanim angle pb_mbr_pos
+        length 12
+        transtime 2
+        animroot pb_mbr_pos
+        node dummy pb_mbr_pos
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane28
+            parent pb_mbr_pos
+            #part-number 1
+            orientationkey
+      0 0 0 0 0
+      4 0 0 1 2.0944
+      8 0 0 1 4.18879
+      12 0 0 0 0
+            endlist
+        endnode
+doneanim angle pb_mbr_pos
+
+#MAXANIM ASCII
+newanim angleunknown pb_mbr_pos
+        length 0.333333
+        transtime 0
+        animroot pb_mbr_pos
+        node dummy pb_mbr_pos
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane28
+            parent pb_mbr_pos
+            #part-number 1
+            orientationkey
+      0 1.54538e-07 1 0 3.14159
+      0.333333 1.54538e-07 1 0 3.14159
+            endlist
+        endnode
+doneanim angleunknown pb_mbr_pos
+donemodel pb_mbr_pos

@@ -1,0 +1,191 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+newmodel ctl_btn_chatmode
+        setsupermodel ctl_btn_chatmode NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_btn_chatmode
+    node dummy ctl_btn_chatmode
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent ctl_btn_chatmode
+        #part-number 1
+        position 0.06 0.08 0.1
+        orientation 0 0 0 0
+    endnode
+    node animmesh plane26
+        parent ctl_btn_chatmode
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.37 0.085 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.36 0.085 0
+            -0.36 -0.085 0
+            0.36 0.085 0
+            0.36 -0.085 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.503795 1 0
+            0.503795 -0.0625005 0
+            0.51183 0.999998 0
+            0.51183 -0.0625015 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_btn_chatmode
+
+#MAXANIM ASCII
+newanim down ctl_btn_chatmode
+        length 1
+        transtime 0
+        animroot ctl_btn_chatmode
+        node dummy ctl_btn_chatmode
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_chatmode
+            #part-number 1
+            positionkey
+      0 0.06 0.07 0.1
+      1 0.06 0.07 0.1
+            endlist
+        endnode
+        node animmesh plane26
+            parent ctl_btn_chatmode
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.36 0.085 0
+            -0.36 -0.085 0
+            0.36 0.085 0
+            0.36 -0.085 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.503795 1 0
+            0.503795 -0.0625005 0
+            0.51183 0.999998 0
+            0.51183 -0.0625015 0
+            animverts 4
+      -0.36 0.085 0
+      -0.36 -0.085 0
+      0.36 0.085 0
+      0.36 -0.085 0
+            animtverts 4
+      0.51942 0.999997 0
+      0.51942 -0.0625026 0
+      0.527455 0.999996 0
+      0.527455 -0.0625037 0
+        endnode
+doneanim down ctl_btn_chatmode
+
+#MAXANIM ASCII
+newanim hilite ctl_btn_chatmode
+        length 1
+        transtime 0
+        animroot ctl_btn_chatmode
+        node dummy ctl_btn_chatmode
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_chatmode
+            #part-number 1
+        endnode
+        node animmesh plane26
+            parent ctl_btn_chatmode
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.36 0.085 0
+            -0.36 -0.085 0
+            0.36 0.085 0
+            0.36 -0.085 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.503795 1 0
+            0.503795 -0.0625005 0
+            0.51183 0.999998 0
+            0.51183 -0.0625015 0
+            animverts 4
+      -0.36 0.085 0
+      -0.36 -0.085 0
+      0.36 0.085 0
+      0.36 -0.085 0
+            animtverts 4
+      0.58192 0.999989 0
+      0.58192 -0.062511 0
+      0.589955 0.999988 0
+      0.589955 -0.062512 0
+        endnode
+doneanim hilite ctl_btn_chatmode
+
+#MAXANIM ASCII
+newanim up ctl_btn_chatmode
+        length 1
+        transtime 0
+        animroot ctl_btn_chatmode
+        node dummy ctl_btn_chatmode
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_chatmode
+            #part-number 1
+            positionkey
+      0 0.06 0.08 0.1
+      1 0.06 0.08 0.1
+            endlist
+        endnode
+        node animmesh plane26
+            parent ctl_btn_chatmode
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.36 0.085 0
+            -0.36 -0.085 0
+            0.36 0.085 0
+            0.36 -0.085 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.503795 1 0
+            0.503795 -0.0625005 0
+            0.51183 0.999998 0
+            0.51183 -0.0625015 0
+            animverts 4
+      -0.36 0.085 0
+      -0.36 -0.085 0
+      0.36 0.085 0
+      0.36 -0.085 0
+            animtverts 4
+      0.503795 1 0
+      0.503795 -0.0625005 0
+      0.51183 0.999998 0
+      0.51183 -0.0625015 0
+        endnode
+doneanim up ctl_btn_chatmode
+donemodel ctl_btn_chatmode

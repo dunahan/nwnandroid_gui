@@ -1,24 +1,23 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
 #MAXMODEL ASCII
-# model: EDIT_POPUP_2X45
-filedependancy EDIT_POPUP_2X45.max
-newmodel EDIT_POPUP_2X45
-setsupermodel EDIT_POPUP_2X45 NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom EDIT_POPUP_2X45
-node dummy EDIT_POPUP_2X45
-  parent NULL
-endnode
-node dummy text0
-  parent EDIT_POPUP_2X45
-  position 0.08 0.36 0
-  orientation 0 0 0 0
-endnode
-node dummy text1
-  parent EDIT_POPUP_2X45
-  position 4.8 0.03 0
-  orientation 0 0 0 0
-endnode
-endmodelgeom EDIT_POPUP_2X45
-
-donemodel EDIT_POPUP_2X45
+filedependency Unknown
+newmodel edit_popup_2x45
+        setsupermodel edit_popup_2x45 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_popup_2x45
+    node dummy edit_popup_2x45
+        parent NULL
+    endnode
+    node dummy text0
+        parent edit_popup_2x45
+        position 0.08 0.36 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent edit_popup_2x45
+        position 4.8 0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom edit_popup_2x45
+donemodel edit_popup_2x45

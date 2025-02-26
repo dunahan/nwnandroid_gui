@@ -1,0 +1,44 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel edit_chat
+        classification CHARACTER
+        setsupermodel edit_chat NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_chat
+    node dummy edit_chat
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent edit_chat
+        #part-number 1
+        position 0.05 -0.15 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent edit_chat
+        #part-number 2
+        position 0.05 -0.53 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent edit_chat
+        #part-number 3
+        position 0.5 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent edit_chat
+        #part-number 4
+        position 3.13 -0.65 0
+        orientation 0 0 0 0
+    endnode
+    node dummy replybuttons
+        parent text1
+        #part-number 5
+        position -2.89 -0.14 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom edit_chat
+donemodel edit_chat

@@ -1,0 +1,20 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_label_blank
+        classification CHARACTER
+        setsupermodel ctl_label_blank NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_label_blank
+    node dummy ctl_label_blank
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent ctl_label_blank
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_label_blank
+donemodel ctl_label_blank

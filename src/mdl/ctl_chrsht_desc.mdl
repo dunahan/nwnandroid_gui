@@ -1,0 +1,37 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chrsht_desc
+        setsupermodel ctl_chrsht_desc NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chrsht_desc
+    node dummy ctl_chrsht_desc
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_chrsht_desc
+        #part-number 1
+        position 0.06 -0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_chrsht_desc
+        #part-number 2
+        position 3.41 -1.52 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_chrsht_desc
+        #part-number 3
+        position 3.43 -1.36 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_chrsht_desc
+        #part-number 4
+        position 3.43 -0.16 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_chrsht_desc
+donemodel ctl_chrsht_desc

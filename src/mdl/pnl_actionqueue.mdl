@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_actionqueue
+        classification CHARACTER
+        setsupermodel pnl_actionqueue NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_actionqueue
+    node dummy pnl_actionqueue
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy current
+        parent pnl_actionqueue
+        #part-number 1
+        position 0.03 -0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy queue
+        parent pnl_actionqueue
+        #part-number 2
+        position 0.46 -0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_actionqueue
+donemodel pnl_actionqueue

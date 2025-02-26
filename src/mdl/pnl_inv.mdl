@@ -1,0 +1,317 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_inv
+        setsupermodel pnl_inv NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_inv
+    node dummy pnl_inv
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane48
+        parent pnl_inv
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 1.11 -4.455 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.58 0.245 0
+            -0.58 -0.245 0
+            0.58 0.245 0
+            0.58 -0.245 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00390628 0.936883 0
+            0.00390628 -0.0201483 0
+            0.0117867 0.936882 0
+            0.0117867 -0.0201488 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane51
+        parent plane48
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_inv_statico
+        texture0 gui_inv_statico
+        rotatetexture 0
+        position -0.27 0.025 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.16 0.16 0
+            -0.16 -0.16 0
+            0.16 0.16 0
+            0.16 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.5 1.01563 0
+            0.5 0.515625 0
+            1 1.01562 0
+            1 0.515625 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane20
+        parent pnl_inv
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.265 -4.455 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.265 0.245 0
+            -0.265 -0.245 0
+            0.265 0.245 0
+            0.265 -0.245 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00375304 0.936864 0
+            0.00375304 -0.0201672 0
+            0.0118719 0.936864 0
+            0.0118719 -0.0201675 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane21
+        parent pnl_inv
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 2.645 -4.455 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.955 0.245 0
+            -0.955 -0.245 0
+            0.955 0.245 0
+            0.955 -0.245 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00390622 0.936905 0
+            0.00390622 -0.0201261 0
+            0.0117598 0.936904 0
+            0.0117598 -0.020127 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane33
+        parent pnl_inv
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 1.8 -3.19 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.8 1.02 0
+            -1.8 -1.02 0
+            1.8 1.02 0
+            1.8 -1.02 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00388443 0.937371 0
+            0.00388443 -0.00474715 0
+            0.0117406 0.937371 0
+            0.0117406 -0.00474751 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane35
+        parent pnl_inv
+        #part-number 6
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 3.505 -0.095 0
+        orientation 0 0 0 0
+        verts 4
+            -0.095 0.095 0
+            -0.095 -0.095 0
+            0.095 0.095 0
+            0.095 -0.095 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.00390625 0.987861 0
+            0.00390625 -0.00172192 0
+            0.0121528 0.987861 0
+            0.0121528 -0.00172216 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane34
+        parent pnl_inv
+        #part-number 7
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 1.705 -0.095 0
+        orientation 0 0 0 0
+        verts 4
+            -1.705 0.095 0
+            -1.705 -0.095 0
+            1.705 0.095 0
+            1.705 -0.095 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0195082 0.988106 0
+            0.0195082 -0.00147718 0
+            0.0273668 0.988102 0
+            0.0273668 -0.00148141 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy repository
+        parent pnl_inv
+        #part-number 8
+        position 0.03 -4.18 0
+        orientation 0 0 0 0
+    endnode
+    node dummy tabs
+        parent pnl_inv
+        #part-number 9
+        position 3.34 -2.19 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy container
+        parent pnl_inv
+        #part-number 10
+        position 0 -2.17 0
+        orientation 0 0 0 0
+    endnode
+    node dummy equip
+        parent pnl_inv
+        #part-number 11
+        position 0 -2.17 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_inv
+donemodel pnl_inv

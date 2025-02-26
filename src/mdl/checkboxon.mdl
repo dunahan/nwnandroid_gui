@@ -1,0 +1,156 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+newmodel checkboxon
+        classification CHARACTER
+        setsupermodel checkboxon NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom checkboxon
+    node dummy checkboxon
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane24
+        parent checkboxon
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.0995044 -0.0983279 0
+        orientation 0 0 0 0
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.312771 0.749627 0
+            0.312771 0.710565 0
+            0.351833 0.749627 0
+            0.351833 0.710565 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane25
+        parent plane24
+        #part-number 2
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position -0.00570924 0.00635086 0
+        orientation 1 0 0 3.14159
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1.35186 0.749767 0
+            1.35186 0.710705 0
+            1.39093 0.749767 0
+            1.39093 0.710705 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom checkboxon
+
+#MAXANIM ASCII
+newanim down checkboxon
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy checkboxon
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane24
+            parent checkboxon
+            #part-number 1
+            positionkey
+      0 0.0995044 -0.0983279 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node trimesh plane25
+            parent plane24
+            #part-number 2
+            positionkey
+      0 -0.00570924 0.00635086 0
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim down checkboxon
+
+#MAXANIM ASCII
+newanim up checkboxon
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy checkboxon
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane24
+            parent checkboxon
+            #part-number 1
+            positionkey
+      0 0.0995044 -0.0983279 0
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node trimesh plane25
+            parent plane24
+            #part-number 2
+            positionkey
+      0 -0.00570924 0.00635086 0
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim up checkboxon
+donemodel checkboxon

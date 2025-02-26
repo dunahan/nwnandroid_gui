@@ -1,0 +1,20 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_pre_lbl_time
+        classification CHARACTER
+        setsupermodel ctl_pre_lbl_time NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_pre_lbl_time
+    node dummy ctl_pre_lbl_time
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent ctl_pre_lbl_time
+        #part-number 1
+        position 0.4 0.1 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_pre_lbl_time
+donemodel ctl_pre_lbl_time

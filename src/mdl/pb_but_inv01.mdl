@@ -1,0 +1,158 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pb_but_inv01
+        classification CHARACTER
+        setsupermodel pb_but_inv01 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pb_but_inv01
+    node dummy pb_but_inv01
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane57
+        parent pb_but_inv01
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pb_partymember
+        texture0 pb_partymember
+        rotatetexture 0
+        position 0.175 0.085 0.02075
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.175 0.085 0
+            -0.175 -0.085 0
+            0.175 0.085 0
+            0.175 -0.085 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.289066 1.00071 0
+            0.289066 0.867898 0
+            0.562504 1.00071 0
+            0.562504 0.867898 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane58
+        parent plane57
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pb_partymember
+        texture0 pb_partymember
+        rotatetexture 0
+        position 0.000104969 -0.000349578 0
+        orientation 1 0 0 3.14159
+        selfillumcolor 0 0 0
+        verts 4
+            -0.175 0.085 0
+            -0.175 -0.085 0
+            0.175 0.085 0
+            0.175 -0.085 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.28966 0.554497 0
+            0.28966 0.421685 0
+            0.560363 0.554497 0
+            0.560363 0.421685 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pb_but_inv01
+
+#MAXANIM ASCII
+newanim down pb_but_inv01
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy pb_but_inv01
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane57
+            parent pb_but_inv01
+            #part-number 1
+            positionkey
+      0 0.175 0.085 0.02075
+            endlist
+            orientationkey
+      0 -1 0 0 3.14159
+            endlist
+        endnode
+        node trimesh plane58
+            parent plane57
+            #part-number 2
+            positionkey
+      0 0.000104969 -0.000349578 0
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim down pb_but_inv01
+
+#MAXANIM ASCII
+newanim up pb_but_inv01
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy pb_but_inv01
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane57
+            parent pb_but_inv01
+            #part-number 1
+            positionkey
+      0 0.175 0.085 0.02075
+            endlist
+            orientationkey
+      0 0 0 0 0
+            endlist
+        endnode
+        node trimesh plane58
+            parent plane57
+            #part-number 2
+            positionkey
+      0 0.000104969 -0.000349578 0
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim up pb_but_inv01
+donemodel pb_but_inv01

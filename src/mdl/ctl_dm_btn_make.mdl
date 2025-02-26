@@ -1,0 +1,426 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_dm_btn_make
+        setsupermodel ctl_dm_btn_make NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_dm_btn_make
+    node dummy ctl_dm_btn_make
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane07
+        parent ctl_dm_btn_make
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_btn_dm_make
+        texture0 ctl_btn_dm_make
+        rotatetexture 0
+        position 1.28 0.15 0
+        orientation 0 0 0 0
+        verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text
+        parent ctl_dm_btn_make
+        #part-number 2
+        position 1.28 0.15 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim checkeddown ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.617188 0
+      0 0.382813 0
+      1 0.617187 0
+      1 0.382812 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      0 1.28 0.14 0
+      1 1.28 0.14 0
+            endlist
+        endnode
+doneanim checkeddown ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim checkedup ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.617188 0
+      0 0.382813 0
+      1 0.617187 0
+      1 0.382812 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      0 1.28 0.15 0
+      1 1.28 0.15 0
+            endlist
+        endnode
+doneanim checkedup ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim disabled ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.859375 0
+      0 0.625 0
+      1 0.859375 0
+      1 0.625 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+        endnode
+doneanim disabled ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim down ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.617188 0
+      0 0.382813 0
+      1 0.617187 0
+      1 0.382812 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      0 1.28 0.14 0
+      1 1.28 0.14 0
+            endlist
+        endnode
+doneanim down ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim hilite ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      1 1.28 0.15 0
+            endlist
+            orientationkey
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.375 0
+      0 0.140625 0
+      1 0.375 0
+      1 0.140625 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+        endnode
+doneanim hilite ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.859375 0
+      0 0.625 0
+      1 0.859375 0
+      1 0.625 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      0 1.28 0.14 0
+      1 1.28 0.15 0
+            endlist
+        endnode
+doneanim uncheckeddown ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.859375 0
+      0 0.625 0
+      1 0.859374 0
+      1 0.624999 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      1 1.28 0.15 0
+            endlist
+        endnode
+doneanim uncheckedup ctl_dm_btn_make
+
+#MAXANIM ASCII
+newanim up ctl_dm_btn_make
+        length 1
+        transtime 0
+        animroot ctl_dm_btn_make
+        node dummy ctl_dm_btn_make
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane07
+            parent ctl_dm_btn_make
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -1.28 0.15 0
+            -1.28 -0.15 0
+            1.28 0.15 0
+            1.28 -0.15 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.859375 0
+            0 0.625 0
+            1 0.859375 0
+            1 0.625 0
+            animverts 4
+      -1.28 0.15 0
+      -1.28 -0.15 0
+      1.28 0.15 0
+      1.28 -0.15 0
+            animtverts 4
+      0 0.859375 0
+      0 0.625 0
+      1 0.859374 0
+      1 0.624999 0
+        endnode
+        node dummy text
+            parent ctl_dm_btn_make
+            #part-number 2
+            positionkey
+      1 1.28 0.15 0
+            endlist
+        endnode
+doneanim up ctl_dm_btn_make
+donemodel ctl_dm_btn_make

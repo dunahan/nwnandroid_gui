@@ -1,65 +1,99 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUT_POPUP_PRTRT
-filedependancy BUT_POPUP_PRTRT.max
-newmodel BUT_POPUP_PRTRT
-setsupermodel BUT_POPUP_PRTRT NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUT_POPUP_PRTRT
-node dummy BUT_POPUP_PRTRT
-  parent NULL
-endnode
-node dummy textindent
-  parent BUT_POPUP_PRTRT
-  position 0.23 0 0.03
-  orientation 0 0 0 0
-endnode
-node trimesh Plane02
-  parent BUT_POPUP_PRTRT
-  ambient 0.21307 0.183005 0.0640517
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_replace01
-  verts 4
-      -0.0800000    0.1250000    0.0000000
-      -0.0800000   -0.1250000    0.0000000
-       0.0800000    0.1250000    0.0000000
-       0.0800000   -0.1250000    0.0000000
-  tverts 4
-       0.0000002    1.0000000  0
-      -0.0000001    0.2187500  0
-       1.0000000    1.0000000  0
-       1.0000000    0.2187500  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 0.09 -0.165 0.05
-  orientation 0 0 0 0
-endnode
-node trimesh Plane01
-  parent Plane02
-  ambient 0.179083 0.0653588 0.0653588
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_boxes
-  verts 4
-      -0.0900000    0.1350000    0.0000000
-      -0.0900000   -0.1350000    0.0000000
-       0.0900000    0.1350000    0.0000000
-       0.0900000   -0.1350000    0.0000000
-  tverts 4
-       0.1386720    0.9725020  0
-       0.1386720   -0.0399984  0
-       0.1738280    0.9725020  0
-       0.1738280   -0.0399985  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 0 0 -0.03
-  orientation 0 0 0 0
-endnode
-endmodelgeom BUT_POPUP_PRTRT
-
-donemodel BUT_POPUP_PRTRT
+newmodel but_popup_prtrt
+        setsupermodel but_popup_prtrt NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom but_popup_prtrt
+    node dummy but_popup_prtrt
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy textindent
+        parent but_popup_prtrt
+        #part-number 1
+        position 0.23 0 0.03
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane02
+        parent but_popup_prtrt
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.21307 0.183005 0.0640517
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace01
+        texture0 gui_replace01
+        rotatetexture 0
+        position 0.09 -0.165 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.08 0.125 0
+            -0.08 -0.125 0
+            0.08 0.125 0
+            0.08 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            2.38419e-07 1 0
+            -1.19209e-07 0.21875 0
+            1 1 0
+            1 0.21875 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane01
+        parent plane02
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.179083 0.0653588 0.0653588
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes
+        texture0 gui_boxes
+        rotatetexture 0
+        position 0 0 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.09 0.135 0
+            -0.09 -0.135 0
+            0.09 0.135 0
+            0.09 -0.135 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.138672 0.972502 0
+            0.138672 -0.0399984 0
+            0.173828 0.972502 0
+            0.173828 -0.0399985 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom but_popup_prtrt
+donemodel but_popup_prtrt

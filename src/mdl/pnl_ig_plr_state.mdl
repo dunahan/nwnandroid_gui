@@ -1,0 +1,20 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_ig_plr_state
+        classification CHARACTER
+        setsupermodel pnl_ig_plr_state NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_ig_plr_state
+    node dummy pnl_ig_plr_state
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy queue
+        parent pnl_ig_plr_state
+        #part-number 1
+        position -0.03 -0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_ig_plr_state
+donemodel pnl_ig_plr_state

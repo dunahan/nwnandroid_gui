@@ -1,0 +1,133 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel gui_icon_1x3rc
+        setsupermodel gui_icon_1x3rc NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom gui_icon_1x3rc
+    node dummy gui_icon_1x3rc
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh icon
+        parent gui_icon_1x3rc
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.0640517 0.186926 0.128103
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace01
+        texture0 gui_replace01
+        rotatetexture 0
+        position 0 0 0.04
+        orientation 0 0 0 0
+        verts 4
+            -0.32 0.106667 0
+            -0.32 -0.106667 0
+            0.32 0.106667 0
+            0.32 -0.106667 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            6.79493e-05 0.249999 0
+            0.999931 0.249999 0
+            6.87242e-05 1 0
+            0.999932 1 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh icon2
+        parent icon
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0 0.145097 0.0640517
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace02
+        texture0 gui_replace02
+        rotatetexture 0
+        position 0 0 0.01
+        orientation 0 0 -1 1.5708
+        verts 4
+            -0.106665 0.32 0
+            -0.106665 -0.32 0
+            0.106665 0.32 0
+            0.106665 -0.32 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            4.76837e-07 1 0
+            -2.38419e-07 0.249999 0
+            1 1 0
+            1 0.249999 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh icon3
+        parent icon2
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.329408 0.118953 0.163397
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace03
+        texture0 gui_replace03
+        rotatetexture 0
+        position -1.43136e-07 0 0.01
+        orientation 0 0 0 0
+        verts 4
+            -0.106665 0.32 0
+            -0.106665 -0.32 0
+            0.106665 0.32 0
+            0.106665 -0.32 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            4.76837e-07 1 0
+            -2.38419e-07 0.249999 0
+            1 1 0
+            1 0.249999 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom gui_icon_1x3rc
+donemodel gui_icon_1x3rc

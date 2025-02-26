@@ -1,0 +1,395 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chrtab_skils
+        setsupermodel ctl_chrtab_skils NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chrtab_skils
+    node dummy ctl_chrtab_skils
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane43
+        parent ctl_chrtab_skils
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chrsht_tabs
+        texture0 gui_chrsht_tabs
+        rotatetexture 0
+        position 0.25 0.11 0
+        orientation 0 0 0 0
+        verts 4
+            -0.11 0.1 0
+            -0.11 -0.1 0
+            0.11 0.1 0
+            0.11 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.15625 0.488281 0
+            0.15625 0.410156 0
+            0.84375 0.488281 0
+            0.84375 0.410156 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node animmesh plane42
+        parent plane43
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_chrsht_tabs
+        texture0 gui_chrsht_tabs
+        rotatetexture 0
+        position 0.005 0.02 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy next
+        parent ctl_chrtab_skils
+        #part-number 3
+        position 0.51 0 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim checkeddown ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 0
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim checkeddown ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim checkedup ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 1
+            positionkey
+      0 0.005 0.02 0.07
+      1 0.005 0.02 0.07
+            endlist
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 4
+      -0.265 0.13 0
+      -0.265 -0.13 0
+      0.265 0.13 0
+      0.265 -0.13 0
+            animtverts 4
+      1 1 0
+      0.187501 1 0
+      1 0.792969 0
+      0.187501 0.792969 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim checkedup ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim disabled ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 0
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim disabled ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim down ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 0
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim down ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 0
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim uncheckeddown ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 1
+            positionkey
+      0 0.005 0.02 0.05
+      1 0.005 0.02 0.05
+            endlist
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 4
+      -0.265 0.13 0
+      -0.265 -0.13 0
+      0.265 0.13 0
+      0.265 -0.13 0
+            animtverts 4
+      1 0.789063 0
+      0.187501 0.789063 0
+      1 0.582031 0
+      0.1875 0.582031 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim uncheckedup ctl_chrtab_skils
+
+#MAXANIM ASCII
+newanim up ctl_chrtab_skils
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_chrtab_skils
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane43
+            parent ctl_chrtab_skils
+            #part-number 1
+        endnode
+        node animmesh plane42
+            parent plane43
+            #part-number 2
+            sampleperiod 0
+            positionkey
+      0 0.005 0.02 0.05
+      1 0.005 0.02 0.05
+            endlist
+            verts 4
+            -0.265 0.13 0
+            -0.265 -0.13 0
+            0.265 0.13 0
+            0.265 -0.13 0
+            faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            tverts 4
+            1 0.789063 0
+            0.187501 0.789063 0
+            1 0.582031 0
+            0.1875 0.582031 0
+            animverts 0
+            animtverts 0
+        endnode
+        node dummy next
+            parent ctl_chrtab_skils
+            #part-number 3
+        endnode
+doneanim up ctl_chrtab_skils
+donemodel ctl_chrtab_skils

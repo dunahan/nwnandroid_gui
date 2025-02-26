@@ -1,0 +1,755 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_ig_btn_attit
+        setsupermodel ctl_ig_btn_attit NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_ig_btn_attit
+    node dummy ctl_ig_btn_attit
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent ctl_ig_btn_attit
+        #part-number 1
+        position 0.06 0.130001 0.1
+        orientation 0 0 0 0
+    endnode
+    node animmesh plane184
+        parent ctl_ig_btn_attit
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_ig_btn_pvpre
+        texture0 ctl_ig_btn_pvpre
+        rotatetexture 0
+        position 0.4 0.124999 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node animmesh plane34
+        parent plane184
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_faces
+        texture0 gui_ig_faces
+        rotatetexture 0
+        position 0.29 0.005 0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim checkeddown ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.120001 0.1
+      1 0.06 0.120001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+      0.625 0.999999 0
+      0.625 0.804686 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625 0.46875 0
+      0.0624998 0.0312501 0
+      0.9375 0.46875 0
+      0.9375 0.0312499 0
+        endnode
+doneanim checkeddown ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim checkedhilite ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0.625 0.999999 0
+      0.625 0.804686 0
+      0.9375 0.999999 0
+      0.9375 0.804686 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            positionkey
+      1 0.29 0.005 0.03
+            endlist
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625002 0.96875 0
+      0.0625 0.53125 0
+      0.9375 0.96875 0
+      0.9375 0.53125 0
+        endnode
+doneanim checkedhilite ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim checkedup ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.130001 0.1
+      1 0.06 0.130001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0 0.999999 0
+      0 0.804687 0
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625 0.46875 0
+      0.0624998 0.0312501 0
+      0.9375 0.46875 0
+      0.9375 0.0312499 0
+        endnode
+doneanim checkedup ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim disabled ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0 0.999999 0
+      0 0.804687 0
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625002 0.96875 0
+      0.0625 0.53125 0
+      0.9375 0.96875 0
+      0.9375 0.53125 0
+        endnode
+doneanim disabled ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim down ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.120001 0.1
+      1 0.06 0.120001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+      0.625 0.999999 0
+      0.625 0.804686 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625 0.46875 0
+      0.0624998 0.0312501 0
+      0.9375 0.46875 0
+      0.9375 0.0312499 0
+        endnode
+doneanim down ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim hilite ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0.625 0.999999 0
+      0.625 0.804686 0
+      0.9375 0.999999 0
+      0.9375 0.804686 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625 0.46875 0
+      0.0624998 0.0312501 0
+      0.9375 0.46875 0
+      0.9375 0.0312499 0
+        endnode
+doneanim hilite ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.120001 0.1
+      1 0.06 0.120001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+      0.625 0.999999 0
+      0.625 0.804686 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625002 0.96875 0
+      0.0625 0.53125 0
+      0.9375 0.96875 0
+      0.9375 0.53125 0
+        endnode
+doneanim uncheckeddown ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.130001 0.1
+      1 0.06 0.130001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0 0.999999 0
+      0 0.804687 0
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625002 0.968753 0
+      0.0625 0.531253 0
+      0.9375 0.968753 0
+      0.9375 0.531253 0
+        endnode
+doneanim uncheckedup ctl_ig_btn_attit
+
+#MAXANIM ASCII
+newanim up ctl_ig_btn_attit
+        length 1
+        transtime 0
+        animroot ctl_ig_btn_attit
+        node dummy ctl_ig_btn_attit
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_ig_btn_attit
+            #part-number 1
+            positionkey
+      0 0.06 0.130001 0.1
+      1 0.06 0.130001 0.1
+            endlist
+        endnode
+        node animmesh plane184
+            parent ctl_ig_btn_attit
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.4 0.125 0
+            -0.4 -0.125 0
+            0.4 0.125 0
+            0.4 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0 0.999999 0
+            0 0.804687 0
+            0.3125 0.999999 0
+            0.3125 0.804687 0
+            animverts 4
+      -0.4 0.125 0
+      -0.4 -0.125 0
+      0.4 0.125 0
+      0.4 -0.125 0
+            animtverts 4
+      0 0.999999 0
+      0 0.804687 0
+      0.3125 0.999999 0
+      0.3125 0.804687 0
+        endnode
+        node animmesh plane34
+            parent plane184
+            #part-number 3
+            sampleperiod 1
+            verts 4
+            -0.07 0.07 0
+            -0.07 -0.07 0
+            0.07 0.07 0
+            0.07 -0.07 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0625002 0.96875 0
+            0.0625 0.53125 0
+            0.9375 0.96875 0
+            0.9375 0.53125 0
+            animverts 4
+      -0.07 0.07 0
+      -0.07 -0.07 0
+      0.07 0.07 0
+      0.07 -0.07 0
+            animtverts 4
+      0.0625002 0.968753 0
+      0.0625 0.531253 0
+      0.9375 0.968753 0
+      0.9375 0.531253 0
+        endnode
+doneanim up ctl_ig_btn_attit
+donemodel ctl_ig_btn_attit

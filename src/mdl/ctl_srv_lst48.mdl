@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_srv_lst48
+        classification CHARACTER
+        setsupermodel ctl_srv_lst48 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_srv_lst48
+    node dummy ctl_srv_lst48
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_srv_lst48
+        #part-number 1
+        position 0.04 4.58 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_srv_lst48
+        #part-number 2
+        position 0.44 0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_srv_lst48
+donemodel ctl_srv_lst48

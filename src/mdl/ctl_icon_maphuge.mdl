@@ -1,0 +1,53 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_icon_maphuge
+        setsupermodel ctl_icon_maphuge NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_icon_maphuge
+    node dummy ctl_icon_maphuge
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh icon
+        parent ctl_icon_maphuge
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.0640517 0.186926 0.128103
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_replace01
+        texture0 gui_replace01
+        rotatetexture 0
+        position 0 0 0.08
+        orientation 0 0 0 0
+        verts 4
+            -0.64 0.64 0
+            -0.64 -0.64 0
+            0.64 0.64 0
+            0.64 -0.64 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_icon_maphuge
+donemodel ctl_icon_maphuge

@@ -1,98 +1,141 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUTTONBLANK
-filedependancy BUTTONBLANK.max
-newmodel BUTTONBLANK
-setsupermodel BUTTONBLANK NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUTTONBLANK
-node dummy BUTTONBLANK
-  parent NULL
-endnode
-node trimesh Plane15
-  parent BUTTONBLANK
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -0.1000000    0.1000000    0.0000000
-      -0.1000000   -0.1000000    0.0000000
-       0.1000000    0.1000000    0.0000000
-       0.1000000   -0.1000000    0.0000000
-  tverts 4
-       0.4688360    0.7499020  0
-       0.4688360    0.7108400  0
-       0.5078990    0.7499020  0
-       0.5078990    0.7108400  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0.098555 0.0943948 0.0207503
-  orientation 0 0 0 0
-  selfillumcolor 0 0 0
-endnode
-node trimesh Plane14
-  parent Plane15
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -0.1000000    0.1000000    0.0000000
-      -0.1000000   -0.1000000    0.0000000
-       0.1000000    0.1000000    0.0000000
-       0.1000000   -0.1000000    0.0000000
-  tverts 4
-       1.5077000    0.7497760  0
-       1.5077000    0.7107130  0
-       1.5467600    0.7497760  0
-       1.5467600    0.7107130  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position -0.00570924 0.00635086 0
-  orientation -1 0 0 -3.14159
-  selfillumcolor 0 0 0
-endnode
-endmodelgeom BUTTONBLANK
+newmodel buttonblank
+        setsupermodel buttonblank NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom buttonblank
+    node dummy buttonblank
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane15
+        parent buttonblank
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.098555 0.0943948 0.0207503
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.468836 0.749902 0
+            0.468836 0.71084 0
+            0.507899 0.749902 0
+            0.507899 0.71084 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane14
+        parent plane15
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position -0.00570924 0.00635086 0
+        orientation 1 0 0 3.14159
+        selfillumcolor 0 0 0
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1.5077 0.749776 0
+            1.5077 0.710713 0
+            1.54676 0.749776 0
+            1.54676 0.710713 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom buttonblank
 
 #MAXANIM ASCII
-newanim down BUTTONBLANK
-  length 0.333333
-  transtime 0
-  node dummy BUTTONBLANK
-    parent NULL
-  endnode
-  node dummy Plane15
-    parent BUTTONBLANK
-    orientationkey 2
-         0.0000000    1.0000000   -0.0000000   -0.0000000   -3.1415901
-         0.3333330    1.0000000   -0.0000000   -0.0000000   -3.1415901
-  endnode
-  node dummy Plane14
-    parent Plane15
-  endnode
-doneanim down BUTTONBLANK
+newanim down buttonblank
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonblank
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane15
+            parent buttonblank
+            #part-number 1
+            orientationkey
+      0 -1 0 0 3.14159
+      0.333333 -1 0 0 3.14159
+            endlist
+        endnode
+        node dummy plane14
+            parent plane15
+            #part-number 2
+        endnode
+doneanim down buttonblank
 
 #MAXANIM ASCII
-newanim up BUTTONBLANK
-  length 0.333333
-  transtime 0
-  node dummy BUTTONBLANK
-    parent NULL
-  endnode
-  node dummy Plane15
-    parent BUTTONBLANK
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-  node dummy Plane14
-    parent Plane15
-  endnode
-doneanim up BUTTONBLANK
-
-donemodel BUTTONBLANK
+newanim up buttonblank
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonblank
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane15
+            parent buttonblank
+            #part-number 1
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy plane14
+            parent plane15
+            #part-number 2
+        endnode
+doneanim up buttonblank
+donemodel buttonblank

@@ -1,0 +1,100 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_inv_title_20
+        classification CHARACTER
+        setsupermodel ctl_inv_title_20 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_inv_title_20
+    node dummy ctl_inv_title_20
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane19
+        parent ctl_inv_title_20
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 3.515 0.1 0
+        orientation 0 0 0 0
+        verts 4
+            -0.085 0.1 0
+            -0.085 -0.1 0
+            0.085 0.1 0
+            0.085 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0195313 0.986123 0
+            0.0195313 -0.0555433 0
+            0.027832 0.986123 0
+            0.027832 -0.0555435 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane18
+        parent ctl_inv_title_20
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 1.715 0.1 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.1 0
+            -1.715 -0.1 0
+            1.715 0.1 0
+            1.715 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0195083 0.986372 0
+            0.0195083 -0.0552951 0
+            0.0273667 0.986367 0
+            0.0273667 -0.0552994 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text
+        parent plane18
+        #part-number 3
+        position -0.005 0.01 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_inv_title_20
+donemodel ctl_inv_title_20

@@ -1,0 +1,236 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_party_health
+        setsupermodel ctl_party_health NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_party_health
+    node dummy ctl_party_health
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane74
+        parent ctl_party_health
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.01 0.25 0
+        orientation 0 0 0 0
+        verts 4
+            -0.01 0.25 0
+            -0.01 -0.25 0
+            0.01 0.25 0
+            0.01 -0.25 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.253906 0.957032 0
+            0.253906 -0.019531 0
+            0.261719 0.957032 0
+            0.261719 -0.019531 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_party_health
+
+#MAXANIM ASCII
+newanim disease ctl_party_health
+        length 3.33333
+        transtime 3.25
+        animroot ctl_party_health
+        node dummy ctl_party_health
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane74
+            parent ctl_party_health
+            #part-number 1
+            sampleperiod 3.33333
+            verts 4
+            -0.01 0.25 0
+            -0.01 -0.25 0
+            0.01 0.25 0
+            0.01 -0.25 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.253906 0.957032 0
+            0.253906 -0.019531 0
+            0.261719 0.957032 0
+            0.261719 -0.019531 0
+            animverts 8
+      -0.01 -0.2499 0
+      -0.01 -0.25 0
+      0.01 -0.2499 0
+      0.01 -0.25 0
+      -0.01 0.25 0
+      -0.01 -0.25 0
+      0.01 0.25 0
+      0.01 -0.25 0
+            animtverts 8
+      0.269531 -11.3089 0
+      0.269531 12.2464 0
+      0.277344 -11.3089 0
+      0.277344 12.2464 0
+      0.269531 0.957031 0
+      0.269531 -0.019531 0
+      0.277344 0.957031 0
+      0.277344 -0.019531 0
+        endnode
+doneanim disease ctl_party_health
+
+#MAXANIM ASCII
+newanim diseasepoison ctl_party_health
+        length 3.33333
+        transtime 3.25
+        animroot ctl_party_health
+        node dummy ctl_party_health
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane74
+            parent ctl_party_health
+            #part-number 1
+            sampleperiod 3.33333
+            verts 4
+            -0.01 0.25 0
+            -0.01 -0.25 0
+            0.01 0.25 0
+            0.01 -0.25 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.253906 0.957032 0
+            0.253906 -0.019531 0
+            0.261719 0.957032 0
+            0.261719 -0.019531 0
+            animverts 8
+      -0.01 -0.2499 0
+      -0.01 -0.25 0
+      0.01 -0.2499 0
+      0.01 -0.25 0
+      -0.01 0.25 0
+      -0.01 -0.25 0
+      0.01 0.25 0
+      0.01 -0.25 0
+            animtverts 8
+      0.300781 -11.3089 0
+      0.300781 12.2464 0
+      0.308594 -11.3089 0
+      0.308594 12.2464 0
+      0.300781 0.957031 0
+      0.300781 -0.019531 0
+      0.308594 0.957031 0
+      0.308594 -0.019531 0
+        endnode
+doneanim diseasepoison ctl_party_health
+
+#MAXANIM ASCII
+newanim percentage ctl_party_health
+        length 3.33333
+        transtime 3.25
+        animroot ctl_party_health
+        node dummy ctl_party_health
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane74
+            parent ctl_party_health
+            #part-number 1
+            sampleperiod 3.33333
+            verts 4
+            -0.01 0.25 0
+            -0.01 -0.25 0
+            0.01 0.25 0
+            0.01 -0.25 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.253906 0.957032 0
+            0.253906 -0.019531 0
+            0.261719 0.957032 0
+            0.261719 -0.019531 0
+            animverts 8
+      -0.01 -0.2499 0
+      -0.01 -0.25 0
+      0.01 -0.2499 0
+      0.01 -0.25 0
+      -0.01 0.25 0
+      -0.01 -0.25 0
+      0.01 0.25 0
+      0.01 -0.25 0
+            animtverts 8
+      0.253906 -11.3089 0
+      0.253906 12.2464 0
+      0.261719 -11.3089 0
+      0.261719 12.2464 0
+      0.253906 0.957032 0
+      0.253906 -0.019531 0
+      0.261719 0.957032 0
+      0.261719 -0.019531 0
+        endnode
+doneanim percentage ctl_party_health
+
+#MAXANIM ASCII
+newanim poison ctl_party_health
+        length 3.33333
+        transtime 3.25
+        animroot ctl_party_health
+        node dummy ctl_party_health
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane74
+            parent ctl_party_health
+            #part-number 1
+            sampleperiod 3.33333
+            verts 4
+            -0.01 0.25 0
+            -0.01 -0.25 0
+            0.01 0.25 0
+            0.01 -0.25 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.253906 0.957032 0
+            0.253906 -0.019531 0
+            0.261719 0.957032 0
+            0.261719 -0.019531 0
+            animverts 8
+      -0.01 -0.2499 0
+      -0.01 -0.25 0
+      0.01 -0.2499 0
+      0.01 -0.25 0
+      -0.01 0.25 0
+      -0.01 -0.25 0
+      0.01 0.25 0
+      0.01 -0.25 0
+            animtverts 8
+      0.285156 -11.3089 0
+      0.285156 12.2464 0
+      0.292969 -11.3089 0
+      0.292969 12.2464 0
+      0.285156 0.957031 0
+      0.285156 -0.019531 0
+      0.292969 0.957031 0
+      0.292969 -0.019531 0
+        endnode
+doneanim poison ctl_party_health
+donemodel ctl_party_health

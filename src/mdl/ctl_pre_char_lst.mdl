@@ -1,0 +1,141 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_pre_char_lst
+        setsupermodel ctl_pre_char_lst NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_pre_char_lst
+    node dummy ctl_pre_char_lst
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent ctl_pre_char_lst
+        #part-number 1
+        position 0.03 2.74 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_pre_char_lst
+        #part-number 2
+        position 0.03 0.15 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_pre_char_lst
+        #part-number 3
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listitem
+        parent scrollpane
+        #part-number 4
+        position 0.16 2.42 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane83
+        parent ctl_pre_char_lst
+        #part-number 5
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 2.08 1.44 0
+        orientation 0 0 0 0
+        verts 4
+            -1.92 1.44 0
+            -1.92 -1.44 0
+            1.92 1.44 0
+            1.92 -1.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578125 0.940559 0
+            0.578125 -0.00349724 0
+            0.609457 0.940558 0
+            0.609457 -0.00349754 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane87
+        parent ctl_pre_char_lst
+        #part-number 6
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0.08 1.44 0
+        orientation 0 0 0 0
+        verts 4
+            -0.08 1.44 0
+            -0.08 -1.44 0
+            0.08 1.44 0
+            0.08 -1.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.575893 0.940559 0
+            0.575893 -0.00349653 0
+            0.611607 0.940559 0
+            0.611607 -0.00349653 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy top
+        parent ctl_pre_char_lst
+        #part-number 7
+        position 3.99 2.87 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy bottom
+        parent ctl_pre_char_lst
+        #part-number 8
+        position 0.01 0.01 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_pre_char_lst
+        #part-number 9
+        position 0.16 2.87 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_pre_char_lst
+        #part-number 10
+        position 3.99 0.01 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_pre_char_lst
+donemodel ctl_pre_char_lst

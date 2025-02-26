@@ -1,0 +1,89 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_edt_mod_info
+        setsupermodel ctl_edt_mod_info NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_edt_mod_info
+    node dummy ctl_edt_mod_info
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane264
+        parent ctl_edt_mod_info
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_edt_mod_info
+        texture0 ctl_edt_mod_info
+        rotatetexture 0
+        position 1.39 1.75 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -1.39 1.75 0
+            -1.39 -1.75 0
+            1.39 1.75 0
+            1.39 -1.75 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.228516 0.841797 0
+            0.228516 0.158203 0
+            0.771484 0.841797 0
+            0.771484 0.158203 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy bottom
+        parent ctl_edt_mod_info
+        #part-number 2
+        position 0 0 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_edt_mod_info
+        #part-number 3
+        position 0.03 3.47 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_edt_mod_info
+        #part-number 4
+        position 2.59 1.33 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_edt_mod_info
+        #part-number 5
+        position 2.56 1.23 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy top
+        parent ctl_edt_mod_info
+        #part-number 6
+        position 2.55 3.45 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_edt_mod_info
+        #part-number 7
+        position 2.59 3.3 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_edt_mod_info
+donemodel ctl_edt_mod_info

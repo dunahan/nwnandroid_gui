@@ -1,0 +1,159 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_chr_deity
+        setsupermodel pnl_chr_deity NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_chr_deity
+    node dummy pnl_chr_deity
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane05
+        parent pnl_chr_deity
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0 0.035 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -3.71 2.405 0
+            -3.71 -2.405 0
+            3.71 2.405 0
+            3.71 -2.405 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.390583 0.939328 0
+            0.390583 -0.00208646 0
+            0.421917 0.939328 0
+            0.421917 -0.00208682 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy helptext
+        parent pnl_chr_deity
+        #part-number 2
+        position 0.17 -1.77 0
+        orientation 0 0 0 0
+    endnode
+    node dummy cancelbutton
+        parent pnl_chr_deity
+        #part-number 3
+        position 2.48 -2.26 0
+        orientation 0 0 0 0
+    endnode
+    node dummy okbutton
+        parent pnl_chr_deity
+        #part-number 4
+        position 0.17 -2.26 0
+        orientation 0 0 0 0
+    endnode
+    node dummy customedit
+        parent pnl_chr_deity
+        #part-number 5
+        position -2.58 -1.66 0
+        orientation 0 0 0 0
+    endnode
+    node dummy titlelabel
+        parent pnl_chr_deity
+        #part-number 6
+        position -3.6 2.11 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listbox
+        parent pnl_chr_deity
+        #part-number 7
+        position -3.6 -1.09 0
+        orientation 0 0 0 0
+    endnode
+    node dummy recommendedbutton
+        parent pnl_chr_deity
+        #part-number 8
+        position -2.73 -2.26 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listboxtop
+        parent pnl_chr_deity
+        #part-number 9
+        position -3.6 1.38 0
+        orientation 0 0 0 0
+    endnode
+    node dummy resetbutton
+        parent pnl_chr_deity
+        #part-number 10
+        position 1.32 -2.26 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane139
+        parent pnl_chr_deity
+        #part-number 11
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position -1.885 -1.555 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.215 0
+            -1.715 -0.215 0
+            1.715 0.215 0
+            1.715 -0.215 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.958837 0
+            0.578033 -0.0243949 0
+            0.609467 0.958835 0
+            0.609467 -0.0243968 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy customlabel0
+        parent pnl_chr_deity
+        #part-number 12
+        position -3.59 -1.35 0
+        orientation 0 0 0 0
+    endnode
+    node dummy customlabel1
+        parent pnl_chr_deity
+        #part-number 13
+        position -2.64 -1.76 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_chr_deity
+donemodel pnl_chr_deity

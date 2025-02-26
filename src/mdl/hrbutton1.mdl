@@ -1,0 +1,61 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel hrbutton1
+        classification CHARACTER
+        setsupermodel hrbutton1 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom hrbutton1
+    node dummy hrbutton1
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane041
+        parent hrbutton1
+        #part-number 1
+        diffuse 0.5 0.5 0.5
+        ambient 0.1 0.1 0.1
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap reply
+        texture0 reply
+        rotatetexture 0
+        position 0.0674465 0.226573 0.001
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.16 0.16 0
+            -0.16 -0.16 0
+            0.16 0.16 0
+            0.16 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy nextlink
+        parent hrbutton1
+        #part-number 2
+        position 0 -0.46516 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom hrbutton1
+donemodel hrbutton1

@@ -1,105 +1,104 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
 #MAXMODEL ASCII
-# model: PNL_MAPGEN_11x11
-filedependancy PNL_MAPGEN_11x11.max
-newmodel PNL_MAPGEN_11x11
-setsupermodel PNL_MAPGEN_11x11 NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom PNL_MAPGEN_11x11
-node dummy PNL_MAPGEN_11x11
-  parent NULL
-endnode
-node trimesh Plane343
-  parent PNL_MAPGEN_11x11
-  ambient 0.1 0.1 0.1
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_box-this-2
-  verts 4
-      -1.0000000    0.1650000    0.0000000
-      -1.0000000   -0.1350000    0.0000000
-       1.0800000    0.1650000    0.0000000
-       1.0800000   -0.1350000    0.0000000
-  tverts 4
-       0.001    0.999  0
-       0.001    0.001  0
-       0.999    0.999  0
-       0.999    0.001  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 1.01 -0.74 -0.05
-  orientation 0 0 0 0
-endnode
-node trimesh Plane344
-  parent PNL_MAPGEN_11x11
-  ambient 0.1 0.1 0.1
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_box-this
-  verts 4
-      -1.0000000    0.9300000    0.0000000
-      -1.0000000   -0.9300000    0.0000000
-       1.0800000    0.9300000    0.0000000
-       1.0800000   -0.9300000    0.0000000
-  tverts 4
-       0.001    0.999  0
-       0.001    0.001  0
-       0.999    0.999  0
-       0.999    0.001  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 1.01 -1.76 -0.1
-  orientation 0 0 0 0
-endnode
-node dummy PinButton
-  parent PNL_MAPGEN_11x11
-  position 0.1 -0.82 0
-  orientation 0 0 0 0
-endnode
-node dummy UpButton
-  parent PNL_MAPGEN_11x11
-  position 0.27 -0.82 0
-  orientation 0 0 0 0
-endnode
-node dummy DownButton
-  parent PNL_MAPGEN_11x11
-  position 0.44 -0.82 0
-  orientation 0 0 0 0
-endnode
-node dummy XButton
-  parent PNL_MAPGEN_11x11
-  position 1.76 -0.82 0
-  orientation 0 0 0 0
-endnode
-node dummy MapCenter
-  parent PNL_MAPGEN_11x11
-  position 1.01 -1.76 0
-  orientation 0 0 0 0
-endnode
-node dummy Viewport1
-  parent PNL_MAPGEN_11x11
-  position 1.89 -0.88 0
-  orientation 0 0 0 0
-endnode
-node dummy Viewport0
-  parent PNL_MAPGEN_11x11
-  position 0.13 -2.64 0
-  orientation 0 0 0 0
-endnode
-node dummy VerticalIndicator
-  parent PNL_MAPGEN_11x11
-  position 0.1 -0.88 0
-  orientation 0 0 0 0
-endnode
-node dummy HorizontalIndicator
-  parent PNL_MAPGEN_11x11
-  position 0.13 -0.87 0
-  orientation 0 0 -1 -1.5708
-endnode
-endmodelgeom PNL_MAPGEN_11x11
-
-donemodel PNL_MAPGEN_11x11
+filedependency Unknown
+newmodel pnl_mapgen_11x11
+        setsupermodel pnl_mapgen_11x11 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_mapgen_11x11
+    node dummy pnl_mapgen_11x11
+        parent NULL
+    endnode
+    node trimesh plane343
+        parent pnl_mapgen_11x11
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap gui_box-this-2
+        position 1.01 -0.74 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1 0.165 0
+            -1 -0.135 0
+            1.08 0.165 0
+            1.08 -0.135 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.001 0.999 0
+            0.001 0.001 0
+            0.999 0.999 0
+            0.999 0.001 0
+    endnode
+    node trimesh plane344
+        parent pnl_mapgen_11x11
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap gui_box-this
+        position 1.01 -1.76 -0.1
+        orientation 0 0 0 0
+        verts 4
+            -1 0.93 0
+            -1 -0.93 0
+            1.08 0.93 0
+            1.08 -0.93 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.001 0.999 0
+            0.001 0.001 0
+            0.999 0.999 0
+            0.999 0.001 0
+    endnode
+    node dummy pinbutton
+        parent pnl_mapgen_11x11
+        position 0.1 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy upbutton
+        parent pnl_mapgen_11x11
+        position 0.27 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy downbutton
+        parent pnl_mapgen_11x11
+        position 0.44 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy xbutton
+        parent pnl_mapgen_11x11
+        position 1.76 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy mapcenter
+        parent pnl_mapgen_11x11
+        position 1.01 -1.76 0
+        orientation 0 0 0 0
+    endnode
+    node dummy viewport1
+        parent pnl_mapgen_11x11
+        position 1.89 -0.88 0
+        orientation 0 0 0 0
+    endnode
+    node dummy viewport0
+        parent pnl_mapgen_11x11
+        position 0.13 -2.64 0
+        orientation 0 0 0 0
+    endnode
+    node dummy verticalindicator
+        parent pnl_mapgen_11x11
+        position 0.1 -0.88 0
+        orientation 0 0 0 0
+    endnode
+    node dummy horizontalindicator
+        parent pnl_mapgen_11x11
+        position 0.13 -0.87 0
+        orientation 0 0 -1 -1.5708
+    endnode
+endmodelgeom pnl_mapgen_11x11
+donemodel pnl_mapgen_11x11

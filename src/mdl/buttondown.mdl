@@ -1,112 +1,139 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUTTONDOWN
-filedependancy BUTTONDOWN.max
-newmodel BUTTONDOWN
-setsupermodel BUTTONDOWN NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUTTONDOWN
-node dummy BUTTONDOWN
-  parent NULL
-endnode
-node trimesh Plane31
-  parent BUTTONDOWN
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap Controls
-  verts 4
-      -0.1000000    0.1000000    0.0000000
-      -0.1000000   -0.1000000    0.0000000
-       0.1000000    0.1000000    0.0000000
-       0.1000000   -0.1000000    0.0000000
-  tverts 4
-       0.0787311    0.7502630  0
-       0.0787311    0.7112010  0
-       0.1177940    0.7502630  0
-       0.1177940    0.7112010  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0.098555 0.101038 0.0207503
-  orientation 0 0 0 0
-endnode
-node trimesh Plane34
-  parent Plane31
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap Controls
-  verts 4
-      -0.1000000    0.1000000    0.0000000
-      -0.1000000   -0.1000000    0.0000000
-       0.1000000    0.1000000    0.0000000
-       0.1000000   -0.1000000    0.0000000
-  tverts 4
-       1.1173199    0.7500370  0
-       1.1173199    0.7109740  0
-       1.1563801    0.7500370  0
-       1.1563801    0.7109740  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position -0.00570924 0.00635086 0
-  orientation -1 0 0 -3.14159
-endnode
-endmodelgeom BUTTONDOWN
+newmodel buttondown
+        setsupermodel buttondown NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom buttondown
+    node dummy buttondown
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane31
+        parent buttondown
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0.098555 0.101038 0.0207503
+        orientation 0 0 0 0
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.0787311 0.750263 0
+            0.0787311 0.711201 0
+            0.117794 0.750263 0
+            0.117794 0.711201 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane34
+        parent plane31
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position -0.00570924 0.00635086 0
+        orientation 1 0 0 3.14159
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            1.11732 0.750037 0
+            1.11732 0.710974 0
+            1.15638 0.750037 0
+            1.15638 0.710974 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom buttondown
 
 #MAXANIM ASCII
-newanim down BUTTONDOWN
-  length 0.333333
-  transtime 0
-  node dummy BUTTONDOWN
-    parent NULL
-  endnode
-  node trimesh Plane31
-    parent BUTTONDOWN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    orientationkey 2
-         0.0000000    1.0000000   -0.0000000   -0.0000000   -3.1415901
-         0.3333330    1.0000000   -0.0000000   -0.0000000   -3.1415901
-  endnode
-  node trimesh Plane34
-    parent Plane31
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-doneanim down BUTTONDOWN
+newanim down buttondown
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttondown
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane31
+            parent buttondown
+            #part-number 1
+            orientationkey
+      0 -1 0 0 3.14159
+      0.333333 -1 0 0 3.14159
+            endlist
+        endnode
+        node dummy plane34
+            parent plane31
+            #part-number 2
+        endnode
+doneanim down buttondown
 
 #MAXANIM ASCII
-newanim up BUTTONDOWN
-  length 0.333333
-  transtime 0
-  node dummy BUTTONDOWN
-    parent NULL
-  endnode
-  node trimesh Plane31
-    parent BUTTONDOWN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-  node trimesh Plane34
-    parent Plane31
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-doneanim up BUTTONDOWN
-
-donemodel BUTTONDOWN
+newanim up buttondown
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttondown
+            parent NULL
+            #part-number 0
+        endnode
+        node trimesh plane31
+            parent buttondown
+            #part-number 1
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy plane34
+            parent plane31
+            #part-number 2
+        endnode
+doneanim up buttondown
+donemodel buttondown

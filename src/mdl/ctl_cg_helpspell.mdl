@@ -1,0 +1,255 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_helpspell
+        setsupermodel ctl_cg_helpspell NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_helpspell
+    node dummy ctl_cg_helpspell
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy title1
+        parent ctl_cg_helpspell
+        #part-number 1
+        position 3.42 1.06 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_helpspell
+        #part-number 2
+        position 3.29 0.93 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_cg_helpspell
+        #part-number 3
+        position 0.92 1.05 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_helpspell
+        #part-number 4
+        position 3.24 0.01 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy title0
+        parent ctl_cg_helpspell
+        #part-number 5
+        position 0.06 1.26 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_helpspell
+        #part-number 6
+        position 3.29 0.14 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane129
+        parent ctl_cg_helpspell
+        #part-number 7
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0.43 0.525 0
+        orientation 0 0 0 0
+        verts 4
+            -0.43 0.525 0
+            -0.43 -0.525 0
+            0.43 0.525 0
+            0.43 -0.525 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.577757 0.937199 0
+            0.577757 -0.00931537 0
+            0.609375 0.937199 0
+            0.609375 -0.00931555 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane133
+        parent plane129
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.0640517 0.103267 0.181698
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ra_fr_spells
+        texture0 ra_fr_spells
+        rotatetexture 0
+        position 0 -0.025 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.32 0.32 0
+            -0.32 -0.32 0
+            0.32 0.32 0
+            0.32 -0.32 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy icon
+        parent plane133
+        #part-number 9
+        position 0 0 0.05
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane130
+        parent ctl_cg_helpspell
+        #part-number 10
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 2.055 0.525 0
+        orientation 0 0 0 0
+        verts 4
+            -1.195 0.525 0
+            -1.195 -0.525 0
+            1.195 0.525 0
+            1.195 -0.525 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.577994 0.937198 0
+            0.577994 -0.00931621 0
+            0.609375 0.937198 0
+            0.609375 -0.00931668 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane131
+        parent ctl_cg_helpspell
+        #part-number 11
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 3.34 0.525 0
+        orientation 0 0 0 0
+        verts 4
+            -0.09 0.525 0
+            -0.09 -0.525 0
+            0.09 0.525 0
+            0.09 -0.525 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.576172 0.937199 0
+            0.576172 -0.00931501 0
+            0.611328 0.937199 0
+            0.611328 -0.00931501 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane132
+        parent ctl_cg_helpspell
+        #part-number 12
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.715 1.16 0
+        orientation 0 0 0 0
+        verts 4
+            -1.715 0.11 0
+            -1.715 -0.11 0
+            1.715 0.11 0
+            1.715 -0.11 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.578033 0.981241 0
+            0.578033 -0.0500095 0
+            0.609467 0.981237 0
+            0.609467 -0.0500134 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_cg_helpspell
+donemodel ctl_cg_helpspell

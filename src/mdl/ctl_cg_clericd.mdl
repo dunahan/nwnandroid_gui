@@ -1,0 +1,90 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_clericd
+        classification CHARACTER
+        setsupermodel ctl_cg_clericd NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_clericd
+    node dummy ctl_cg_clericd
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_clericd
+        #part-number 1
+        position 3.34 3.69 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_clericd
+        #part-number 2
+        position 3.34 1.27 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_clericd
+        #part-number 3
+        position 3.3 1.16 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane223
+        parent ctl_cg_clericd
+        #part-number 4
+        diffuse 1 1 1
+        ambient 0.0640517 0.186926 0.128103
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pnl_cg_clericd
+        texture0 pnl_cg_clericd
+        rotatetexture 0
+        position 1.765 2.06 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.765 2.06 0
+            -1.765 -2.06 0
+            1.765 2.06 0
+            1.765 -2.06 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.154297 0.902344 0
+            0.154297 0.0976563 0
+            0.84375 0.902344 0
+            0.84375 0.0976562 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text0
+        parent ctl_cg_clericd
+        #part-number 5
+        position 0.08 3.85 0
+        orientation 0 0 0 0
+    endnode
+    node dummy domain2
+        parent ctl_cg_clericd
+        #part-number 6
+        position 0.17 0.16 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy domain1
+        parent ctl_cg_clericd
+        #part-number 7
+        position 0.17 0.6 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_clericd
+donemodel ctl_cg_clericd

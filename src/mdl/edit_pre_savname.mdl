@@ -1,0 +1,66 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel edit_pre_savname
+        classification CHARACTER
+        setsupermodel edit_pre_savname NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_pre_savname
+    node dummy edit_pre_savname
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane38
+        parent edit_pre_savname
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 1.8 0.135 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -1.8 0.135 0
+            -1.8 -0.135 0
+            1.8 0.135 0
+            1.8 -0.135 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0780377 0.972543 0
+            0.0780377 -0.0399568 0
+            0.109462 0.97254 0
+            0.109462 -0.03996 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text1
+        parent edit_pre_savname
+        #part-number 2
+        position 3.45 0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent edit_pre_savname
+        #part-number 3
+        position 0.07 0.24 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom edit_pre_savname
+donemodel edit_pre_savname

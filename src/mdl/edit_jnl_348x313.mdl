@@ -1,0 +1,118 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel edit_jnl_348x313
+        classification CHARACTER
+        setsupermodel edit_jnl_348x313 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom edit_jnl_348x313
+    node dummy edit_jnl_348x313
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane03
+        parent edit_jnl_348x313
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.65 1.565 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.65 1.565 0
+            -1.65 -1.565 0
+            1.65 1.565 0
+            1.65 -1.565 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.07803 0.940317 0
+            0.07803 -0.00321227 0
+            0.109375 0.940316 0
+            0.109375 -0.00321251 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane87
+        parent edit_jnl_348x313
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.39 1.565 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.09 1.565 0
+            -0.09 -1.565 0
+            0.09 1.565 0
+            0.09 -1.565 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0761719 0.940314 0
+            0.0761718 -0.00321531 0
+            0.111328 0.940314 0
+            0.111328 -0.00321531 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy scrollmin
+        parent edit_jnl_348x313
+        #part-number 3
+        position 3.34 2.99 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent edit_jnl_348x313
+        #part-number 4
+        position 3.34 0.14 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent edit_jnl_348x313
+        #part-number 5
+        position 3.27 0.04 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent edit_jnl_348x313
+        #part-number 6
+        position 0.05 3.12 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom edit_jnl_348x313
+donemodel edit_jnl_348x313

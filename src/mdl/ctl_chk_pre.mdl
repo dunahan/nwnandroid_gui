@@ -1,0 +1,430 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chk_pre
+        setsupermodel ctl_chk_pre NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chk_pre
+    node dummy ctl_chk_pre
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane149
+        parent ctl_chk_pre
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrgen
+        texture0 gui_boxes_chrgen
+        rotatetexture 0
+        position 0.1 0.1 0
+        orientation 0 0 0 0
+        verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane12
+        parent plane149
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_pre_chkbox
+        texture0 gui_pre_chkbox
+        rotatetexture 0
+        position 0 0 0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.08 0.08 0
+            -0.08 -0.08 0
+            0.08 0.08 0
+            0.08 -0.08 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_chk_pre
+
+#MAXANIM ASCII
+newanim checkeddown ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.513889 0.986111 0
+      0.513889 -0.0555556 0
+      0.548611 0.986111 0
+      0.548611 -0.0555559 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            positionkey
+      0 0 -0.01 0.03
+      1 0 -0.01 0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+        endnode
+doneanim checkeddown ctl_chk_pre
+
+#MAXANIM ASCII
+newanim checkedup ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.451389 0.986111 0
+      0.451389 -0.0555552 0
+      0.486111 0.986111 0
+      0.486111 -0.0555555 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            positionkey
+      0 0 0 0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+        endnode
+doneanim checkedup ctl_chk_pre
+
+#MAXANIM ASCII
+newanim disabled ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.638889 0.98611 0
+      0.638889 -0.0555565 0
+      0.673611 0.98611 0
+      0.673611 -0.0555568 0
+        endnode
+        node dummy plane12
+            parent plane149
+            #part-number 2
+        endnode
+doneanim disabled ctl_chk_pre
+
+#MAXANIM ASCII
+newanim down ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.513889 0.986111 0
+      0.513889 -0.0555556 0
+      0.548611 0.986111 0
+      0.548611 -0.0555559 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            positionkey
+      0 0 -0.01 0.03
+      1 0 -0.01 0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+        endnode
+doneanim down ctl_chk_pre
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.513889 0.986111 0
+      0.513889 -0.0555556 0
+      0.548611 0.986111 0
+      0.548611 -0.0555559 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            orientationkey
+      0 -1 0 0 3.14159
+      1 -1 0 0 3.14159
+            endlist
+        endnode
+doneanim uncheckeddown ctl_chk_pre
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.451389 0.986111 0
+      0.451389 -0.0555552 0
+      0.486111 0.986111 0
+      0.486111 -0.0555555 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            positionkey
+      1 0 -1.6278e-06 0.03
+            endlist
+            orientationkey
+      0 -1 0 0 3.14159
+      1 -1 0 0 3.14159
+            endlist
+        endnode
+doneanim uncheckedup ctl_chk_pre
+
+#MAXANIM ASCII
+newanim up ctl_chk_pre
+        length 1
+        transtime 0
+        animroot ctl_chk_pre
+        node dummy ctl_chk_pre
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane149
+            parent ctl_chk_pre
+            #part-number 1
+            sampleperiod 1
+            verts 4
+            -0.1 0.1 0
+            -0.1 -0.1 0
+            0.1 0.1 0
+            0.1 -0.1 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.451389 0.986111 0
+            0.451389 -0.0555552 0
+            0.486111 0.986111 0
+            0.486111 -0.0555555 0
+            animverts 4
+      -0.1 0.1 0
+      -0.1 -0.1 0
+      0.1 0.1 0
+      0.1 -0.1 0
+            animtverts 4
+      0.451389 0.986111 0
+      0.451389 -0.0555552 0
+      0.486111 0.986111 0
+      0.486111 -0.0555555 0
+        endnode
+        node trimesh plane12
+            parent plane149
+            #part-number 2
+            positionkey
+      0 0 0 0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+        endnode
+doneanim up ctl_chk_pre
+donemodel ctl_chk_pre

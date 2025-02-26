@@ -1,0 +1,155 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
+#MAXMODEL ASCII
+newmodel pnl_party_bar01
+        setsupermodel pnl_party_bar01 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_party_bar01
+    node dummy pnl_party_bar01
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh backgroundplane01
+        parent pnl_party_bar01
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap NULL
+        texture0 NULL
+        rotatetexture 0
+        position 0.400001 -2.72 -0.5
+        orientation 0 0 0 0
+        verts 4
+            -0.4 2.72 0
+            -0.4 -2.72 0
+            0.4 2.72 0
+            0.4 -2.72 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy charbutton01
+        parent pnl_party_bar01
+        #part-number 2
+        position 0.429999 -1.51 0
+        orientation 0 0 0 0
+    endnode
+    node dummy invbutton01
+        parent pnl_party_bar01
+        #part-number 3
+        position 0.43 -1.32 0
+        orientation 0 0 0 0
+    endnode
+    node dummy jourbutton01
+        parent pnl_party_bar01
+        #part-number 4
+        position 0.05 -1.51 0
+        orientation 0 0 0 0
+    endnode
+    node dummy mapbutton01
+        parent pnl_party_bar01
+        #part-number 5
+        position 0.05 -1.32 0
+        orientation 0 0 0 0
+    endnode
+    node dummy optsbutton01
+        parent pnl_party_bar01
+        #part-number 6
+        position 0.05 -1.7 0
+        orientation 0 0 0 0
+    endnode
+    node dummy partymember02
+        parent pnl_party_bar01
+        #part-number 7
+        position 0.05 -2.24 0
+        orientation 0 0 0 0
+    endnode
+    node dummy partytextlist01
+        parent pnl_party_bar01
+        #part-number 8
+        position 0.05 -1.76 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh portraitframe01
+        parent pnl_party_bar01
+        #part-number 9
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap guigrey
+        texture0 guigrey
+        rotatetexture 0
+        position 0.41 -0.58 -0.4
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -0.36 0.55 0
+            -0.36 -0.55 0
+            0.36 0.55 0
+            0.36 -0.55 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy portrait01
+        parent portraitframe01
+        #part-number 10
+        position -0.35 -0.54 0.4
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax01
+        parent pnl_party_bar01
+        #part-number 11
+        position 0.68 -5.26 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin01
+        parent pnl_party_bar01
+        #part-number 12
+        position 0.68 -1.86 0
+        orientation 0 0 0 0
+    endnode
+    node dummy spellbutton01
+        parent pnl_party_bar01
+        #part-number 13
+        position 0.430001 -1.7 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_party_bar01
+donemodel pnl_party_bar01

@@ -1,0 +1,38 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel heditscroll2
+        classification CHARACTER
+        setsupermodel heditscroll2 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom heditscroll2
+    node dummy heditscroll2
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent heditscroll2
+        #part-number 1
+        position 0 1 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent heditscroll2
+        #part-number 2
+        position 3.7 0.9 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent heditscroll2
+        #part-number 3
+        position 3.35 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent heditscroll2
+        #part-number 4
+        position 3.7 0.3 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom heditscroll2
+donemodel heditscroll2

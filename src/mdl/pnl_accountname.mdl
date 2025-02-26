@@ -1,0 +1,77 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
+#MAXMODEL ASCII
+newmodel pnl_accountname
+        setsupermodel pnl_accountname NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_accountname
+    node dummy pnl_accountname
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane
+        parent pnl_accountname
+        #part-number 1
+        diffuse 0.8 0.8 0.8
+        ambient 0.2 0.2 0.2
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap panel
+        texture0 panel
+        rotatetexture 0
+        position 0.18859 0.0122217 -0.0415449
+        orientation 0 0 0 0
+        verts 4
+            -2.56 1.28 0
+            -2.56 -1.28 0
+            2.56 1.28 0
+            2.56 -1.28 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy cancelbutton
+        parent pnl_accountname
+        #part-number 2
+        position 0.304026 -0.974329 0
+        orientation 0 0 0 0
+    endnode
+    node dummy nameedit
+        parent pnl_accountname
+        #part-number 3
+        position -1.92289 -0.0285845 0
+        orientation 0 0 0 0
+    endnode
+    node dummy okbutton
+        parent pnl_accountname
+        #part-number 4
+        position -2.04853 -0.958668 0
+        orientation 0 0 0 0
+    endnode
+    node dummy titlelabel
+        parent pnl_accountname
+        #part-number 5
+        position -2.13844 0.794462 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_accountname
+donemodel pnl_accountname

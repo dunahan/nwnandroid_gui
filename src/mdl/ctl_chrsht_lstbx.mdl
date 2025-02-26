@@ -1,0 +1,49 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chrsht_lstbx
+        setsupermodel ctl_chrsht_lstbx NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chrsht_lstbx
+    node dummy ctl_chrsht_lstbx
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_chrsht_lstbx
+        #part-number 1
+        position 0.23 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_chrsht_lstbx
+        #part-number 2
+        position 3.42 -0.17 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_chrsht_lstbx
+        #part-number 3
+        position 3.42 -0.68 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_chrsht_lstbx
+        #part-number 4
+        position 3.42 -0.6 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_chrsht_lstbx
+        #part-number 5
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy icon
+        parent scrollpane
+        #part-number 6
+        position 0.11 -0.09 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_chrsht_lstbx
+donemodel ctl_chrsht_lstbx

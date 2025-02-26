@@ -1,152 +1,148 @@
-# Exported from NWmax 0.8 c00 at 6/20/2019 3:51:13 PM
-# mdl file
-#
-#NWmax MODEL ASCII
-# model: BUT_CHAT_BAR720
-#local file: Unknown
-filedependancy Unknown
-newmodel BUT_CHAT_BAR720
-setsupermodel BUT_CHAT_BAR720 NULL
-classification Character
-setanimationscale 1.0
-#NWmax GEOM  ASCII
-beginmodelgeom BUT_CHAT_BAR720
-node dummy BUT_CHAT_BAR720
-  parent NULL
-endnode
-node trimesh Plane44
-  parent BUT_CHAT_BAR720
-  position 0.0555997 0.13935 0.5
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 0.1 0.1 0.1 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.045 0.045 0.045 
-  shininess 26
-  center undefined
-  bitmap gui_boxes_ingame
-  verts 3
-    -0.055 0.04125 0.0
-    -0.055 -0.04125 0.0
-    0.055 0.04125 0.0
-  faces 1
-    0 1 2  1  0 1 2  1
-  tverts 3
-    0.0407156 0.339027 0
-    0.0434624 0.174691 0
-    0.0434546 0.998242 0
-endnode
-node trimesh Plane45
-  parent Plane44
-  position 7.09 0.0 0.0
-  orientation 1.0 0.0 0.0 0.0
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 0.1 0.1 0.1 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.045 0.045 0.045 
-  shininess 26
-  center undefined
-  bitmap gui_boxes_ingame
-  verts 3
-    0.055 -0.04125 0.0
-    0.055 0.04125 0.0
-    -0.055 0.04125 0.0
-  faces 1
-    0 1 2  1  0 1 2  1
-  tverts 3
-    0.0434624 0.174691 0
-    0.0407156 0.339027 0
-    0.0434546 0.998242 0
-endnode
-node trimesh Plane42
-  parent Plane45
-  position -3.5456 -0.04935 -0.1
-  orientation 0.0 0.0 -1.0 -1.5708
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 0.1 0.1 0.1 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.045 0.045 0.045 
-  shininess 26
-  center undefined
-  bitmap gui_boxes_ingame
-  verts 4
-    -0.09 3.6 0.0
-    -0.09 -3.6 0.0
-    0.09 3.6 0.0
-    0.09 -3.6 0.0
-  faces 2
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-  tverts 4
-    0.0187501 0.938806 0
-    0.0187499 -0.0013056 0
-    0.0281251 0.938806 0
-    0.0281249 -0.0013056 0
-endnode
-node trimesh Plane43
-  parent Plane42
-  position -0.00750002 -0.005 0.1
-  orientation 0.0 0.0 1.0 -1.5708
-  wirecolor 1.0 1.0 1.0 
-  tilefade 0
-  scale 1.0
-  render 1
-  Shadow 1
-  beaming 0
-  inheritcolor 0
-  rotatetexture 0
-  alpha 1.0
-  transparencyhint 0
-  selfillumcolor 0.0 0.0 0.0 
-  ambient 0.1 0.1 0.1 
-  Diffuse 1.0 1.0 1.0 
-  Specular 0.045 0.045 0.045 
-  shininess 26
-  center undefined
-  bitmap gui_spl_btn_up
-  verts 4
-    -0.055 0.0525 0.0
-    -0.055 -0.0525 0.0
-    0.055 0.0525 0.0
-    0.055 -0.0525 0.0
-  faces 2
-    0 1 2  1  0 1 2  1
-    3 2 1  1  3 2 1  1
-  tverts 4
-    0.1875 0.75 0
-    0.1875 0.3125 0
-    0.875 0.75 0
-    0.875 0.3125 0
-endnode
-endmodelgeom BUT_CHAT_BAR720
-donemodel BUT_CHAT_BAR720
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel but_chat_bar720
+        classification CHARACTER
+        setsupermodel but_chat_bar720 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom but_chat_bar720
+    node dummy but_chat_bar720
+        parent NULL
+    endnode
+    node trimesh plane44
+        parent but_chat_bar720
+        position 0.0555997 0.13935 0.5
+        orientation 1 0 0 0
+        wirecolor 1 1 1
+        tilefade 0
+        scale 1
+        render 1
+        shadow 1
+        beaming 0
+        inheritcolor 0
+        rotatetexture 0
+        alpha 1
+        transparencyhint 0
+        selfillumcolor 0 0 0
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        center undefined
+        bitmap gui_boxes_ingame
+        verts 3
+            -0.055 0.04125 0
+            -0.055 -0.04125 0
+            0.055 0.04125 0
+        faces 1
+            0 1 2 1 0 1 2 1
+        tverts 3
+            0.0407156 0.339027 0
+            0.0434624 0.174691 0
+            0.0434546 0.998242 0
+    endnode
+    node trimesh plane45
+        parent plane44
+        position 7.09 0 0
+        orientation 1 0 0 0
+        wirecolor 1 1 1
+        tilefade 0
+        scale 1
+        render 1
+        shadow 1
+        beaming 0
+        inheritcolor 0
+        rotatetexture 0
+        alpha 1
+        transparencyhint 0
+        selfillumcolor 0 0 0
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        center undefined
+        bitmap gui_boxes_ingame
+        verts 3
+            0.055 -0.04125 0
+            0.055 0.04125 0
+            -0.055 0.04125 0
+        faces 1
+            0 1 2 1 0 1 2 1
+        tverts 3
+            0.0434624 0.174691 0
+            0.0407156 0.339027 0
+            0.0434546 0.998242 0
+    endnode
+    node trimesh plane42
+        parent plane45
+        position -3.5456 -0.04935 -0.1
+        orientation 0 0 -1 -1.5708
+        wirecolor 1 1 1
+        tilefade 0
+        scale 1
+        render 1
+        shadow 1
+        beaming 0
+        inheritcolor 0
+        rotatetexture 0
+        alpha 1
+        transparencyhint 0
+        selfillumcolor 0 0 0
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        center undefined
+        bitmap gui_boxes_ingame
+        verts 4
+            -0.09 3.6 0
+            -0.09 -3.6 0
+            0.09 3.6 0
+            0.09 -3.6 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0187501 0.938806 0
+            0.0187499 -0.0013056 0
+            0.0281251 0.938806 0
+            0.0281249 -0.0013056 0
+    endnode
+    node trimesh plane43
+        parent plane42
+        position -0.00750002 -0.005 0.1
+        orientation 0 0 1 -1.5708
+        wirecolor 1 1 1
+        tilefade 0
+        scale 1
+        render 1
+        shadow 1
+        beaming 0
+        inheritcolor 0
+        rotatetexture 0
+        alpha 1
+        transparencyhint 0
+        selfillumcolor 0 0 0
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        center undefined
+        bitmap gui_spl_btn_up
+        verts 4
+            -0.055 0.0525 0
+            -0.055 -0.0525 0
+            0.055 0.0525 0
+            0.055 -0.0525 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.1875 0.75 0
+            0.1875 0.3125 0
+            0.875 0.75 0
+            0.875 0.3125 0
+    endnode
+endmodelgeom but_chat_bar720
+donemodel but_chat_bar720

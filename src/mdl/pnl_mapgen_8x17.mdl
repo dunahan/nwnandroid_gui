@@ -1,0 +1,147 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
+#MAXMODEL ASCII
+newmodel pnl_mapgen_8x17
+        setsupermodel pnl_mapgen_8x17 NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_mapgen_8x17
+    node dummy pnl_mapgen_8x17
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane217
+        parent pnl_mapgen_8x17
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_box-this-2
+        texture0 gui_box-this-2
+        rotatetexture 0
+        position 0.77 -0.74 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.76 0.165 0
+            -0.76 -0.135 0
+            0.84 0.165 0
+            0.84 -0.135 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.001 0.999 0
+            0.001 0.001 0
+            0.999 0.999 0
+            0.999 0.001 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane218
+        parent pnl_mapgen_8x17
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_box-this
+        texture0 gui_box-this
+        rotatetexture 0
+        position 0.77 -2.24 -0.1
+        orientation 0 0 0 0
+        verts 4
+            -0.76 1.41 0
+            -0.76 -1.41 0
+            0.84 1.41 0
+            0.84 -1.41 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.001 0.999 0
+            0.001 0.001 0
+            0.999 0.999 0
+            0.999 0.001 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy pinbutton
+        parent pnl_mapgen_8x17
+        #part-number 3
+        position 0.1 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy upbutton
+        parent pnl_mapgen_8x17
+        #part-number 4
+        position 0.27 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy downbutton
+        parent pnl_mapgen_8x17
+        #part-number 5
+        position 0.44 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy xbutton
+        parent pnl_mapgen_8x17
+        #part-number 6
+        position 1.28 -0.82 0
+        orientation 0 0 0 0
+    endnode
+    node dummy mapcenter
+        parent pnl_mapgen_8x17
+        #part-number 7
+        position 0.77 -2.24 0
+        orientation 0 0 0 0
+    endnode
+    node dummy viewport1
+        parent pnl_mapgen_8x17
+        #part-number 8
+        position 1.41 -0.88 0
+        orientation 0 0 0 0
+    endnode
+    node dummy viewport0
+        parent pnl_mapgen_8x17
+        #part-number 9
+        position 0.13 -3.6 0
+        orientation 0 0 0 0
+    endnode
+    node dummy verticalindicator
+        parent pnl_mapgen_8x17
+        #part-number 10
+        position 0.1 -0.88 0
+        orientation 0 0 0 0
+    endnode
+    node dummy horizontalindicator
+        parent pnl_mapgen_8x17
+        #part-number 11
+        position 0.13 -0.87 0
+        orientation 0 0 1 1.5708
+    endnode
+endmodelgeom pnl_mapgen_8x17
+donemodel pnl_mapgen_8x17

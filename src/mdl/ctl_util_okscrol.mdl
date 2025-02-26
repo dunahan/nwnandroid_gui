@@ -1,0 +1,38 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_util_okscrol
+        classification CHARACTER
+        setsupermodel ctl_util_okscrol NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_util_okscrol
+    node dummy ctl_util_okscrol
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_util_okscrol
+        #part-number 1
+        position 0.09 1.49 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_util_okscrol
+        #part-number 2
+        position 4.76 1.34 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_util_okscrol
+        #part-number 3
+        position 4.76 0.19 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_util_okscrol
+        #part-number 4
+        position 4.73 0.03 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_util_okscrol
+donemodel ctl_util_okscrol

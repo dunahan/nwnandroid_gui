@@ -1,0 +1,176 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_jnl_lstbx
+        classification CHARACTER
+        setsupermodel ctl_jnl_lstbx NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_jnl_lstbx
+    node dummy ctl_jnl_lstbx
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane83
+        parent ctl_jnl_lstbx
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.65 0.45 -0.04
+        orientation 0 0 0 0
+        verts 4
+            -1.65 0.45 0
+            -1.65 -0.45 0
+            1.65 0.45 0
+            1.65 -0.45 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.07803 0.947454 0
+            0.07803 -0.0113524 0
+            0.109375 0.947454 0
+            0.109375 -0.0113532 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane85
+        parent ctl_jnl_lstbx
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 3.39 0.45 0
+        orientation 0 0 0 0
+        verts 4
+            -0.09 0.45 0
+            -0.09 -0.45 0
+            0.09 0.45 0
+            0.09 -0.45 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0761719 0.947444 0
+            0.0761718 -0.0113631 0
+            0.111328 0.947444 0
+            0.111328 -0.0113631 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy scrollmin
+        parent ctl_jnl_lstbx
+        #part-number 3
+        position 3.34 0.76 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_jnl_lstbx
+        #part-number 4
+        position 3.27 0.04 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_jnl_lstbx
+        #part-number 5
+        position 3.34 0.14 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text0
+        parent ctl_jnl_lstbx
+        #part-number 6
+        position 0.05 0.89 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_jnl_lstbx
+        #part-number 7
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane84
+        parent scrollpane
+        #part-number 8
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_chrsht
+        texture0 gui_boxes_chrsht
+        rotatetexture 0
+        position 1.655 0.29 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -1.645 0.6 0
+            -1.645 -0.6 0
+            1.645 0.6 0
+            1.645 -0.6 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.015625 2.94173 0
+            0.015625 -3.05827 0
+            0.046875 2.94172 0
+            0.046875 -3.05828 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy viewport1
+        parent ctl_jnl_lstbx
+        #part-number 9
+        position 3.48 0.9 0
+        orientation 0 0 0 0
+    endnode
+    node dummy viewport0
+        parent ctl_jnl_lstbx
+        #part-number 10
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_jnl_lstbx
+donemodel ctl_jnl_lstbx

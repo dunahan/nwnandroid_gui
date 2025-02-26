@@ -1,134 +1,173 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUT_QUICKLOGIN
-filedependancy BUT_QUICKLOGIN.max
-newmodel BUT_QUICKLOGIN
-setsupermodel BUT_QUICKLOGIN NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUT_QUICKLOGIN
-node dummy BUT_QUICKLOGIN
-  parent NULL
-endnode
-node trimesh Plane09
-  parent BUT_QUICKLOGIN
-  ambient 0.1 0.1 0.1
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_ig_main
-  verts 6
-      -0.6000000    0.1800000    0.0000000
-      -0.6000000   -0.1800000    0.0000000
-       0.0000000    0.1800000    0.0000000
-       0.0000000   -0.1800000    0.0000000
-       0.6000000    0.1800000    0.0000000
-       0.6000000   -0.1800000    0.0000000
-  tverts 6
-       0.0004664    0.3281250  0
-       0.0004663    0.1880000  0
-       0.4220000    0.3281250  0
-       0.4220000    0.1875000  0
-       0.0000000    0.3281250  0
-       0.0000000    0.1875000  0
-  faces 4
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-    2 3 4  1  2 3 4   0
-    5 4 3  1  5 4 3   0
-  position 0.6 0.18 0.1
-  orientation 0 0 0 0
-endnode
-node dummy text
-  parent BUT_QUICKLOGIN
-  position 0.6 0.18 0.4
-  orientation 0 0 0 0
-endnode
-node trimesh PlaneOverlay03
-  parent BUT_QUICKLOGIN
-  ambient 0.1 0.1 0.1
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_ig_main
-  verts 4
-      -0.6000000    0.1800000    0.0000000
-      -0.6000000   -0.1800000    0.0000000
-       0.6000000    0.1800000    0.0000000
-       0.6000000   -0.1800000    0.0000000
-  tverts 4
-       0.5427620    0.3281580  0
-       0.5427620    0.1875330  0
-       0.5891690    0.3281580  0
-       0.5891690    0.1875330  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0.6 0.18 0.2
-  orientation 1 0 0 -3.14159
-endnode
-endmodelgeom BUT_QUICKLOGIN
+newmodel but_quicklogin
+        setsupermodel but_quicklogin NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom but_quicklogin
+    node dummy but_quicklogin
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane09
+        parent but_quicklogin
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_main
+        texture0 gui_ig_main
+        rotatetexture 0
+        position 0.6 0.18 0.1
+        orientation 0 0 0 0
+        verts 6
+            -0.6 0.18 0
+            -0.6 -0.18 0
+            0 0.18 0
+            0 -0.18 0
+            0.6 0.18 0
+            0.6 -0.18 0
+        faces 4
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+            2 3 4 1 2 3 4 0
+            5 4 3 1 5 4 3 0
+        tverts 6
+            0.000466406 0.328125 0
+            0.000466317 0.188 0
+            0.422 0.328125 0
+            0.422 0.1875 0
+            0 0.328125 0
+            0 0.1875 0
+        colors 6
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 6
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text
+        parent but_quicklogin
+        #part-number 2
+        position 0.6 0.18 0.4
+        orientation 0 0 0 0
+    endnode
+    node trimesh planeoverlay03
+        parent but_quicklogin
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_main
+        texture0 gui_ig_main
+        rotatetexture 0
+        position 0.6 0.18 0.2
+        orientation -1 0 0 3.14159
+        verts 4
+            -0.6 0.18 0
+            -0.6 -0.18 0
+            0.6 0.18 0
+            0.6 -0.18 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.542762 0.328158 0
+            0.542762 0.187533 0
+            0.589169 0.328158 0
+            0.589169 0.187533 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom but_quicklogin
 
 #MAXANIM ASCII
-newanim down BUT_QUICKLOGIN
-  length 0.333333
-  transtime 0
-  node dummy BUT_QUICKLOGIN
-    parent NULL
-  endnode
-  node trimesh Plane09
-    parent BUT_QUICKLOGIN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node dummy text
-    parent BUT_QUICKLOGIN
-    positionkey 2
-         0.0000000    0.6000000    0.1700000    0.4000000
-         0.3333330    0.6000000    0.1700000    0.4000000
-  endnode
-  node trimesh PlaneOverlay03
-    parent BUT_QUICKLOGIN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-doneanim down BUT_QUICKLOGIN
+newanim down but_quicklogin
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_quicklogin
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane09
+            parent but_quicklogin
+            #part-number 1
+        endnode
+        node dummy text
+            parent but_quicklogin
+            #part-number 2
+            positionkey
+      0 0.6 0.17 0.4
+      0.333333 0.6 0.17 0.4
+            endlist
+        endnode
+        node trimesh planeoverlay03
+            parent but_quicklogin
+            #part-number 3
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+doneanim down but_quicklogin
 
 #MAXANIM ASCII
-newanim up BUT_QUICKLOGIN
-  length 0.333333
-  transtime 0
-  node dummy BUT_QUICKLOGIN
-    parent NULL
-  endnode
-  node trimesh Plane09
-    parent BUT_QUICKLOGIN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-  endnode
-  node dummy text
-    parent BUT_QUICKLOGIN
-    positionkey 2
-         0.0000000    0.6000000    0.1800000    0.4000000
-         0.3333330    0.6000000    0.1800000    0.4000000
-  endnode
-  node trimesh PlaneOverlay03
-    parent BUT_QUICKLOGIN
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    position 0.6 0.18 0.2
-    orientation -1 -0 -0 -3.14159
-  endnode
-doneanim up BUT_QUICKLOGIN
-
-donemodel BUT_QUICKLOGIN
+newanim up but_quicklogin
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy but_quicklogin
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy plane09
+            parent but_quicklogin
+            #part-number 1
+        endnode
+        node dummy text
+            parent but_quicklogin
+            #part-number 2
+            positionkey
+      0 0.6 0.18 0.4
+      0.333333 0.6 0.18 0.4
+            endlist
+        endnode
+        node trimesh planeoverlay03
+            parent but_quicklogin
+            #part-number 3
+            positionkey
+      0 0.6 0.18 0.2
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+doneanim up but_quicklogin
+donemodel but_quicklogin

@@ -1,122 +1,111 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
 #MAXMODEL ASCII
-# model: CTL_CG_BTN_SKUP
-filedependancy CTL_CG_BTN_SKUP.max
-newmodel CTL_CG_BTN_SKUP
-setsupermodel CTL_CG_BTN_SKUP NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom CTL_CG_BTN_SKUP
-node dummy CTL_CG_BTN_SKUP
-  parent NULL
-endnode
-node animmesh Plane201
-  parent CTL_CG_BTN_SKUP
-  ambient 0.0640517 0.186926 0.128103
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap qb_tab
-  verts 4
-      -0.1900000    0.1900000    0.0000000
-      -0.1900000   -0.1900000    0.0000000
-       0.1900000    0.1900000    0.0000000
-       0.1900000   -0.1900000    0.0000000
-  tverts 4
-       0.5000000    1.0000100  0
-       0.5000000    0.0000051  0
-       1.0000000    1.0000000  0
-       1.0000000    0.0000049  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  sampleperiod 0
-  position 0.08 0.08 0
-  orientation 0 0 0 0
-endnode
-endmodelgeom CTL_CG_BTN_SKUP
+filedependency Unknown
+newmodel ctl_cg_btn_skup
+        setsupermodel ctl_cg_btn_skup NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_btn_skup
+    node dummy ctl_cg_btn_skup
+        parent NULL
+    endnode
+    node animmesh plane201
+        parent ctl_cg_btn_skup
+        ambient 0.0640517 0.186926 0.128103
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap qb_tab
+        position 0.08 0.08 0
+        orientation 0 0 0 0
+        sampleperiod 0
+        verts 4
+            -0.19 0.19 0
+            -0.19 -0.19 0
+            0.19 0.19 0
+            0.19 -0.19 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.5 1.00001 0
+            0.5 5.1e-06 0
+            1 1 0
+            1 4.9e-06 0
+    endnode
+endmodelgeom ctl_cg_btn_skup
 
 #MAXANIM ASCII
-newanim up CTL_CG_BTN_SKUP
-  length 1
-  transtime 0
-  animroot CTL_CG_BTN_SKUP
-  node dummy CTL_CG_BTN_SKUP
-    parent NULL
-  endnode
-  node animmesh Plane201
-    parent CTL_CG_BTN_SKUP
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    bitmap qb_tab
-    verts 4
-        -0.1900000    0.1900000    0.0000000
-        -0.1900000   -0.1900000    0.0000000
-         0.1900000    0.1900000    0.0000000
-         0.1900000   -0.1900000    0.0000000
-    tverts 4
-         0.5000000    1.0000100  0
-         0.5000000    0.0000051  0
-         1.0000000    1.0000000  0
-         1.0000000    0.0000049  0
-    faces 2
-      0 1 2  1  0 1 2   1
-      3 2 1  1  3 2 1   1
-    sampleperiod 1
-    animverts 4
-        -0.1900000    0.1900000    0.0000000
-        -0.1900000   -0.1900000    0.0000000
-         0.1900000    0.1900000    0.0000000
-         0.1900000   -0.1900000    0.0000000
-    animtverts 4
-         0.5000000    1.0000100  0
-         0.5000000    0.0000051  0
-         1.0000000    1.0000000  0
-         1.0000000    0.0000049  0
-  endnode
-doneanim up CTL_CG_BTN_SKUP
+newanim down ctl_cg_btn_skup
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_skup
+        node dummy ctl_cg_btn_skup
+            parent NULL
+        endnode
+        node animmesh plane201
+            parent ctl_cg_btn_skup
+            sampleperiod 1
+            verts 4
+            -0.19 0.19 0
+            -0.19 -0.19 0
+            0.19 0.19 0
+            0.19 -0.19 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.5 1.00001 0
+            0.5 5.1e-06 0
+            1 1 0
+            1 4.9e-06 0
+            animverts 4
+      -0.19 0.19 0
+      -0.19 -0.19 0
+      0.19 0.19 0
+      0.19 -0.19 0
+            animtverts 4
+      0.5 1.06251 0
+      0.5 0.0625051 0
+      1 1.0625 0
+      1 0.0625049 0
+        endnode
+doneanim down ctl_cg_btn_skup
 
 #MAXANIM ASCII
-newanim down CTL_CG_BTN_SKUP
-  length 1
-  transtime 0
-  animroot CTL_CG_BTN_SKUP
-  node dummy CTL_CG_BTN_SKUP
-    parent NULL
-  endnode
-  node animmesh Plane201
-    parent CTL_CG_BTN_SKUP
-    ambient 0.2 0.2 0.2
-    diffuse 0.8 0.8 0.8
-    specular 0 0 0
-    shininess 1
-    bitmap qb_tab
-    verts 4
-        -0.1900000    0.1900000    0.0000000
-        -0.1900000   -0.1900000    0.0000000
-         0.1900000    0.1900000    0.0000000
-         0.1900000   -0.1900000    0.0000000
-    tverts 4
-         0.5000000    1.0625100  0
-         0.5000000    0.0625051  0
-         1.0000000    1.0625000  0
-         1.0000000    0.0625049  0
-    faces 2
-      0 1 2  1  0 1 2   1
-      3 2 1  1  3 2 1   1
-    sampleperiod 1
-    animverts 4
-        -0.1900000    0.1900000    0.0000000
-        -0.1900000   -0.1900000    0.0000000
-         0.1900000    0.1900000    0.0000000
-         0.1900000   -0.1900000    0.0000000
-    animtverts 4
-         0.5000000    1.0625100  0
-         0.5000000    0.0625051  0
-         1.0000000    1.0625000  0
-         1.0000000    0.0625049  0
-  endnode
-doneanim down CTL_CG_BTN_SKUP
-
-donemodel CTL_CG_BTN_SKUP
+newanim up ctl_cg_btn_skup
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_skup
+        node dummy ctl_cg_btn_skup
+            parent NULL
+        endnode
+        node animmesh plane201
+            parent ctl_cg_btn_skup
+            sampleperiod 1
+            verts 4
+            -0.19 0.19 0
+            -0.19 -0.19 0
+            0.19 0.19 0
+            0.19 -0.19 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.5 1.00001 0
+            0.5 5.1e-06 0
+            1 1 0
+            1 4.9e-06 0
+            animverts 4
+      -0.19 0.19 0
+      -0.19 -0.19 0
+      0.19 0.19 0
+      0.19 -0.19 0
+            animtverts 4
+      0.5 1.00001 0
+      0.5 5.1e-06 0
+      1 1 0
+      1 4.9e-06 0
+        endnode
+doneanim up ctl_cg_btn_skup
+donemodel ctl_cg_btn_skup

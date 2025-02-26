@@ -1,0 +1,95 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:32 2025
+#MAXMODEL ASCII
+newmodel ctl_timedevntbar
+        setsupermodel ctl_timedevntbar NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_timedevntbar
+    node dummy ctl_timedevntbar
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane235
+        parent ctl_timedevntbar
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_resting
+        texture0 gui_resting
+        rotatetexture 0
+        position 0.07 0.525 0
+        orientation 0 0 0 0
+        verts 4
+            -0.07 -0.525 -0.01
+            -0.07 -0.525 0
+            0.07 -0.525 -0.01
+            0.07 -0.525 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            -5.84126e-06 0.0305059 0
+            -6.07967e-06 0.0148809 0
+            0.109369 0.0305059 0
+            0.109369 0.0148809 0
+        normals 4
+            0 1 0
+            0 1 0
+            0 1 0
+            0 1 0
+    endnode
+endmodelgeom ctl_timedevntbar
+
+#MAXANIM ASCII
+newanim percentage ctl_timedevntbar
+        length 3.33333
+        transtime 0
+        animroot ctl_timedevntbar
+        node dummy ctl_timedevntbar
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane235
+            parent ctl_timedevntbar
+            #part-number 1
+            sampleperiod 3.33333
+            verts 4
+            -0.07 -0.525 -0.01
+            -0.07 -0.525 0
+            0.07 -0.525 -0.01
+            0.07 -0.525 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            -5.84126e-06 0.0305059 0
+            -6.07967e-06 0.0148809 0
+            0.109369 0.0305059 0
+            0.109369 0.0148809 0
+            animverts 8
+      -0.07 -0.525 -0.01
+      -0.07 -0.525 0
+      0.07 -0.525 -0.01
+      0.07 -0.525 0
+      -0.07 0.525 0
+      -0.07 -0.525 0
+      0.07 0.525 0
+      0.07 -0.525 0
+            animtverts 8
+      -5.84126e-06 0.0305059 0
+      -6.07967e-06 0.0148809 0
+      0.109369 0.0305059 0
+      0.109369 0.0148809 0
+      -5.84126e-06 0.0305059 0
+      -6.07967e-06 0.0148809 0
+      0.109369 0.0305059 0
+      0.109369 0.0148809 0
+        endnode
+doneanim percentage ctl_timedevntbar
+donemodel ctl_timedevntbar

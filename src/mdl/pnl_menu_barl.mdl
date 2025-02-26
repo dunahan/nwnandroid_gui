@@ -1,107 +1,107 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:36 2025
 #MAXMODEL ASCII
-# model: PNL_MENU_BAR
-filedependancy PNL_MENU_BAR.max
-newmodel PNL_MENU_BAR
-setsupermodel PNL_MENU_BAR NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom PNL_MENU_BAR
-node dummy PNL_MENU_BAR
-  parent NULL
-endnode
-node dummy MapButton
-  parent PNL_MENU_BAR
-  position 0 0 0.11
-  orientation 0 0 0 0
-endnode
-node dummy InvButton
-  parent PNL_MENU_BAR
-  position 0 -0.4 0.12
-  orientation 0 0 0 0
-endnode
-node dummy JourButton
-  parent PNL_MENU_BAR
-  position 0 -0.8 0.13
-  orientation 0 0 0 0
-endnode
-node dummy CharButton
-  parent PNL_MENU_BAR
-  position 0 -1.2 0.14
-  orientation 0 0 0 0
-endnode
-node dummy RestButton
-  parent PNL_MENU_BAR
-  position 0 -1.6 0.15
-  orientation 0 0 0 0
-endnode
-node dummy SpellButton
-  parent PNL_MENU_BAR
-  position 0 -2 0.16
-  orientation 0 0 0 0
-endnode
-node dummy OptsButton
-  parent PNL_MENU_BAR
-  position 0 -2.4 0.17
-  orientation 0 0 0 0
-endnode
-node dummy PvpButton
-  parent PNL_MENU_BAR
-  position 0 -2.8 0.18
-  orientation 0 0 0 0
-endnode
-node dummy ChatButton
-  parent PNL_MENU_BAR
-  position 0 -3.2 0.19
-  orientation 0 0 0 0
-endnode
-node dummy SaveButton
-  parent PNL_MENU_BAR
-  position 0 -3.6 0.20
-  orientation 0 0 0 0
-endnode
-endmodelgeom PNL_MENU_BAR
+filedependency Unknown
+newmodel pnl_menu_bar
+        setsupermodel pnl_menu_bar NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_menu_bar
+    node dummy pnl_menu_bar
+        parent NULL
+    endnode
+    node dummy mapbutton
+        parent pnl_menu_bar
+        position 0 0 0.11
+        orientation 0 0 0 0
+    endnode
+    node dummy invbutton
+        parent pnl_menu_bar
+        position 0 -0.4 0.12
+        orientation 0 0 0 0
+    endnode
+    node dummy jourbutton
+        parent pnl_menu_bar
+        position 0 -0.8 0.13
+        orientation 0 0 0 0
+    endnode
+    node dummy charbutton
+        parent pnl_menu_bar
+        position 0 -1.2 0.14
+        orientation 0 0 0 0
+    endnode
+    node dummy restbutton
+        parent pnl_menu_bar
+        position 0 -1.6 0.15
+        orientation 0 0 0 0
+    endnode
+    node dummy spellbutton
+        parent pnl_menu_bar
+        position 0 -2 0.16
+        orientation 0 0 0 0
+    endnode
+    node dummy optsbutton
+        parent pnl_menu_bar
+        position 0 -2.4 0.17
+        orientation 0 0 0 0
+    endnode
+    node dummy pvpbutton
+        parent pnl_menu_bar
+        position 0 -2.8 0.18
+        orientation 0 0 0 0
+    endnode
+    node dummy chatbutton
+        parent pnl_menu_bar
+        position 0 -3.2 0.19
+        orientation 0 0 0 0
+    endnode
+    node dummy savebutton
+        parent pnl_menu_bar
+        position 0 -3.6 0.2
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_menu_bar
 
 #MAXANIM ASCII
-newanim size PNL_MENU_BAR
-  length 51.2
-  transtime 0
-  animroot PNL_MENU_BAR
-  node dummy PNL_MENU_BAR
-    parent NULL
-  endnode
-  node dummy backgroundPlane
-    parent PNL_MENU_BAR
-  endnode
-  node dummy MapButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy InvButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy JourButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy OptsButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy SpellButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy CharButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy ChatButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy SaveButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy RestButton
-    parent PNL_MENU_BAR
-  endnode
-  node dummy PvpButton
-    parent PNL_MENU_BAR
-  endnode
-doneanim size PNL_MENU_BAR
-
-donemodel PNL_MENU_BAR
+newanim size pnl_menu_bar
+        length 51.2
+        transtime 0
+        animroot pnl_menu_bar
+        node dummy pnl_menu_bar
+            parent NULL
+        endnode
+        node dummy backgroundplane
+            parent pnl_menu_bar
+            #part-number -1
+        endnode
+        node dummy mapbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy invbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy jourbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy charbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy restbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy spellbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy optsbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy pvpbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy chatbutton
+            parent pnl_menu_bar
+        endnode
+        node dummy savebutton
+            parent pnl_menu_bar
+        endnode
+doneanim size pnl_menu_bar
+donemodel pnl_menu_bar

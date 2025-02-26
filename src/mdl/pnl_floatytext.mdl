@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_floatytext
+        classification CHARACTER
+        setsupermodel pnl_floatytext NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_floatytext
+    node dummy pnl_floatytext
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy foreground
+        parent pnl_floatytext
+        #part-number 1
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy background
+        parent pnl_floatytext
+        #part-number 2
+        position -0.01 0.01 -0.01
+        orientation 0 0 0 0
+    endnode
+endmodelgeom pnl_floatytext
+donemodel pnl_floatytext

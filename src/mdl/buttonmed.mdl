@@ -1,115 +1,163 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUTTONMED
-filedependancy BUTTONMED.max
-newmodel BUTTONMED
-setsupermodel BUTTONMED NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUTTONMED
-node dummy BUTTONMED
-  parent NULL
-endnode
-node dummy text
-  parent BUTTONMED
-  position 1.28 0.16 0.06068
-  orientation 0 0 0 0
-endnode
-node trimesh Plane06
-  parent BUTTONMED
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -1.2800000    0.1600000    0.0000000
-      -1.2800000   -0.1600000    0.0000000
-       1.2800000    0.1600000    0.0000000
-       1.2800000   -0.1600000    0.0000000
-  tverts 4
-       0.5003290    0.8750400  0
-       0.5003290    0.8125400  0
-       1.0003300    0.8750400  0
-       1.0003300    0.8125400  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 1.28 0.16 0.02075
-  orientation 0 0 0 0
-  selfillumcolor 0 0 0
-endnode
-node trimesh Plane07
-  parent Plane06
-  ambient 0.215684 0.0640517 0.125489
-  diffuse 1 1 1
-  specular 0 0 0
-  shininess 1
-  bitmap Controls
-  verts 4
-      -1.2800000    0.1600000    0.0000000
-      -1.2800000   -0.1600000    0.0000000
-       1.2800000    0.1600000    0.0000000
-       1.2800000   -0.1600000    0.0000000
-  tverts 4
-       0.5001190    0.6869850  0
-       0.5001190    0.6244850  0
-       1.0001200    0.6869850  0
-       1.0001200    0.6244850  0
-  faces 2
-    0 1 2  1  0 1 2   0
-    3 2 1  1  3 2 1   0
-  position 0 0 0
-  orientation -1 0 0 -3.14159
-  selfillumcolor 0 0 0
-endnode
-endmodelgeom BUTTONMED
+newmodel buttonmed
+        setsupermodel buttonmed NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom buttonmed
+    node dummy buttonmed
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent buttonmed
+        #part-number 1
+        position 1.28 0.16 0.06068
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane06
+        parent buttonmed
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 1.28 0.16 0.02075
+        orientation 0 0 0 0
+        selfillumcolor 0 0 0
+        verts 4
+            -1.28 0.16 0
+            -1.28 -0.16 0
+            1.28 0.16 0
+            1.28 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.500329 0.87504 0
+            0.500329 0.81254 0
+            1.00033 0.87504 0
+            1.00033 0.81254 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh plane07
+        parent plane06
+        #part-number 3
+        diffuse 1 1 1
+        ambient 0.215684 0.0640517 0.125489
+        specular 0 0 0
+        shininess 1
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap controls
+        texture0 controls
+        rotatetexture 0
+        position 0 0 0
+        orientation 1 0 0 3.14159
+        selfillumcolor 0 0 0
+        verts 4
+            -1.28 0.16 0
+            -1.28 -0.16 0
+            1.28 0.16 0
+            1.28 -0.16 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.500119 0.686985 0
+            0.500119 0.624485 0
+            1.00012 0.686985 0
+            1.00012 0.624485 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom buttonmed
 
 #MAXANIM ASCII
-newanim down BUTTONMED
-  length 0.333333
-  transtime 0
-  node dummy BUTTONMED
-    parent NULL
-  endnode
-  node dummy text
-    parent BUTTONMED
-    positionkey 2
-         0.0000000    1.2800000    0.1500000    0.0606800
-         0.3333330    1.2800000    0.1500000    0.0606800
-  endnode
-  node dummy Plane06
-    parent BUTTONMED
-    orientationkey 2
-         0.0000000   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-         0.3333330   -1.0000000   -0.0000000   -0.0000000   -3.1415901
-  endnode
-  node dummy Plane07
-    parent Plane06
-  endnode
-doneanim down BUTTONMED
+newanim down buttonmed
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonmed
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent buttonmed
+            #part-number 1
+            positionkey
+      0 1.28 0.15 0.06068
+      0.333333 1.28 0.15 0.06068
+            endlist
+        endnode
+        node trimesh plane06
+            parent buttonmed
+            #part-number 2
+            orientationkey
+      0 1 0 0 3.14159
+      0.333333 1 0 0 3.14159
+            endlist
+        endnode
+        node dummy plane07
+            parent plane06
+            #part-number 3
+        endnode
+doneanim down buttonmed
 
 #MAXANIM ASCII
-newanim up BUTTONMED
-  length 0.333333
-  transtime 0
-  node dummy BUTTONMED
-    parent NULL
-  endnode
-  node dummy text
-    parent BUTTONMED
-    positionkey 2
-         0.0000000    1.2800000    0.1600000    0.0606800
-         0.3333330    1.2800000    0.1600000    0.0606800
-  endnode
-  node dummy Plane06
-    parent BUTTONMED
-    orientationkey 2
-         0.0000000    0.0000000    0.0000000    0.0000000    0.0000000
-         0.3333330    0.0000000    0.0000000    0.0000000    0.0000000
-  endnode
-  node dummy Plane07
-    parent Plane06
-  endnode
-doneanim up BUTTONMED
-
-donemodel BUTTONMED
+newanim up buttonmed
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy buttonmed
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent buttonmed
+            #part-number 1
+            positionkey
+      0 1.28 0.16 0.06068
+      0.333333 1.28 0.16 0.06068
+            endlist
+        endnode
+        node trimesh plane06
+            parent buttonmed
+            #part-number 2
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy plane07
+            parent plane06
+            #part-number 3
+        endnode
+doneanim up buttonmed
+donemodel buttonmed

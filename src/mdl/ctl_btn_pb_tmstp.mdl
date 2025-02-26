@@ -1,0 +1,93 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+newmodel ctl_btn_pb_tmstp
+        setsupermodel ctl_btn_pb_tmstp NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_btn_pb_tmstp
+    node dummy ctl_btn_pb_tmstp
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh backgroundplane06
+        parent ctl_btn_pb_tmstp
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pnl_party_bar
+        texture0 pnl_party_bar
+        rotatetexture 0
+        position 0.325001 0.51 -0.5
+        orientation 0 0 0 0
+        verts 4
+            -0.345 0.53 0
+            -0.345 -0.53 0
+            0.345 0.53 0
+            0.345 -0.53 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0937502 0.992188 0
+            0.09375 0.578125 0
+            0.632813 0.992188 0
+            0.632813 0.578125 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh portraitplane06
+        parent backgroundplane06
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap po_timestop
+        texture0 po_timestop
+        rotatetexture 0
+        position -0.005 -0.01 0.7
+        orientation 0 0 0 0
+        verts 4
+            -0.32 0.5 0
+            -0.32 -0.5 0
+            0.32 0.5 0
+            0.32 -0.5 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            2.38419e-07 1 0
+            -1.19209e-07 0.21875 0
+            1 1 0
+            1 0.21875 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_btn_pb_tmstp
+donemodel ctl_btn_pb_tmstp

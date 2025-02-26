@@ -1,0 +1,418 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+newmodel ctl_btn_ctr
+        setsupermodel ctl_btn_ctr NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_btn_ctr
+    node dummy ctl_btn_ctr
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text
+        parent ctl_btn_ctr
+        #part-number 1
+        position 0.57 0.12 -0.03
+        orientation 0 0 0 0
+    endnode
+    node animmesh plane239
+        parent ctl_btn_ctr
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_btn_ctr
+        texture0 ctl_btn_ctr
+        rotatetexture 0
+        position 0.57 0.125 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim checkeddown ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+            positionkey
+      0 0.57 0.11 -0.03
+      1 0.57 0.11 -0.03
+            endlist
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.601563 0
+      0.0546875 0.40625 0
+      0.945313 0.601563 0
+      0.945312 0.40625 0
+        endnode
+doneanim checkeddown ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim checkedup ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+            positionkey
+      0 0.57 0.12 -0.03
+      1 0.57 0.12 -0.03
+            endlist
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.601563 0
+      0.0546875 0.40625 0
+      0.945313 0.601563 0
+      0.945312 0.40625 0
+        endnode
+doneanim checkedup ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim disabled ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546875 0.796875 0
+      0.0546875 0.601562 0
+      0.945313 0.796874 0
+      0.945313 0.601562 0
+        endnode
+doneanim disabled ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim down ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+            positionkey
+      0 0.57 0.11 -0.03
+      1 0.57 0.11 -0.03
+            endlist
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.601563 0
+      0.0546875 0.40625 0
+      0.945313 0.601563 0
+      0.945312 0.40625 0
+        endnode
+doneanim down ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim hilite ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546875 0.40625 0
+      0.0546874 0.210938 0
+      0.945313 0.40625 0
+      0.945312 0.210937 0
+        endnode
+doneanim hilite ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.796875 0
+      0.0546876 0.601563 0
+      0.945313 0.796875 0
+      0.945313 0.601563 0
+        endnode
+doneanim uncheckeddown ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+            positionkey
+      0 0.57 0.12 -0.03
+      1 0.57 0.119678 -0.03
+            endlist
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.796875 0
+      0.0546876 0.601562 0
+      0.945313 0.796875 0
+      0.945313 0.601562 0
+        endnode
+doneanim uncheckedup ctl_btn_ctr
+
+#MAXANIM ASCII
+newanim up ctl_btn_ctr
+        length 1
+        transtime 0
+        animroot ctl_btn_ctr
+        node dummy ctl_btn_ctr
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text
+            parent ctl_btn_ctr
+            #part-number 1
+            positionkey
+      0 0.57 0.12 -0.03
+      1 0.57 0.119678 -0.03
+            endlist
+        endnode
+        node animmesh plane239
+            parent ctl_btn_ctr
+            #part-number 2
+            sampleperiod 1
+            verts 4
+            -0.57 0.125 0
+            -0.57 -0.125 0
+            0.57 0.125 0
+            0.57 -0.125 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.0546876 0.796875 0
+            0.0546875 0.601563 0
+            0.945313 0.796875 0
+            0.945313 0.601562 0
+            animverts 4
+      -0.57 0.125 0
+      -0.57 -0.125 0
+      0.57 0.125 0
+      0.57 -0.125 0
+            animtverts 4
+      0.0546876 0.796875 0
+      0.0546876 0.601562 0
+      0.945313 0.796875 0
+      0.945313 0.601562 0
+        endnode
+doneanim up ctl_btn_ctr
+donemodel ctl_btn_ctr

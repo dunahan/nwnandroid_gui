@@ -1,0 +1,38 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_spinfo
+        classification CHARACTER
+        setsupermodel ctl_cg_spinfo NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_spinfo
+    node dummy ctl_cg_spinfo
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_cg_spinfo
+        #part-number 1
+        position 0.63 3.34 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_spinfo
+        #part-number 2
+        position 3.88 0.03 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_spinfo
+        #part-number 3
+        position 3.92 0.11 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_spinfo
+        #part-number 4
+        position 3.92 3.23 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_spinfo
+donemodel ctl_cg_spinfo

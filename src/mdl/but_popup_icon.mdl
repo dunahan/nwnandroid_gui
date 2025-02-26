@@ -1,42 +1,41 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
 #MAXMODEL ASCII
-# model: BUT_POPUP_ICON
-filedependancy BUT_POPUP_ICON.max
-newmodel BUT_POPUP_ICON
-setsupermodel BUT_POPUP_ICON NULL
-setanimationscale 1
-#MAXGEOM  ASCII
-beginmodelgeom BUT_POPUP_ICON
-node dummy BUT_POPUP_ICON
-  parent NULL
-endnode
-node dummy textindent
-  parent BUT_POPUP_ICON
-  position 0.23 0 0.03
-  orientation 0 0 0 0
-endnode
-node trimesh Plane02
-  parent BUT_POPUP_ICON
-  ambient 0.21307 0.183005 0.0640517
-  diffuse 1 1 1
-  specular 0.045 0.045 0.045
-  shininess 26
-  bitmap gui_replace01
-  verts 4
-      -0.0800000    0.0800000    0.0000000
-      -0.0800000   -0.0800000    0.0000000
-       0.0800000    0.0800000    0.0000000
-       0.0800000   -0.0800000    0.0000000
-  tverts 4
-       0.0000000    1.0000000  0
-       0.0000000    0.0000000  0
-       1.0000000    1.0000000  0
-       1.0000000    0.0000000  0
-  faces 2
-    0 1 2  1  0 1 2   1
-    3 2 1  1  3 2 1   1
-  position 0.09 -0.165 0.05
-  orientation 0 0 0 0
-endnode
-endmodelgeom BUT_POPUP_ICON
-
-donemodel BUT_POPUP_ICON
+filedependency Unknown
+newmodel but_popup_icon
+        setsupermodel but_popup_icon NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom but_popup_icon
+    node dummy but_popup_icon
+        parent NULL
+    endnode
+    node dummy textindent
+        parent but_popup_icon
+        position 0.23 0 0.03
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane02
+        parent but_popup_icon
+        ambient 0.21307 0.183005 0.0640517
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap gui_replace01
+        position 0.09 -0.165 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.08 0.08 0
+            -0.08 -0.08 0
+            0.08 0.08 0
+            0.08 -0.08 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+    endnode
+endmodelgeom but_popup_icon
+donemodel but_popup_icon

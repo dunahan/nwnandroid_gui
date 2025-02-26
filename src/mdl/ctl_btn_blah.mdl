@@ -1,0 +1,133 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:29 2025
+#MAXMODEL ASCII
+newmodel ctl_btn_blah
+        setsupermodel ctl_btn_blah NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_btn_blah
+    node dummy ctl_btn_blah
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text03
+        parent ctl_btn_blah
+        #part-number 1
+        position 0 0.211667 0.1
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_btn_blah
+
+#MAXANIM ASCII
+newanim checkeddown ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.21 0.1
+      1 0 0.21 0.1
+            endlist
+        endnode
+doneanim checkeddown ctl_btn_blah
+
+#MAXANIM ASCII
+newanim checkedup ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.22 0.1
+      1 0 0.22 0.1
+            endlist
+        endnode
+doneanim checkedup ctl_btn_blah
+
+#MAXANIM ASCII
+newanim down ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.21 0.1
+      1 0 0.21 0.1
+            endlist
+        endnode
+doneanim down ctl_btn_blah
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.21 0.1
+      1 0 0.21 0.1
+            endlist
+        endnode
+doneanim uncheckeddown ctl_btn_blah
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.22 0.1
+      1 0 0.22 0.1
+            endlist
+        endnode
+doneanim uncheckedup ctl_btn_blah
+
+#MAXANIM ASCII
+newanim up ctl_btn_blah
+        length 1
+        transtime 0
+        animroot 
+        node dummy ctl_btn_blah
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy text03
+            parent ctl_btn_blah
+            #part-number 1
+            positionkey
+      0 0 0.22 0.1
+      1 0 0.22 0.1
+            endlist
+        endnode
+doneanim up ctl_btn_blah
+donemodel ctl_btn_blah

@@ -1,0 +1,66 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_lst_chatmode
+        classification CHARACTER
+        setsupermodel ctl_lst_chatmode NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_lst_chatmode
+    node dummy ctl_lst_chatmode
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_lst_chatmode
+        #part-number 1
+        position 0.07 1.04 0.1
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane31
+        parent ctl_lst_chatmode
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.81 0.62 0.05
+        orientation 0 0 0 0
+        verts 4
+            -0.8 0.44 0
+            -0.8 -0.44 0
+            0.8 0.44 0
+            0.8 -0.44 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.0663568 0.948424 0
+            0.0663568 -0.0108784 0
+            0.0742682 0.948424 0
+            0.0742682 -0.0108788 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text1
+        parent ctl_lst_chatmode
+        #part-number 3
+        position 1.6 0.19 0.1
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_lst_chatmode
+donemodel ctl_lst_chatmode

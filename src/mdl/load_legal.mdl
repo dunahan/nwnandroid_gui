@@ -1,117 +1,110 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:33 2025
 #MAXMODEL ASCII
-# model: load_legal
-filedependancy load_legal.max
+filedependency Unknown
 newmodel load_legal
-setsupermodel load_legal NULL
-setanimationscale 1
-#MAXGEOM  ASCII
+        setsupermodel load_legal NULL
+        setanimationscale 1
+#MAXGEOM ASCII
 beginmodelgeom load_legal
-node dummy load_legal
-  parent NULL
-  #part-number 0
-endnode
-node trimesh Plane35
-  parent load_legal
-  #part-number 1
-  ambient 0.100000001 0.100000001 0.100000001
-  diffuse 1 1 1
-  specular 0.0450000018 0.0450000018 0.0450000018
-  shininess 26
-  bitmap load_legal2
-  verts 4
-    -1.296 2.304 0
-    -1.296 -2.304 0
-    1.296 2.304 0
-    1.296 -2.304 0
-  tverts 4
-    1 1 0
-    1.19208998e-007 1 0
-    1 0.4375 0
-    0 0.4375 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  position 2.304 0.396 -0.045
-  orientation 0 0 0 0
-endnode
-node trimesh Plane36
-  parent load_legal
-  #part-number 2
-  ambient 0.100000001 0.100000001 0.100000001
-  diffuse 1 1 1
-  specular 0.0450000018 0.0450000018 0.0450000018
-  shininess 26
-  bitmap load_legal2
-  verts 4
-    -2.304 0.396 0
-    -2.304 -0.396 0
-    2.304 0.396 0
-    2.304 -0.396 0
-  tverts 4
-    0 0.171875 0
-    -1.19208998e-007 1.19208998e-007 0
-    1 0.171875 0
-    1 -1.19208998e-007 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  position -1.296 -2.304 -0.045
-  orientation 0 0 0 0
-endnode
-node trimesh Plane37
-  parent load_legal
-  #part-number 3
-  ambient 0.100000001 0.100000001 0.100000001
-  diffuse 1 1 1
-  specular 0.0450000018 0.0450000018 0.0450000018
-  shininess 26
-  bitmap load_legal2
-  verts 4
-    -1.296 0.396 0
-    -1.296 -0.396 0
-    1.296 0.396 0
-    1.296 -0.396 0
-  tverts 4
-    0.4375 0.371093988 0
-    0.4375 0.199219003 0
-    1 0.371093988 0
-    1 0.199219003 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  position 2.304 -2.304 -0.045
-  orientation 0 0 0 0
-endnode
-node trimesh Plane38
-  parent load_legal
-  #part-number 4
-  ambient 0.100000001 0.100000001 0.100000001
-  diffuse 1 1 1
-  specular 0.0450000018 0.0450000018 0.0450000018
-  shininess 26
-  bitmap load_legal
-  verts 4
-    -2.304 2.304 0
-    -2.304 -2.304 0
-    2.304 2.304 0
-    2.304 -2.304 0
-  tverts 4
-    0 1 0
-    0 0 0
-    1 1 0
-    1 0 0
-  faces 2
-    0 1 2 1 0 1 2 1
-    3 2 1 1 3 2 1 1
-  position -1.296 0.396 -0.045
-  orientation 0 0 0 0
-endnode
-node dummy statusbar
-  parent load_legal
-  #part-number 5
-  position 0 -2.5 0
-  orientation 0 0 0 0
-endnode
+    node dummy load_legal
+        parent NULL
+    endnode
+    node trimesh plane35
+        parent load_legal
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap load_legal2
+        position 2.304 0.396 -0.045
+        orientation 0 0 0 0
+        verts 4
+            -1.296 2.304 0
+            -1.296 -2.304 0
+            1.296 2.304 0
+            1.296 -2.304 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            1 1 0
+            1.19209e-07 1 0
+            1 0.4375 0
+            0 0.4375 0
+    endnode
+    node trimesh plane36
+        parent load_legal
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap load_legal2
+        position -1.296 -2.304 -0.045
+        orientation 0 0 0 0
+        verts 4
+            -2.304 0.396 0
+            -2.304 -0.396 0
+            2.304 0.396 0
+            2.304 -0.396 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 0.171875 0
+            -1.19209e-07 1.19209e-07 0
+            1 0.171875 0
+            1 -1.19209e-07 0
+    endnode
+    node trimesh plane37
+        parent load_legal
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap load_legal2
+        position 2.304 -2.304 -0.045
+        orientation 0 0 0 0
+        verts 4
+            -1.296 0.396 0
+            -1.296 -0.396 0
+            1.296 0.396 0
+            1.296 -0.396 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.4375 0.371094 0
+            0.4375 0.199219 0
+            1 0.371094 0
+            1 0.199219 0
+    endnode
+    node trimesh plane38
+        parent load_legal
+        ambient 0.1 0.1 0.1
+        diffuse 1 1 1
+        specular 0.045 0.045 0.045
+        shininess 26
+        bitmap load_legal
+        position -1.296 0.396 -0.045
+        orientation 0 0 0 0
+        verts 4
+            -2.304 2.304 0
+            -2.304 -2.304 0
+            2.304 2.304 0
+            2.304 -2.304 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0 1 0
+            0 0 0
+            1 1 0
+            1 0 0
+    endnode
+    node dummy statusbar
+        parent load_legal
+        position 0 -2.5 0
+        orientation 0 0 0 0
+    endnode
 endmodelgeom load_legal
-
 donemodel load_legal

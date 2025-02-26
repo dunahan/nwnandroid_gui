@@ -1,0 +1,49 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_chr_btnlstbx
+        setsupermodel ctl_chr_btnlstbx NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_chr_btnlstbx
+    node dummy ctl_chr_btnlstbx
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy top
+        parent ctl_chr_btnlstbx
+        #part-number 1
+        position 3.59 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_chr_btnlstbx
+        #part-number 2
+        position 3.43 -0.16 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_chr_btnlstbx
+        #part-number 3
+        position 0 0 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listitem
+        parent scrollpane
+        #part-number 4
+        position 0.06 -0.38 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy bottom
+        parent ctl_chr_btnlstbx
+        #part-number 5
+        position 0 -2 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmax
+        parent ctl_chr_btnlstbx
+        #part-number 6
+        position 3.43 -1.9 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_chr_btnlstbx
+donemodel ctl_chr_btnlstbx

@@ -1,0 +1,66 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_opt_edit_cdk
+        classification CHARACTER
+        setsupermodel ctl_opt_edit_cdk NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_opt_edit_cdk
+    node dummy ctl_opt_edit_cdk
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane01
+        parent ctl_opt_edit_cdk
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_boxes_ingame
+        texture0 gui_boxes_ingame
+        rotatetexture 0
+        position 0.37 0.12 0
+        orientation 0 0 0 0
+        verts 4
+            -0.37 0.12 0
+            -0.37 -0.12 0
+            0.37 0.12 0
+            0.37 -0.12 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.128798 0.977307 0
+            0.128798 -0.0454198 0
+            0.136827 0.977307 0
+            0.136827 -0.0454205 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy text0
+        parent ctl_opt_edit_cdk
+        #part-number 2
+        position 0.02 0.22 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_opt_edit_cdk
+        #part-number 3
+        position 0.72 0.02 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_opt_edit_cdk
+donemodel ctl_opt_edit_cdk

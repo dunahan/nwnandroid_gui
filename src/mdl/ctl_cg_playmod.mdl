@@ -1,0 +1,101 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_playmod
+        setsupermodel ctl_cg_playmod NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_playmod
+    node dummy ctl_cg_playmod
+        parent NULL
+        #part-number 0
+    endnode
+    node dummy text0
+        parent ctl_cg_playmod
+        #part-number 1
+        position 0.06 3.58 0
+        orientation 0 0 0 0
+    endnode
+    node trimesh plane216
+        parent ctl_cg_playmod
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_cg_playmod
+        texture0 ctl_cg_playmod
+        rotatetexture 0
+        position 1.765 1.805 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.765 1.805 0
+            -1.765 -1.805 0
+            1.765 1.805 0
+            1.765 -1.805 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.154297 0.853516 0
+            0.154297 0.148438 0
+            0.84375 0.853516 0
+            0.84375 0.148437 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy scrollmax
+        parent ctl_cg_playmod
+        #part-number 3
+        position 3.35 0.58 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollmin
+        parent ctl_cg_playmod
+        #part-number 4
+        position 3.34 3.41 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text1
+        parent ctl_cg_playmod
+        #part-number 5
+        position 3.29 0.469999 0
+        orientation 0 0 0 0
+    endnode
+    node dummy scrollpane
+        parent ctl_cg_playmod
+        #part-number 6
+        position 0.03 0.47 0
+        orientation 0 0 0 0
+    endnode
+    node dummy listitem
+        parent scrollpane
+        #part-number 7
+        position 0.04 2.68 0
+        orientation 0 0 0 0
+    endnode
+    node dummy bottom
+        parent ctl_cg_playmod
+        #part-number 8
+        position 0.03 0.48 0
+        orientation 0 0 0 0
+    endnode
+    node dummy top
+        parent ctl_cg_playmod
+        #part-number 9
+        position 3.5 3.58 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_playmod
+donemodel ctl_cg_playmod

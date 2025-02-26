@@ -1,0 +1,295 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:31 2025
+#MAXMODEL ASCII
+newmodel ctl_dbg_btn
+        setsupermodel ctl_dbg_btn NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_dbg_btn
+    node dummy ctl_dbg_btn
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh planeup09
+        parent ctl_dbg_btn
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_main
+        texture0 gui_ig_main
+        rotatetexture 0
+        position 0.64 0.085 0
+        orientation 0 0 0 0
+        verts 4
+            -0.64 0.085 0
+            -0.64 -0.085 0
+            0.64 0.085 0
+            0.64 -0.085 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.511364 0.105469 0
+            0.511364 0.0390625 0
+            0.996212 0.105469 0
+            0.996212 0.0390624 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node trimesh planedown09
+        parent planeup09
+        #part-number 2
+        diffuse 1 1 1
+        ambient 0.1 0.1 0.1
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap gui_ig_main
+        texture0 gui_ig_main
+        rotatetexture 0
+        position 0 0 0.02
+        orientation 1 0 0 3.14159
+        verts 4
+            -0.64 0.085 0
+            -0.64 -0.085 0
+            0.64 0.085 0
+            0.64 -0.085 0
+        faces 2
+            0 1 2 1 0 1 2 0
+            3 2 1 1 3 2 1 0
+        tverts 4
+            0.635186 0.601563 0
+            0.635186 0.535156 0
+            0.882686 0.601562 0
+            0.882686 0.535156 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy next
+        parent ctl_dbg_btn
+        #part-number 3
+        position 0 -0.2 0
+        orientation 0 0 0 0
+    endnode
+    node dummy text
+        parent ctl_dbg_btn
+        #part-number 4
+        position 0.64 0.08 0.05
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim checkeddown ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim checkeddown ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim checkedup ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim checkedup ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim down ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim down ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            orientationkey
+      0 0 0 0 0
+      0.333333 0 0 0 0
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim uncheckeddown ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            positionkey
+      0 0 0 0.02
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim uncheckedup ctl_dbg_btn
+
+#MAXANIM ASCII
+newanim up ctl_dbg_btn
+        length 0.333333
+        transtime 0
+        animroot 
+        node dummy ctl_dbg_btn
+            parent NULL
+            #part-number 0
+        endnode
+        node dummy planeup09
+            parent ctl_dbg_btn
+            #part-number 1
+        endnode
+        node trimesh planedown09
+            parent planeup09
+            #part-number 2
+            positionkey
+      0 0 0 0.02
+            endlist
+            orientationkey
+      0 1 0 0 3.14159
+            endlist
+        endnode
+        node dummy next
+            parent ctl_dbg_btn
+            #part-number 3
+        endnode
+        node dummy text
+            parent ctl_dbg_btn
+            #part-number 4
+        endnode
+doneanim up ctl_dbg_btn
+donemodel ctl_dbg_btn

@@ -1,0 +1,53 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:34 2025
+#MAXMODEL ASCII
+newmodel pnl_con_prtl_inf
+        setsupermodel pnl_con_prtl_inf NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pnl_con_prtl_inf
+    node dummy pnl_con_prtl_inf
+        parent NULL
+        #part-number 0
+    endnode
+    node trimesh plane21
+        parent pnl_con_prtl_inf
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0 0 0
+        specular 0.05 0.05 0.05
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap pnl_con_prtl_inf
+        texture0 pnl_con_prtl_inf
+        rotatetexture 0
+        position 0 0 -0.05
+        orientation 0 0 0 0
+        verts 4
+            -1.86 1.28 0
+            -1.86 -1.28 0
+            1.86 1.28 0
+            1.86 -1.28 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.136719 1 0
+            0.136719 1.49012e-07 0
+            0.863281 1 0
+            0.863281 -1.78814e-07 0
+        colors 4
+            1 1 1
+            1 1 1
+            1 1 1
+            1 1 1
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+endmodelgeom pnl_con_prtl_inf
+donemodel pnl_con_prtl_inf

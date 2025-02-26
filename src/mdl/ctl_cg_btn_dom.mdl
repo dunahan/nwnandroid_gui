@@ -1,0 +1,601 @@
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+#MAXMODEL ASCII
+newmodel ctl_cg_btn_dom
+        setsupermodel ctl_cg_btn_dom NULL
+        setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom ctl_cg_btn_dom
+    node dummy ctl_cg_btn_dom
+        parent NULL
+        #part-number 0
+    endnode
+    node animmesh plane228
+        parent ctl_cg_btn_dom
+        #part-number 1
+        diffuse 1 1 1
+        ambient 0.0640517 0.186926 0.128103
+        specular 0.045 0.045 0.045
+        shininess 26
+        shadow 1
+        beaming 0
+        render 1
+        transparencyhint 0
+        bitmap ctl_att_01
+        texture0 ctl_att_01
+        rotatetexture 0
+        position 1.62 0.204999 -0.03
+        orientation 0 0 0 0
+        verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+        faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+        tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+        normals 4
+            0 0 1
+            0 0 1
+            0 0 1
+            0 0 1
+    endnode
+    node dummy icon
+        parent ctl_cg_btn_dom
+        #part-number 2
+        position 0.21 0.21 0.05
+        orientation 0 0 0 0
+    endnode
+    node dummy text
+        parent ctl_cg_btn_dom
+        #part-number 3
+        position 0.45 0.21 0.1
+        orientation 0 0 0 0
+    endnode
+    node dummy next
+        parent ctl_cg_btn_dom
+        #part-number 4
+        position 0 -0.439999 0
+        orientation 0 0 0 0
+    endnode
+    node dummy addremovebutton
+        parent ctl_cg_btn_dom
+        #part-number 5
+        position 2.83 0.0508545 0
+        orientation 0 0 0 0
+    endnode
+endmodelgeom ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim checkeddown ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204994 -0.03
+      1 1.62 0.204994 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.578238 0
+      0.166172 0.418082 0
+      0.833828 0.578238 0
+      0.833828 0.418082 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.199998 0.1
+      1 0.45 0.2 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim checkeddown ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim checkedup ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204999 -0.03
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.578239 0
+      0.166172 0.418083 0
+      0.833828 0.578239 0
+      0.833828 0.418083 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.21 0.1
+      1 0.45 0.21 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim checkedup ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim disabled ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204999 -0.03
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.750112 0
+      0.166172 0.589956 0
+      0.833828 0.750112 0
+      0.833828 0.589955 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.21 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim disabled ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim down ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204994 -0.03
+      1 1.62 0.204994 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.578238 0
+      0.166172 0.418082 0
+      0.833828 0.578238 0
+      0.833828 0.418082 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.199998 0.1
+      1 0.45 0.2 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim down ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim hilite ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.410269 0
+      0.166172 0.250113 0
+      0.833828 0.410269 0
+      0.833828 0.250112 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim hilite ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim uncheckeddown ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204999 -0.03
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.750113 0
+      0.166172 0.589957 0
+      0.833828 0.750113 0
+      0.833828 0.589957 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.200001 0.1
+      1 0.45 0.2 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim uncheckeddown ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim uncheckedup ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204999 -0.03
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.750113 0
+      0.166172 0.589956 0
+      0.833828 0.750112 0
+      0.833828 0.589956 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.21 0.1
+      1 0.45 0.21 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim uncheckedup ctl_cg_btn_dom
+
+#MAXANIM ASCII
+newanim up ctl_cg_btn_dom
+        length 1
+        transtime 0
+        animroot ctl_cg_btn_dom
+        node dummy ctl_cg_btn_dom
+            parent NULL
+            #part-number 0
+        endnode
+        node animmesh plane228
+            parent ctl_cg_btn_dom
+            #part-number 1
+            sampleperiod 1
+            positionkey
+      0 1.62 0.204999 -0.03
+      1 1.62 0.204999 -0.03
+            endlist
+            orientationkey
+      0 0 0 0 0
+      1 0 0 0 0
+            endlist
+            verts 4
+            -1.62 0.205 0
+            -1.62 -0.205 0
+            1.62 0.205 0
+            1.62 -0.205 0
+            faces 2
+            0 1 2 1 0 1 2 1
+            3 2 1 1 3 2 1 1
+            tverts 4
+            0.166172 0.750113 0
+            0.166172 0.589956 0
+            0.833828 0.750112 0
+            0.833828 0.589956 0
+            animverts 4
+      -1.62 0.205 0
+      -1.62 -0.205 0
+      1.62 0.205 0
+      1.62 -0.205 0
+            animtverts 4
+      0.166172 0.750113 0
+      0.166172 0.589956 0
+      0.833828 0.750112 0
+      0.833828 0.589956 0
+        endnode
+        node dummy icon
+            parent ctl_cg_btn_dom
+            #part-number 2
+        endnode
+        node dummy text
+            parent ctl_cg_btn_dom
+            #part-number 3
+            positionkey
+      0 0.45 0.21 0.1
+      1 0.45 0.21 0.1
+            endlist
+        endnode
+        node dummy next
+            parent ctl_cg_btn_dom
+            #part-number 4
+        endnode
+        node dummy addremovebutton
+            parent ctl_cg_btn_dom
+            #part-number 5
+        endnode
+doneanim up ctl_cg_btn_dom
+donemodel ctl_cg_btn_dom
