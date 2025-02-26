@@ -1,0 +1,1236 @@
+{
+  "__data_type": "GUI ",
+  "Obj_ChildList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 111
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.300000011920929
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 7.400000095367432
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -3.690000057220459
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 2.599999904632568
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 1.0
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 28
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "Title"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 127
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 26
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "RecommendButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -3.599999904632568
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -2.539999961853027
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.9300000071525574
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 117
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 24
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "NEButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -2.37969708442688
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.6599999666213989
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.8600000143051148
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 120
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 22
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CEButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.149697065353394
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.6599999666213989
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.7900000214576721
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 114
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 20
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "LEButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -3.609696865081787
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.6599999666213989
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.7099999785423279
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 113
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 18
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "LNButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -3.609696865081787
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.09000000357627869
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.6399999856948853
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 119
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CNButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.149697065353394
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.09000000357627869
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.5699999928474426
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 116
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 14
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "TNButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -2.37969708442688
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.09000000357627869
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 118
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 12
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CGButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.149697065353394
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 0.4699999988079071
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.4300000071525574
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 112
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 10
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "LGButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -3.609696865081787
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 0.4699999988079071
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.3600000143051148
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "AurString_Text": {
+              "type": "cexostring",
+              "value": "Hello World"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 115
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_118"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "NGButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -2.37969708442688
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 0.4699999988079071
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.2899999916553497
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 67
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CancelButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 1.860000014305115
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -2.539999961853027
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.2099999934434891
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 66
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 4
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "OkButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 0.07999999821186066
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -2.539999961853027
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.1400000005960465
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 4294967295
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 2
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_CHR_ALIGN"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_cg_help"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "HelpEdit"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 0.07999999821186066
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.989999771118164
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.07000000029802322
+        }
+      }
+    ]
+  },
+  "Obj_Layer": {
+    "type": "int",
+    "value": 0
+  },
+  "Obj_Locked": {
+    "type": "byte",
+    "value": 0
+  },
+  "Obj_NumTags": {
+    "type": "int",
+    "value": 15
+  },
+  "Obj_Parent_Hook": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Obj_ResRef": {
+    "type": "resref",
+    "value": "pnl_chr_genm"
+  },
+  "Obj_Tag": {
+    "type": "cexostring",
+    "value": "PNL_CHR_ALIGN"
+  },
+  "Obj_Type": {
+    "type": "int",
+    "value": 3
+  },
+  "Obj_X": {
+    "type": "float",
+    "value": 8.369999885559082
+  },
+  "Obj_Y": {
+    "type": "float",
+    "value": 0.4500000476837158
+  },
+  "Obj_Z": {
+    "type": "float",
+    "value": 0.0
+  }
+}

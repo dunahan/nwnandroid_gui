@@ -1,0 +1,548 @@
+{
+  "__data_type": "GUI ",
+  "Obj_ChildList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6599
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -0.02999999932944775
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 2.130000114440918
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 1.0
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 12
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "BUTTONMED"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6603
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 10
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "RespawnButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.8799999952316284
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.550000011920929
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.8299999833106995
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6602
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "ExitButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.8799999952316284
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.100000023841858
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.6700000166893005
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6601
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "WaitButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.8799999952316284
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.659999966621399
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6600
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 1.149999976158142
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 3.900000095367432
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.940000057220459
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 1.710000038146973
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 2
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "Message"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 6496
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 4
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_DTH_DEATH_OP"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "DTH_DEATHOPTS"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_176"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "LoadButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.8799999952316284
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 0.0
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.3300000131130219
+        }
+      }
+    ]
+  },
+  "Obj_Layer": {
+    "type": "int",
+    "value": 0
+  },
+  "Obj_Locked": {
+    "type": "byte",
+    "value": 0
+  },
+  "Obj_NumTags": {
+    "type": "int",
+    "value": 7
+  },
+  "Obj_Parent_Hook": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Obj_ResRef": {
+    "type": "resref",
+    "value": "dth_deathopts"
+  },
+  "Obj_Tag": {
+    "type": "cexostring",
+    "value": "PNL_DTH_DEATH_OP"
+  },
+  "Obj_Type": {
+    "type": "int",
+    "value": 3
+  },
+  "Obj_X": {
+    "type": "float",
+    "value": 3.539999961853027
+  },
+  "Obj_Y": {
+    "type": "float",
+    "value": 2.639999866485596
+  },
+  "Obj_Z": {
+    "type": "float",
+    "value": 0.0
+  }
+}

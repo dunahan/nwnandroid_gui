@@ -1,0 +1,505 @@
+{
+  "__data_type": "GUI ",
+  "Obj_ChildList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 10413
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -2.039999961853027
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 2.140000104904175
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.6000000238418579
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "TGuiLabel"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_dialog16x16"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 10411
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 10
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_64x24"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "tab3"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 0.6700000166893005
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.549999952316284
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 1.0
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_dialog16x16"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 10410
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_64x24"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "tab2"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.25
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.549999952316284
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.800000011920929
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_dialog16x16"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 10409
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_64x24"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "tab1"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.169999957084656
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.549999952316284
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.6000000238418579
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_dialog16x16"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 10408
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 4
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_64x24"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "tab0"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -2.089999914169312
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.549999952316284
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.4000000059604645
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Layer": {
+          "type": "int",
+          "value": 2
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_JNL_PANEL"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_OPT_KEY"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_x"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "XButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 1
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 1.899999976158142
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.980000138282776
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.2000000029802322
+        }
+      }
+    ]
+  },
+  "Obj_Layer": {
+    "type": "int",
+    "value": 0
+  },
+  "Obj_Locked": {
+    "type": "byte",
+    "value": 0
+  },
+  "Obj_NumTags": {
+    "type": "int",
+    "value": 7
+  },
+  "Obj_Parent_Hook": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Obj_ResRef": {
+    "type": "resref",
+    "value": "pnl_opt_key"
+  },
+  "Obj_Tag": {
+    "type": "cexostring",
+    "value": "PNL_JNL_PANEL"
+  },
+  "Obj_Type": {
+    "type": "int",
+    "value": 3
+  },
+  "Obj_X": {
+    "type": "float",
+    "value": 4.559999942779541
+  },
+  "Obj_Y": {
+    "type": "float",
+    "value": 2.899999856948853
+  },
+  "Obj_Z": {
+    "type": "float",
+    "value": 0.0
+  }
+}

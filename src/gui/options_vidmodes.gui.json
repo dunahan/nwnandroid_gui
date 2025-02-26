@@ -1,0 +1,1241 @@
+{
+  "__data_type": "GUI ",
+  "Obj_ChildList": {
+    "type": "list",
+    "value": [
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 5197
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_116"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "OkButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -0.5699999928474426
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.850000023841858
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.4399999976158142
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_x"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "XButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 1
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 1.590000033378601
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": 1.649999976158142
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.3300000131130219
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 7087
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.75
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 1.820000052452087
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "TGuiLabel"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_dialog16x16"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 4294967295
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 4
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_opt_gens"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "VideoModeList"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 8
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.759999990463257
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.7400000095367432
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.2199999988079071
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 7088
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 2
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_116"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "ApplyButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.759999990463257
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.850000023841858
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.1099999994039536
+        }
+      },
+      {
+        "__struct_id": 2,
+        "Obj_Caption": {
+          "__struct_id": 3,
+          "type": "struct",
+          "value": {
+            "__struct_id": 3,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 67
+            }
+          }
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 18
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_pre_116"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CancelButton"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 0.6200000047683716
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.850000023841858
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 1.0
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.5
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 112026
+            }
+          }
+        },
+        "Obj_ChildList": {
+          "type": "list",
+          "value": [
+            {
+              "__struct_id": 0,
+              "Obj_Caption": {
+                "__struct_id": 0,
+                "type": "struct",
+                "value": {
+                  "__struct_id": 0,
+                  "AurString_AlignH": {
+                    "type": "float",
+                    "value": 0.0
+                  },
+                  "AurString_AlignV": {
+                    "type": "float",
+                    "value": 0.0
+                  },
+                  "AurString_ColorA": {
+                    "type": "float",
+                    "value": 1.0
+                  },
+                  "AurString_ColorB": {
+                    "type": "float",
+                    "value": 1.0
+                  },
+                  "AurString_ColorG": {
+                    "type": "float",
+                    "value": 1.0
+                  },
+                  "AurString_ColorR": {
+                    "type": "float",
+                    "value": 1.0
+                  },
+                  "AurString_Font": {
+                    "type": "resref",
+                    "value": "fnt_galahad14"
+                  },
+                  "Obj_StrRef": {
+                    "type": "dword",
+                    "value": 4294967295
+                  }
+                }
+              },
+              "Obj_Label_Height": {
+                "type": "float",
+                "value": 0.1700000017881393
+              },
+              "Obj_Label_Width": {
+                "type": "float",
+                "value": 0.5
+              },
+              "Obj_Label_X": {
+                "type": "float",
+                "value": 3.079999923706055
+              },
+              "Obj_Label_Y": {
+                "type": "float",
+                "value": 0.300000011920929
+              },
+              "Obj_Label_Z": {
+                "type": "float",
+                "value": 0.2599999904632568
+              },
+              "Obj_Layer": {
+                "type": "int",
+                "value": 18
+              },
+              "Obj_Locked": {
+                "type": "byte",
+                "value": 0
+              },
+              "Obj_Parent": {
+                "type": "cexostring",
+                "value": "IntLabel"
+              },
+              "Obj_Parent_Hook": {
+                "type": "cexostring",
+                "value": "CTL_BTN_UISCALE"
+              },
+              "Obj_Tag": {
+                "type": "cexostring",
+                "value": "IntEdit"
+              },
+              "Obj_Type": {
+                "type": "int",
+                "value": 5
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Obj_Layer": {
+                "type": "int",
+                "value": 22
+              },
+              "Obj_Locked": {
+                "type": "byte",
+                "value": 0
+              },
+              "Obj_Parent": {
+                "type": "cexostring",
+                "value": "IntLabel"
+              },
+              "Obj_Parent_Hook": {
+                "type": "cexostring",
+                "value": "CTL_BTN_UISCALE"
+              },
+              "Obj_ResRef": {
+                "type": "resref",
+                "value": "ctl_cg_btn_skup"
+              },
+              "Obj_Tag": {
+                "type": "cexostring",
+                "value": "IntUpButton"
+              },
+              "Obj_Type": {
+                "type": "int",
+                "value": 1
+              },
+              "Obj_X": {
+                "type": "float",
+                "value": 3.240000009536743
+              },
+              "Obj_Y": {
+                "type": "float",
+                "value": 0.135000005364418
+              },
+              "Obj_Z": {
+                "type": "float",
+                "value": 0.300000011920929
+              }
+            },
+            {
+              "__struct_id": 0,
+              "Obj_Layer": {
+                "type": "int",
+                "value": 20
+              },
+              "Obj_Locked": {
+                "type": "byte",
+                "value": 0
+              },
+              "Obj_Parent": {
+                "type": "cexostring",
+                "value": "IntLabel"
+              },
+              "Obj_Parent_Hook": {
+                "type": "cexostring",
+                "value": "CTL_BTN_UISCALE"
+              },
+              "Obj_ResRef": {
+                "type": "resref",
+                "value": "ctl_cg_btn_skdn"
+              },
+              "Obj_Tag": {
+                "type": "cexostring",
+                "value": "IntDownButton"
+              },
+              "Obj_Type": {
+                "type": "int",
+                "value": 1
+              },
+              "Obj_X": {
+                "type": "float",
+                "value": 2.900000095367432
+              },
+              "Obj_Y": {
+                "type": "float",
+                "value": 0.135000005364418
+              },
+              "Obj_Z": {
+                "type": "float",
+                "value": 0.3100000023841858
+              }
+            }
+          ]
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS\r\n"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CHR_GENM"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_btn_uiscale"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "IntLabel"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 9
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": -1.759999990463257
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -1.22000002861023
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.239999994635582
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 112028
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.75
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 1.460000038146973
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CurrRes"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 112029
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.75
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 1.240000009536743
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "CurrScale"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 67195
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.75
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": 0.8799999952316284
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "NewRes"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Layer": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_Length": {
+          "type": "float",
+          "value": 0.0
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_ResRef": {
+          "type": "resref",
+          "value": "ctl_ig_slider"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "MarginSlider"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 6
+        },
+        "Obj_X": {
+          "type": "float",
+          "value": 0.2000000029802322
+        },
+        "Obj_Y": {
+          "type": "float",
+          "value": -0.5
+        },
+        "Obj_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 67195
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": -1.75
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": -0.300000011920929
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "MarginLabel"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      },
+      {
+        "__struct_id": 0,
+        "Obj_Caption": {
+          "__struct_id": 0,
+          "type": "struct",
+          "value": {
+            "__struct_id": 0,
+            "AurString_AlignH": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_AlignV": {
+              "type": "float",
+              "value": 0.0
+            },
+            "AurString_ColorA": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorB": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorG": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_ColorR": {
+              "type": "float",
+              "value": 1.0
+            },
+            "AurString_Font": {
+              "type": "resref",
+              "value": "fnt_galahad14"
+            },
+            "Obj_StrRef": {
+              "type": "dword",
+              "value": 0
+            }
+          }
+        },
+        "Obj_Label_Height": {
+          "type": "float",
+          "value": 0.1700000017881393
+        },
+        "Obj_Label_Width": {
+          "type": "float",
+          "value": 0.8299999833106995
+        },
+        "Obj_Label_X": {
+          "type": "float",
+          "value": 1.399999976158142
+        },
+        "Obj_Label_Y": {
+          "type": "float",
+          "value": -0.300000011920929
+        },
+        "Obj_Label_Z": {
+          "type": "float",
+          "value": 0.8899999856948853
+        },
+        "Obj_Layer": {
+          "type": "int",
+          "value": 16
+        },
+        "Obj_Locked": {
+          "type": "byte",
+          "value": 0
+        },
+        "Obj_Parent": {
+          "type": "cexostring",
+          "value": "PNL_OPTIONS"
+        },
+        "Obj_Parent_Hook": {
+          "type": "cexostring",
+          "value": "PNL_CON_VID_MODE"
+        },
+        "Obj_Tag": {
+          "type": "cexostring",
+          "value": "MarginValue"
+        },
+        "Obj_Type": {
+          "type": "int",
+          "value": 5
+        }
+      }
+    ]
+  },
+  "Obj_Layer": {
+    "type": "int",
+    "value": 0
+  },
+  "Obj_Locked": {
+    "type": "byte",
+    "value": 0
+  },
+  "Obj_NumTags": {
+    "type": "int",
+    "value": 16
+  },
+  "Obj_Parent_Hook": {
+    "type": "cexostring",
+    "value": ""
+  },
+  "Obj_ResRef": {
+    "type": "resref",
+    "value": "pnl_con_vid_mode"
+  },
+  "Obj_Tag": {
+    "type": "cexostring",
+    "value": "PNL_OPTIONS"
+  },
+  "Obj_Type": {
+    "type": "int",
+    "value": 3
+  },
+  "Obj_X": {
+    "type": "float",
+    "value": 6.150000095367432
+  },
+  "Obj_Y": {
+    "type": "float",
+    "value": 1.210000038146973
+  },
+  "Obj_Z": {
+    "type": "float",
+    "value": 0.0
+  }
+}
