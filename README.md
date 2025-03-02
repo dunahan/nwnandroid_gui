@@ -1,1 +1,1 @@
-# nwnandroid_gui
+This repository contains the contents of the file aurora.gui.bif. Extracted from the mobile version of Neverwinter Nights EE with the neverwinter.nim tools. The files have been converted from binary form to ASCII or/and from GFF files to Json.
