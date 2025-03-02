@@ -1,0 +1,1804 @@
+CleanModels 3 Version 3.7.0 [990e9a0] Sat Mar 01 22:13:28 2025
+Input Directory: E:/Downloads/cleanmodels3ee/in
+Files: *.mdl
+Output Directory: E:/Downloads/cleanmodels3ee/out
+Performing Binary Model Decompilations Only 
+Attempting to read but_chat_bar360.mdl
+MDL but_chat_bar360.mdl loaded.
+but_chat_bar360.mdl written.
+
+
+Attempting to read but_chat_bar720.mdl
+MDL but_chat_bar720.mdl loaded.
+but_chat_bar720.mdl written.
+
+
+Attempting to read but_popup_icon.mdl
+MDL but_popup_icon.mdl loaded.
+but_popup_icon.mdl written.
+
+
+Attempting to read buttoncontext.mdl
+MDL buttoncontext.mdl loaded.
+buttoncontext.mdl written.
+
+
+Attempting to read ctl_btn_uiscale.mdl
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation up
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation up
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation up
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation up
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation up
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation down
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation down
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation down
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation down
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation down
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation checkedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation checkedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation checkedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation checkedup
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation checkedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation checkeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation checkeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation checkeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation checkeddown
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation checkeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation uncheckedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation uncheckedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation uncheckedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation uncheckedup
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation uncheckedup
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation uncheckeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation uncheckeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation uncheckeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation uncheckeddown
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation uncheckeddown
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation disabled
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation disabled
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation disabled
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation disabled
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation disabled
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation hilite
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation hilite
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation hilite
+ctl_btn_uiscale.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation hilite
+ctl_btn_uiscale.mdl: ignoring bitmap parameter for animmesh node plane219 in animation hilite
+MDL ctl_btn_uiscale.mdl loaded.
+ctl_btn_uiscale.mdl written.
+
+
+Attempting to read ctl_cg_btn_att.mdl
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation up
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation up
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation up
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation up
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation up
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation down
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation down
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation down
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation down
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation down
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation checkedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation checkedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation checkedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation checkedup
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation checkedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation checkeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation checkeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation checkeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation checkeddown
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation checkeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation uncheckedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation uncheckedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation uncheckedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation uncheckedup
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation uncheckedup
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation uncheckeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation uncheckeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation uncheckeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation uncheckeddown
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation uncheckeddown
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation disabled
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation disabled
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation disabled
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation disabled
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation disabled
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter ambient for animmesh node plane219 in animation hilite
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter diffuse for animmesh node plane219 in animation hilite
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter specular for animmesh node plane219 in animation hilite
+ctl_cg_btn_att.mdl: ignoring non-keyable parameter shininess for animmesh node plane219 in animation hilite
+ctl_cg_btn_att.mdl: ignoring bitmap parameter for animmesh node plane219 in animation hilite
+MDL ctl_cg_btn_att.mdl loaded.
+ctl_cg_btn_att.mdl written.
+
+
+Attempting to read ctl_cg_btn_skdn.mdl
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter ambient for animmesh node plane228 in animation up
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane228 in animation up
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter specular for animmesh node plane228 in animation up
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter shininess for animmesh node plane228 in animation up
+ctl_cg_btn_skdn.mdl: ignoring bitmap parameter for animmesh node plane228 in animation up
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter ambient for animmesh node plane228 in animation down
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane228 in animation down
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter specular for animmesh node plane228 in animation down
+ctl_cg_btn_skdn.mdl: ignoring non-keyable parameter shininess for animmesh node plane228 in animation down
+ctl_cg_btn_skdn.mdl: ignoring bitmap parameter for animmesh node plane228 in animation down
+MDL ctl_cg_btn_skdn.mdl loaded.
+ctl_cg_btn_skdn.mdl written.
+
+
+Attempting to read ctl_cg_btn_skill.mdl
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation up
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation up
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation up
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation up
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation up
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation down
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation down
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation down
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation down
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation down
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation checkedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation checkedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation checkedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation checkedup
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation checkedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation checkeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation checkeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation checkeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation checkeddown
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation checkeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation uncheckedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation uncheckedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation uncheckedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation uncheckedup
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation uncheckedup
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation uncheckeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation uncheckeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation uncheckeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation uncheckeddown
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation uncheckeddown
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation disabled
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation disabled
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation disabled
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation disabled
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation disabled
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter ambient for animmesh node plane217 in animation hilite
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter diffuse for animmesh node plane217 in animation hilite
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter specular for animmesh node plane217 in animation hilite
+ctl_cg_btn_skill.mdl: ignoring non-keyable parameter shininess for animmesh node plane217 in animation hilite
+ctl_cg_btn_skill.mdl: ignoring bitmap parameter for animmesh node plane217 in animation hilite
+MDL ctl_cg_btn_skill.mdl loaded.
+ctl_cg_btn_skill.mdl written.
+
+
+Attempting to read ctl_cg_btn_skup.mdl
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation up
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation up
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation up
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation up
+ctl_cg_btn_skup.mdl: ignoring bitmap parameter for animmesh node plane201 in animation up
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation down
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation down
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation down
+ctl_cg_btn_skup.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation down
+ctl_cg_btn_skup.mdl: ignoring bitmap parameter for animmesh node plane201 in animation down
+MDL ctl_cg_btn_skup.mdl loaded.
+ctl_cg_btn_skup.mdl written.
+
+
+Attempting to read ctl_cg_btn_splvl.mdl
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation up
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation up
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation up
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation up
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation up
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation down
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation down
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation down
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation down
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation down
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation checkedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation checkedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation checkedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation checkedup
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation checkedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation checkeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation checkeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation checkeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation checkeddown
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation checkeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation uncheckedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation uncheckedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation uncheckedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation uncheckedup
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation uncheckedup
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation uncheckeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation uncheckeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation uncheckeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation uncheckeddown
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation uncheckeddown
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation disabled
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation disabled
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation disabled
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation disabled
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation disabled
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation hilite
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation hilite
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation hilite
+ctl_cg_btn_splvl.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation hilite
+ctl_cg_btn_splvl.mdl: ignoring bitmap parameter for animmesh node plane63 in animation hilite
+MDL ctl_cg_btn_splvl.mdl loaded.
+ctl_cg_btn_splvl.mdl written.
+
+
+Attempting to read ctl_dialog_entry.mdl
+MDL ctl_dialog_entry.mdl loaded.
+ctl_dialog_entry.mdl written.
+
+
+Attempting to read ctl_dialog_reply.mdl
+MDL ctl_dialog_reply.mdl loaded.
+ctl_dialog_reply.mdl written.
+
+
+Attempting to read ctl_icon_areamap.mdl
+MDL ctl_icon_areamap.mdl loaded.
+ctl_icon_areamap.mdl written.
+
+
+Attempting to read ctl_icon_minimap.mdl
+MDL ctl_icon_minimap.mdl loaded.
+ctl_icon_minimap.mdl written.
+
+
+Attempting to read ctl_ig_joystick.mdl
+MDL ctl_ig_joystick.mdl loaded.
+ctl_ig_joystick.mdl written.
+
+
+Attempting to read ctl_ig_slider.mdl
+MDL ctl_ig_slider.mdl loaded.
+ctl_ig_slider.mdl written.
+
+
+Attempting to read ctl_jnl_entrytxt.mdl
+ctl_jnl_entrytxt.mdl: ignoring non-keyable parameter ambient for animmesh node plane09 in animation textheight
+ctl_jnl_entrytxt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane09 in animation textheight
+ctl_jnl_entrytxt.mdl: ignoring non-keyable parameter specular for animmesh node plane09 in animation textheight
+ctl_jnl_entrytxt.mdl: ignoring non-keyable parameter shininess for animmesh node plane09 in animation textheight
+ctl_jnl_entrytxt.mdl: ignoring bitmap parameter for animmesh node plane09 in animation textheight
+MDL ctl_jnl_entrytxt.mdl loaded.
+ctl_jnl_entrytxt.mdl written.
+
+
+Attempting to read ctl_jnl_questbtn.mdl
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation up
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation up
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation up
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation up
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation down
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation down
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation down
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation down
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation checkedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation checkeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation uncheckedup
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation uncheckeddown
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation disabled
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation disabled
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation hilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation hilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation encouraged
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane11 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane11 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane11 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane11 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane11 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node plane10 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane10 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node plane10 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node plane10 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node plane10 in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter ambient for animmesh node planearrow in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter diffuse for animmesh node planearrow in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter specular for animmesh node planearrow in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring non-keyable parameter shininess for animmesh node planearrow in animation checkedhilite
+ctl_jnl_questbtn.mdl: ignoring bitmap parameter for animmesh node planearrow in animation checkedhilite
+MDL ctl_jnl_questbtn.mdl loaded.
+ctl_jnl_questbtn.mdl written.
+
+
+Attempting to read ctl_map_pin_grn.mdl
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x04 in animation up
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x04 in animation up
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter specular for animmesh node plane146x04 in animation up
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x04 in animation up
+ctl_map_pin_grn.mdl: ignoring bitmap parameter for animmesh node plane146x04 in animation up
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x04 in animation down
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x04 in animation down
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter specular for animmesh node plane146x04 in animation down
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x04 in animation down
+ctl_map_pin_grn.mdl: ignoring bitmap parameter for animmesh node plane146x04 in animation down
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x04 in animation disabled
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x04 in animation disabled
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter specular for animmesh node plane146x04 in animation disabled
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x04 in animation disabled
+ctl_map_pin_grn.mdl: ignoring bitmap parameter for animmesh node plane146x04 in animation disabled
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x04 in animation hilite
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x04 in animation hilite
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter specular for animmesh node plane146x04 in animation hilite
+ctl_map_pin_grn.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x04 in animation hilite
+ctl_map_pin_grn.mdl: ignoring bitmap parameter for animmesh node plane146x04 in animation hilite
+MDL ctl_map_pin_grn.mdl loaded.
+ctl_map_pin_grn.mdl written.
+
+
+Attempting to read ctl_map_pin_red.mdl
+ctl_map_pin_red.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x05 in animation up
+ctl_map_pin_red.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x05 in animation up
+ctl_map_pin_red.mdl: ignoring non-keyable parameter specular for animmesh node plane146x05 in animation up
+ctl_map_pin_red.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x05 in animation up
+ctl_map_pin_red.mdl: ignoring bitmap parameter for animmesh node plane146x05 in animation up
+ctl_map_pin_red.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x05 in animation down
+ctl_map_pin_red.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x05 in animation down
+ctl_map_pin_red.mdl: ignoring non-keyable parameter specular for animmesh node plane146x05 in animation down
+ctl_map_pin_red.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x05 in animation down
+ctl_map_pin_red.mdl: ignoring bitmap parameter for animmesh node plane146x05 in animation down
+ctl_map_pin_red.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x05 in animation disabled
+ctl_map_pin_red.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x05 in animation disabled
+ctl_map_pin_red.mdl: ignoring non-keyable parameter specular for animmesh node plane146x05 in animation disabled
+ctl_map_pin_red.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x05 in animation disabled
+ctl_map_pin_red.mdl: ignoring bitmap parameter for animmesh node plane146x05 in animation disabled
+ctl_map_pin_red.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x05 in animation hilite
+ctl_map_pin_red.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x05 in animation hilite
+ctl_map_pin_red.mdl: ignoring non-keyable parameter specular for animmesh node plane146x05 in animation hilite
+ctl_map_pin_red.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x05 in animation hilite
+ctl_map_pin_red.mdl: ignoring bitmap parameter for animmesh node plane146x05 in animation hilite
+MDL ctl_map_pin_red.mdl loaded.
+ctl_map_pin_red.mdl written.
+
+
+Attempting to read ctl_map_pinsrc.mdl
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x in animation up
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x in animation up
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter specular for animmesh node plane146x in animation up
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x in animation up
+ctl_map_pinsrc.mdl: ignoring bitmap parameter for animmesh node plane146x in animation up
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x in animation down
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x in animation down
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter specular for animmesh node plane146x in animation down
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x in animation down
+ctl_map_pinsrc.mdl: ignoring bitmap parameter for animmesh node plane146x in animation down
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x in animation disabled
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x in animation disabled
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter specular for animmesh node plane146x in animation disabled
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x in animation disabled
+ctl_map_pinsrc.mdl: ignoring bitmap parameter for animmesh node plane146x in animation disabled
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter ambient for animmesh node plane146x in animation hilite
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter diffuse for animmesh node plane146x in animation hilite
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter specular for animmesh node plane146x in animation hilite
+ctl_map_pinsrc.mdl: ignoring non-keyable parameter shininess for animmesh node plane146x in animation hilite
+ctl_map_pinsrc.mdl: ignoring bitmap parameter for animmesh node plane146x in animation hilite
+MDL ctl_map_pinsrc.mdl loaded.
+ctl_map_pinsrc.mdl written.
+
+
+Attempting to read ctl_map_xmarker.mdl
+MDL ctl_map_xmarker.mdl loaded.
+ctl_map_xmarker.mdl written.
+
+
+Attempting to read ctl_opt_gens.mdl
+MDL ctl_opt_gens.mdl loaded.
+ctl_opt_gens.mdl written.
+
+
+Attempting to read ctl_sb_btn_sptab.mdl
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation up
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation up
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation up
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation up
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation up
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation down
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation down
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation down
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation down
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation down
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation checkedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation checkedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation checkedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation checkedup
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation checkedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation checkeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation checkeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation checkeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation checkeddown
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation checkeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation uncheckedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation uncheckedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation uncheckedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation uncheckedup
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation uncheckedup
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation uncheckeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation uncheckeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation uncheckeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation uncheckeddown
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation uncheckeddown
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation disabled
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation disabled
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation disabled
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation disabled
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation disabled
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter ambient for animmesh node plane63 in animation hilite
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane63 in animation hilite
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter specular for animmesh node plane63 in animation hilite
+ctl_sb_btn_sptab.mdl: ignoring non-keyable parameter shininess for animmesh node plane63 in animation hilite
+ctl_sb_btn_sptab.mdl: ignoring bitmap parameter for animmesh node plane63 in animation hilite
+MDL ctl_sb_btn_sptab.mdl loaded.
+ctl_sb_btn_sptab.mdl written.
+
+
+Attempting to read ctl_spelbx_first.mdl
+ctl_spelbx_first.mdl: ignoring non-keyable parameter ambient for animmesh node plane in animation default
+ctl_spelbx_first.mdl: ignoring non-keyable parameter diffuse for animmesh node plane in animation default
+ctl_spelbx_first.mdl: ignoring non-keyable parameter specular for animmesh node plane in animation default
+ctl_spelbx_first.mdl: ignoring non-keyable parameter shininess for animmesh node plane in animation default
+ctl_spelbx_first.mdl: ignoring bitmap parameter for animmesh node plane in animation default
+ctl_spelbx_first.mdl: ignoring non-keyable parameter ambient for animmesh node plane in animation hilite
+ctl_spelbx_first.mdl: ignoring non-keyable parameter diffuse for animmesh node plane in animation hilite
+ctl_spelbx_first.mdl: ignoring non-keyable parameter specular for animmesh node plane in animation hilite
+ctl_spelbx_first.mdl: ignoring non-keyable parameter shininess for animmesh node plane in animation hilite
+ctl_spelbx_first.mdl: ignoring bitmap parameter for animmesh node plane in animation hilite
+MDL ctl_spelbx_first.mdl loaded.
+ctl_spelbx_first.mdl written.
+
+
+Attempting to read ctl_spelbx_next.mdl
+ctl_spelbx_next.mdl: ignoring non-keyable parameter ambient for animmesh node plane in animation default
+ctl_spelbx_next.mdl: ignoring non-keyable parameter diffuse for animmesh node plane in animation default
+ctl_spelbx_next.mdl: ignoring non-keyable parameter specular for animmesh node plane in animation default
+ctl_spelbx_next.mdl: ignoring non-keyable parameter shininess for animmesh node plane in animation default
+ctl_spelbx_next.mdl: ignoring bitmap parameter for animmesh node plane in animation default
+ctl_spelbx_next.mdl: ignoring non-keyable parameter ambient for animmesh node plane in animation hilite
+ctl_spelbx_next.mdl: ignoring non-keyable parameter diffuse for animmesh node plane in animation hilite
+ctl_spelbx_next.mdl: ignoring non-keyable parameter specular for animmesh node plane in animation hilite
+ctl_spelbx_next.mdl: ignoring non-keyable parameter shininess for animmesh node plane in animation hilite
+ctl_spelbx_next.mdl: ignoring bitmap parameter for animmesh node plane in animation hilite
+MDL ctl_spelbx_next.mdl loaded.
+ctl_spelbx_next.mdl written.
+
+
+Attempting to read ctl_spl_tab.mdl
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation up
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation up
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation up
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation down
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation down
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation down
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation checkedup
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation checkedup
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation checkedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation checkeddown
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation checkeddown
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation checkeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation uncheckedup
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation uncheckeddown
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane158 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane158 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane158 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane158 in animation disabled
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane158 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane159 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane159 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane159 in animation disabled
+ctl_spl_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane159 in animation disabled
+ctl_spl_tab.mdl: ignoring bitmap parameter for animmesh node plane159 in animation disabled
+MDL ctl_spl_tab.mdl loaded.
+ctl_spl_tab.mdl written.
+
+
+Attempting to read ctl_spl_tab_rgt.mdl
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation up
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation up
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation up
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation down
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation down
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation down
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation checkedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation checkeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation uncheckedup
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation uncheckeddown
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane17 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane17 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane17 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane17 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane17 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter ambient for animmesh node plane157 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter diffuse for animmesh node plane157 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter specular for animmesh node plane157 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring non-keyable parameter shininess for animmesh node plane157 in animation disabled
+ctl_spl_tab_rgt.mdl: ignoring bitmap parameter for animmesh node plane157 in animation disabled
+MDL ctl_spl_tab_rgt.mdl loaded.
+ctl_spl_tab_rgt.mdl written.
+
+
+Attempting to read ctl_svrlist_lan.mdl
+MDL ctl_svrlist_lan.mdl loaded.
+ctl_svrlist_lan.mdl written.
+
+
+Attempting to read edit_popup_2x45.mdl
+MDL edit_popup_2x45.mdl loaded.
+edit_popup_2x45.mdl written.
+
+
+Attempting to read inv_box_2x5.mdl
+MDL inv_box_2x5.mdl loaded.
+inv_box_2x5.mdl written.
+
+
+Attempting to read inv_box_2x5_ol.mdl
+MDL inv_box_2x5_ol.mdl loaded.
+inv_box_2x5_ol.mdl written.
+
+
+Attempting to read inv_eqp_lhand.mdl
+MDL inv_eqp_lhand.mdl loaded.
+inv_eqp_lhand.mdl written.
+
+
+Attempting to read inv_eqp_rhand.mdl
+MDL inv_eqp_rhand.mdl loaded.
+inv_eqp_rhand.mdl written.
+
+
+Attempting to read inv_eqpol_ammo.mdl
+MDL inv_eqpol_ammo.mdl loaded.
+inv_eqpol_ammo.mdl written.
+
+
+Attempting to read inv_eqpol_armor.mdl
+MDL inv_eqpol_armor.mdl loaded.
+inv_eqpol_armor.mdl written.
+
+
+Attempting to read inv_eqpol_belt.mdl
+MDL inv_eqpol_belt.mdl loaded.
+inv_eqpol_belt.mdl written.
+
+
+Attempting to read inv_eqpol_boot.mdl
+MDL inv_eqpol_boot.mdl loaded.
+inv_eqpol_boot.mdl written.
+
+
+Attempting to read inv_eqpol_cloak.mdl
+MDL inv_eqpol_cloak.mdl loaded.
+inv_eqpol_cloak.mdl written.
+
+
+Attempting to read inv_eqpol_guant.mdl
+MDL inv_eqpol_guant.mdl loaded.
+inv_eqpol_guant.mdl written.
+
+
+Attempting to read inv_eqpol_helmet.mdl
+MDL inv_eqpol_helmet.mdl loaded.
+inv_eqpol_helmet.mdl written.
+
+
+Attempting to read inv_eqpol_lhand.mdl
+MDL inv_eqpol_lhand.mdl loaded.
+inv_eqpol_lhand.mdl written.
+
+
+Attempting to read inv_eqpol_rhand.mdl
+MDL inv_eqpol_rhand.mdl loaded.
+inv_eqpol_rhand.mdl written.
+
+
+Attempting to read inv_eqpol_ring.mdl
+MDL inv_eqpol_ring.mdl loaded.
+inv_eqpol_ring.mdl written.
+
+
+Attempting to read load_legal.mdl
+MDL load_legal.mdl loaded.
+load_legal.mdl written.
+
+
+Attempting to read pb_but_char.mdl
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_char.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_char.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_char.mdl loaded.
+pb_but_char.mdl written.
+
+
+Attempting to read pb_but_chat.mdl
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation up
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane200 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation up
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane201 in animation up
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation down
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane200 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation down
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane201 in animation down
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation hilite
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane200 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation hilite
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane201 in animation hilite
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation encouraged
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane200 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation encouraged
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane201 in animation encouraged
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation disabled
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane200 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation disabled
+pb_but_chat.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation disabled
+pb_but_chat.mdl: ignoring bitmap parameter for animmesh node plane201 in animation disabled
+MDL pb_but_chat.mdl loaded.
+pb_but_chat.mdl written.
+
+
+Attempting to read pb_but_hilite.mdl
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_hilite.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_hilite.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_hilite.mdl loaded.
+pb_but_hilite.mdl written.
+
+
+Attempting to read pb_but_inv.mdl
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_inv.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_inv.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_inv.mdl loaded.
+pb_but_inv.mdl written.
+
+
+Attempting to read pb_but_jour.mdl
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_jour.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_jour.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_jour.mdl loaded.
+pb_but_jour.mdl written.
+
+
+Attempting to read pb_but_map.mdl
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_map.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_map.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_map.mdl loaded.
+pb_but_map.mdl written.
+
+
+Attempting to read pb_but_opts.mdl
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation up
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane191 in animation up
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation down
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane191 in animation down
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation hilite
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane190 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation hilite
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane191 in animation hilite
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation encouraged
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane190 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation encouraged
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane191 in animation encouraged
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation disabled
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane190 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter ambient for animmesh node plane191 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter diffuse for animmesh node plane191 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter specular for animmesh node plane191 in animation disabled
+pb_but_opts.mdl: ignoring non-keyable parameter shininess for animmesh node plane191 in animation disabled
+pb_but_opts.mdl: ignoring bitmap parameter for animmesh node plane191 in animation disabled
+MDL pb_but_opts.mdl loaded.
+pb_but_opts.mdl written.
+
+
+Attempting to read pb_but_pvp.mdl
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation up
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane200 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation up
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane201 in animation up
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation down
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane200 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation down
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane201 in animation down
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation hilite
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane200 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation hilite
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane201 in animation hilite
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation encouraged
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane200 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation encouraged
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane201 in animation encouraged
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation disabled
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane200 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation disabled
+pb_but_pvp.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation disabled
+pb_but_pvp.mdl: ignoring bitmap parameter for animmesh node plane201 in animation disabled
+MDL pb_but_pvp.mdl loaded.
+pb_but_pvp.mdl written.
+
+
+Attempting to read pb_but_rest.mdl
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane202 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane202 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane202 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane202 in animation up
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane202 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane203 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane203 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane203 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane203 in animation up
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane203 in animation up
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane202 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane202 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane202 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane202 in animation down
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane202 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane203 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane203 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane203 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane203 in animation down
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane203 in animation down
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane202 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane202 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane202 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane202 in animation hilite
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane202 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane203 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane203 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane203 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane203 in animation hilite
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane203 in animation hilite
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane202 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane202 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane202 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane202 in animation encouraged
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane202 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane203 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane203 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane203 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane203 in animation encouraged
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane203 in animation encouraged
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane202 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane202 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane202 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane202 in animation disabled
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane202 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter ambient for animmesh node plane203 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter diffuse for animmesh node plane203 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter specular for animmesh node plane203 in animation disabled
+pb_but_rest.mdl: ignoring non-keyable parameter shininess for animmesh node plane203 in animation disabled
+pb_but_rest.mdl: ignoring bitmap parameter for animmesh node plane203 in animation disabled
+MDL pb_but_rest.mdl loaded.
+pb_but_rest.mdl written.
+
+
+Attempting to read pb_but_save.mdl
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation up
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane200 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation up
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane201 in animation up
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation down
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane200 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation down
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane201 in animation down
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation hilite
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane200 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation hilite
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane201 in animation hilite
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation encouraged
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane200 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation encouraged
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane201 in animation encouraged
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation disabled
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane200 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation disabled
+pb_but_save.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation disabled
+pb_but_save.mdl: ignoring bitmap parameter for animmesh node plane201 in animation disabled
+MDL pb_but_save.mdl loaded.
+pb_but_save.mdl written.
+
+
+Attempting to read pb_but_spell.mdl
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation up
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane200 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation up
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane201 in animation up
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation down
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane200 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation down
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane201 in animation down
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation hilite
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane200 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation hilite
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane201 in animation hilite
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation encouraged
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane200 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation encouraged
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane201 in animation encouraged
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane200 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane200 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane200 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane200 in animation disabled
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane200 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter ambient for animmesh node plane201 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter diffuse for animmesh node plane201 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter specular for animmesh node plane201 in animation disabled
+pb_but_spell.mdl: ignoring non-keyable parameter shininess for animmesh node plane201 in animation disabled
+pb_but_spell.mdl: ignoring bitmap parameter for animmesh node plane201 in animation disabled
+MDL pb_but_spell.mdl loaded.
+pb_but_spell.mdl written.
+
+
+Attempting to read pb_context.mdl
+pb_context.mdl: ignoring non-keyable parameter specular for animmesh node contextbg in animation up
+pb_context.mdl: ignoring non-keyable parameter shininess for animmesh node contextbg in animation up
+pb_context.mdl: ignoring bitmap parameter for animmesh node contextbg in animation up
+pb_context.mdl: ignoring bitmap parameter for trimesh node contexticon in animation up
+pb_context.mdl: ignoring non-keyable parameter verts for trimesh node contexticon in animation up
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "-0.15 0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "-0.15 -0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "0.15 0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "0.15 -0.15 2"
+pb_context.mdl: ignoring non-keyable parameter tverts for trimesh node contexticon in animation up
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "0 1 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "0 0 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "1 1 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "1 0 0"
+pb_context.mdl: ignoring non-keyable parameter faces for trimesh node contexticon in animation up
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "0 1 2 1 0 1 2 1"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),up)
+Do not understand "3 2 1 1 3 2 1 1"
+pb_context.mdl: ignoring non-keyable parameter specular for animmesh node contextbg in animation down
+pb_context.mdl: ignoring non-keyable parameter shininess for animmesh node contextbg in animation down
+pb_context.mdl: ignoring bitmap parameter for animmesh node contextbg in animation down
+pb_context.mdl: ignoring bitmap parameter for trimesh node contexticon in animation down
+pb_context.mdl: ignoring non-keyable parameter verts for trimesh node contexticon in animation down
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "-0.15 0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "-0.15 -0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "0.15 0.15 2"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "0.15 -0.15 2"
+pb_context.mdl: ignoring non-keyable parameter tverts for trimesh node contexticon in animation down
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "0 1 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "0 0 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "1 1 0"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "1 0 0"
+pb_context.mdl: ignoring non-keyable parameter faces for trimesh node contexticon in animation down
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "0 1 2 1 0 1 2 1"
+Parse state animnode(pb_context,contexticon,<clause>(000001D44C9BC8E0),down)
+Do not understand "3 2 1 1 3 2 1 1"
+** Load failed for file pb_context.mdl **
+
+
+Attempting to read pb_pause.mdl
+pb_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_pause)
+Do not understand "doneanim up pb_pause"
+Parse state anim(down,pb_pause)
+Do not understand "newanim up pb_pause"
+pb_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_pause)
+Do not understand "doneanim up pb_pause"
+Parse state anim(down,pb_pause)
+Do not understand "newanim checkeddown pb_pause"
+pb_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_pause)
+Do not understand "doneanim checkeddown pb_pause"
+Parse state anim(down,pb_pause)
+Do not understand "newanim checkedup pb_pause"
+pb_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_pause)
+Do not understand "doneanim checkedup pb_pause"
+Parse state anim(down,pb_pause)
+Do not understand "newanim disabled pb_pause"
+pb_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_pause)
+Do not understand "doneanim disabled pb_pause"
+Parse state anim(down,pb_pause)
+Do not understand "donemodel pb_pause"
+** Load failed for file pb_pause.mdl **
+
+
+Attempting to read pb_tab.mdl
+pb_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_tab)
+Do not understand "doneanim up pb_tab"
+Parse state anim(down,pb_tab)
+Do not understand "newanim up pb_tab"
+pb_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_tab)
+Do not understand "doneanim up pb_tab"
+Parse state anim(down,pb_tab)
+Do not understand "newanim checkeddown pb_tab"
+pb_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_tab)
+Do not understand "doneanim checkeddown pb_tab"
+Parse state anim(down,pb_tab)
+Do not understand "newanim checkedup pb_tab"
+pb_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_tab)
+Do not understand "doneanim checkedup pb_tab"
+Parse state anim(down,pb_tab)
+Do not understand "newanim disabled pb_tab"
+pb_tab.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+pb_tab.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,pb_tab)
+Do not understand "doneanim disabled pb_tab"
+Parse state anim(down,pb_tab)
+Do not understand "donemodel pb_tab"
+** Load failed for file pb_tab.mdl **
+
+
+Attempting to read pnl_chat_prompt.mdl
+MDL pnl_chat_prompt.mdl loaded.
+pnl_chat_prompt.mdl written.
+
+
+Attempting to read pnl_compass.mdl
+MDL pnl_compass.mdl loaded.
+pnl_compass.mdl written.
+
+
+Attempting to read pnl_con_vid_mode.mdl
+MDL pnl_con_vid_mode.mdl loaded.
+pnl_con_vid_mode.mdl written.
+
+
+Attempting to read pnl_context.mdl
+MDL pnl_context.mdl loaded.
+pnl_context.mdl written.
+
+
+Attempting to read pnl_main_bg.mdl
+MDL pnl_main_bg.mdl loaded.
+pnl_main_bg.mdl written.
+
+
+Attempting to read pnl_map_area.mdl
+MDL pnl_map_area.mdl loaded.
+pnl_map_area.mdl written.
+
+
+Attempting to read pnl_mapgen_11x11.mdl
+MDL pnl_mapgen_11x11.mdl loaded.
+pnl_mapgen_11x11.mdl written.
+
+
+Attempting to read pnl_menu_bar.mdl
+MDL pnl_menu_bar.mdl loaded.
+pnl_menu_bar.mdl written.
+
+
+Attempting to read pnl_menu_barl.mdl
+MDL pnl_menu_barl.mdl loaded.
+pnl_menu_barl.mdl written.
+
+
+Attempting to read pnl_party_bar.mdl
+MDL pnl_party_bar.mdl loaded.
+pnl_party_bar.mdl written.
+
+
+Attempting to read pnl_plrtimedevnt.mdl
+MDL pnl_plrtimedevnt.mdl loaded.
+pnl_plrtimedevnt.mdl written.
+
+
+Attempting to read pnl_pre_playmod.mdl
+MDL pnl_pre_playmod.mdl loaded.
+pnl_pre_playmod.mdl written.
+
+
+Attempting to read pnl_quick_bar.mdl
+MDL pnl_quick_bar.mdl loaded.
+pnl_quick_bar.mdl written.
+
+
+Attempting to read pnl_spellbook.mdl
+MDL pnl_spellbook.mdl loaded.
+pnl_spellbook.mdl written.
+
+
+Attempting to read pnl_srv_lst_lan.mdl
+MDL pnl_srv_lst_lan.mdl loaded.
+pnl_srv_lst_lan.mdl written.
+
+
+Attempting to read qb_but_chatbar.mdl
+qb_but_chatbar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+qb_but_chatbar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+qb_but_chatbar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+qb_but_chatbar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+qb_but_chatbar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+qb_but_chatbar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_chatbar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_chatbar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_chatbar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_chatbar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+MDL qb_but_chatbar.mdl loaded.
+qb_but_chatbar.mdl written.
+
+
+Attempting to read qb_but_menubar.mdl
+qb_but_menubar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_menubar)
+Do not understand "doneanim up qb_but_menubar"
+Parse state anim(down,qb_but_menubar)
+Do not understand "newanim up qb_but_menubar"
+qb_but_menubar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_menubar)
+Do not understand "doneanim up qb_but_menubar"
+Parse state anim(down,qb_but_menubar)
+Do not understand "newanim checkeddown qb_but_menubar"
+qb_but_menubar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_menubar)
+Do not understand "doneanim checkeddown qb_but_menubar"
+Parse state anim(down,qb_but_menubar)
+Do not understand "newanim checkedup qb_but_menubar"
+qb_but_menubar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_menubar)
+Do not understand "doneanim checkedup qb_but_menubar"
+Parse state anim(down,qb_but_menubar)
+Do not understand "newanim disabled qb_but_menubar"
+qb_but_menubar.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_menubar.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_menubar)
+Do not understand "doneanim disabled qb_but_menubar"
+Parse state anim(down,qb_but_menubar)
+Do not understand "donemodel qb_but_menubar"
+** Load failed for file qb_but_menubar.mdl **
+
+
+Attempting to read qb_but_pause.mdl
+qb_but_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_pause)
+Do not understand "doneanim up qb_but_pause"
+Parse state anim(down,qb_but_pause)
+Do not understand "newanim up qb_but_pause"
+qb_but_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_pause)
+Do not understand "doneanim up qb_but_pause"
+Parse state anim(down,qb_but_pause)
+Do not understand "newanim checkeddown qb_but_pause"
+qb_but_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_pause)
+Do not understand "doneanim checkeddown qb_but_pause"
+Parse state anim(down,qb_but_pause)
+Do not understand "newanim checkedup qb_but_pause"
+qb_but_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_pause)
+Do not understand "doneanim checkedup qb_but_pause"
+Parse state anim(down,qb_but_pause)
+Do not understand "newanim disabled qb_but_pause"
+qb_but_pause.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_but_pause.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+Parse state anim(down,qb_but_pause)
+Do not understand "doneanim disabled qb_but_pause"
+Parse state anim(down,qb_but_pause)
+Do not understand "donemodel qb_but_pause"
+** Load failed for file qb_but_pause.mdl **
+
+
+Attempting to read qb_tab_down.mdl
+qb_tab_down.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+qb_tab_down.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+qb_tab_down.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+qb_tab_down.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+qb_tab_down.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+qb_tab_down.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_tab_down.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_tab_down.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_tab_down.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_tab_down.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+MDL qb_tab_down.mdl loaded.
+qb_tab_down.mdl written.
+
+
+Attempting to read qb_tab_up.mdl
+qb_tab_up.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation up
+qb_tab_up.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation up
+qb_tab_up.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation up
+qb_tab_up.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation up
+qb_tab_up.mdl: ignoring bitmap parameter for animmesh node plane190 in animation up
+qb_tab_up.mdl: ignoring non-keyable parameter ambient for animmesh node plane190 in animation down
+qb_tab_up.mdl: ignoring non-keyable parameter diffuse for animmesh node plane190 in animation down
+qb_tab_up.mdl: ignoring non-keyable parameter specular for animmesh node plane190 in animation down
+qb_tab_up.mdl: ignoring non-keyable parameter shininess for animmesh node plane190 in animation down
+qb_tab_up.mdl: ignoring bitmap parameter for animmesh node plane190 in animation down
+MDL qb_tab_up.mdl loaded.
+qb_tab_up.mdl written.
+
+

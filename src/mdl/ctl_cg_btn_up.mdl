@@ -1,4 +1,4 @@
-# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Wed Feb 26 13:59:30 2025
+# Rewritten by CleanModels 3 Version 3.7.0 [990e9a0] Sat Mar 01 22:15:58 2025
 #MAXMODEL ASCII
 newmodel ctl_cg_btn_up
         setsupermodel ctl_cg_btn_up NULL
